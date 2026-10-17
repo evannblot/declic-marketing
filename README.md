@@ -11,11 +11,9 @@ Les questions portent sur les définitions et notions. Elles ont été réécrit
 
 ## Cours complets
 
-Le bouton **Voir le cours** ouvre les documents de la matière en texte intégral ou en PDF, avec recherche et navigation par page. Les quatre séquences de marketing, la fiche de marketing et le cours de communication représentent 171 pages. La fiche de communication d’origine est également téléchargeable au format Word.
+Le bouton **Voir le cours** ouvre directement la fiche fournie pour la matière au format PDF : marketing (10 pages) ou communication commerciale (19 pages). Les deux fiches sont téléchargeables en PDF. La lecture en texte intégral, la recherche et la navigation par page restent disponibles.
 
-Sous chaque correction figurent un extrait du document, le titre et le numéro de page. **Voir ce passage dans le cours** ouvre cette page avec l’extrait surligné. Le retour au quiz conserve la question et la correction affichée.
-
-Les informations d’accès à la plateforme universitaire ont été masquées dans le document publié. Les pages pédagogiques et la numérotation sont conservées.
+Lorsqu’une notion est présente dans la fiche fournie, sa correction indique un extrait, le titre du document et le numéro de page. Les notions absentes de la fiche ne reçoivent pas de référence artificielle ; les questions et la progression sont conservées. **Voir ce passage dans le cours** ouvre cette page avec l’extrait surligné. Le retour au quiz conserve la question et la correction affichée.
 
 ## Progression
 

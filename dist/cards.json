@@ -6,10 +6,10 @@
     "answer": "Le marketing regroupe les activités qui permettent de comprendre les besoins et désirs, de concevoir une offre adaptée et de créer, communiquer et délivrer de la valeur. Il vise des relations durables avec les clients.",
     "sources": [
       {
-        "documentId": "m1",
-        "page": 11,
-        "excerpt": "1-1) Des définitions\nde nombreuses définitions…\n•\nKotler : « C’est satisfaire les besoins et les désirs des\nconsommateurs mieux que le concurrent. »\n•\nSelon l’Association Française du Marketing (AFM) :\nLe concept de marketing est « une vision spécifique des\néchanges. Ceux-ci doivent être équitables et impliquer la\ncréation de valeur pour chacune des parties prenantes\n(individus, organisations, institutions). »\n•",
-        "highlight": "définition"
+        "documentId": "mf",
+        "page": 1,
+        "excerpt": "Définition 1 (démarche d'une entreprise) : démarche visant à créer de la valeur pour ses clients,\nà nouer des relations rentables avec eux, afin de bénéficier en retour de valeur.\nDéfinition 2 (ensemble d'activités) : ensemble d'activités d'une organisation visant à déterminer ou\nanticiper les besoins et désirs des clients et prospects, à élaborer une offre de produits ou de\nservices adaptée, en termes de prix, qualité, distribution, et à assurer la promotion de ces biens et\nservices.\nÀ retenir : le marketing s'adapte aux évolutions et propose des moyens de créer de la valeur pour les\nconsommateurs, les entreprises et les autres parties prenantes, afin d'avoir des échanges\néquitables.\n5. Pourquoi le marketing a évolué\nCôté\nRaison\nOffre (entreprises)\nRecherche d'outils performants pour satisfaire un maximum de clients et les",
+        "highlight": "Définition 1"
       }
     ]
   },
@@ -17,85 +17,37 @@
     "id": "marketing-concept-002",
     "chapter": "Bases du marketing",
     "question": "Qu’est-ce qu’un besoin ?",
-    "answer": "Un besoin est un état de manque lié à la nature humaine. Il peut être physique, social ou individuel.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 17,
-        "excerpt": "marché et les besoins des consommateurs\n2- Le marketing pour comprendre le marché et \nles besoins des consommateurs\n2-1)Besoins, désirs et demande\nBesoins\n⇒Etat personnel de manque (liés\ndirectement à la nature humaine)\n• Besoins\nphysiques\n(manger,\nse\nloger, se chauffer…)\n• Besoins\nsociaux\n(appartenance,\naffection…)\n• Besoins individuels (connaissance,\nexpression de soi…)\nDésirs\n⇒\nForme\nque\nprennent les besoins\nsous\nl’effet\nde\nla\nculture\net\nde",
-        "highlight": "besoins"
-      }
-    ]
+    "answer": "Un besoin est un état de manque lié à la nature humaine. Il peut être physique, social ou individuel."
   },
   {
     "id": "marketing-concept-003",
     "chapter": "Bases du marketing",
     "question": "Qu’est-ce qu’un désir ?",
-    "answer": "Un désir est la forme précise que prend un besoin sous l’influence de la culture et de la personnalité.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 17,
-        "excerpt": "2-1)Besoins, désirs et demande\nBesoins\n⇒Etat personnel de manque (liés\ndirectement à la nature humaine)\n• Besoins\nphysiques\n(manger,\nse\nloger, se chauffer…)\n• Besoins\nsociaux\n(appartenance,\naffection…)\n• Besoins individuels (connaissance,\nexpression de soi…)\nDésirs\n⇒\nForme\nque\nprennent les besoins\nsous\nl’effet\nde\nla\nculture\net\nde\nla\npersonnalité\nindividuelle\nDemande\n⇒quantité de produits\nou\nservices\nque\nles\nconsommateurs\nsont\nprêts\net\ncapable",
-        "highlight": "désirs"
-      }
-    ]
+    "answer": "Un désir est la forme précise que prend un besoin sous l’influence de la culture et de la personnalité."
   },
   {
     "id": "marketing-concept-004",
     "chapter": "Bases du marketing",
     "question": "Qu’est-ce que la demande ?",
-    "answer": "La demande correspond aux produits ou services que les consommateurs veulent et peuvent acheter, à un prix donné et pendant une période donnée.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 17,
-        "excerpt": "2-1)Besoins, désirs et demande\nBesoins\n⇒Etat personnel de manque (liés\ndirectement à la nature humaine)\n• Besoins\nphysiques\n(manger,\nse\nloger, se chauffer…)\n• Besoins\nsociaux\n(appartenance,\naffection…)\n• Besoins individuels (connaissance,\nexpression de soi…)\nDésirs\n⇒\nForme\nque\nprennent les besoins\nsous\nl’effet\nde\nla\nculture\net\nde\nla\npersonnalité\nindividuelle\nDemande\n⇒quantité de produits\nou\nservices\nque\nles\nconsommateurs\nsont\nprêts\net\ncapable",
-        "highlight": "demande"
-      }
-    ]
+    "answer": "La demande correspond aux produits ou services que les consommateurs veulent et peuvent acheter, à un prix donné et pendant une période donnée."
   },
   {
     "id": "marketing-concept-005",
     "chapter": "Bases du marketing",
     "question": "Quelle différence y a-t-il entre besoin, désir et demande ?",
-    "answer": "Le besoin est un manque. Le désir est la réponse précise souhaitée. La demande suppose une volonté d’achat et un pouvoir d’achat suffisant.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 19,
-        "excerpt": "pouvoir d’achat\nEn fonction des désirs et d’un \npouvoir d’achat suffisant, la \ndemande se crée\n2- Le marketing pour comprendre le marché et \nles besoins des consommateurs\n2-1)Besoins, désirs et demande\n2- Le marketing pour comprendre le marché et \nles besoins des consommateurs \n2-1)Besoins, désirs et demande\n⇒En marketing, les organisations font des efforts pour \ncomprendre les besoins, les désirs et la demande des clients",
-        "highlight": "pouvoir"
-      }
-    ]
+    "answer": "Le besoin est un manque. Le désir est la réponse précise souhaitée. La demande suppose une volonté d’achat et un pouvoir d’achat suffisant."
   },
   {
     "id": "marketing-concept-006",
     "chapter": "Bases du marketing",
     "question": "Quels sont les cinq niveaux de besoins de Maslow ?",
-    "answer": "Besoins physiologiques, sécurité, appartenance, estime et accomplissement de soi.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 18,
-        "excerpt": "La pyramide des besoins humains de Maslow\nMANGER\n=\nbesoin\nMANGER UN MAGNUM\n=\ndésir\nLe besoin se transforme en désir dès lors qu’il \nporte sur un produit spécifique\nLes désirs sont souvent \nfaçonnés par la société et \npar d’autres facteurs (cf \nséquence sur le comportement des \nconsommateurs)\n⇒repas français VS japonais\n2- Le marketing pour comprendre le marché et \nles besoins des consommateurs",
-        "highlight": "Maslow"
-      }
-    ]
+    "answer": "Besoins physiologiques, sécurité, appartenance, estime et accomplissement de soi."
   },
   {
     "id": "marketing-concept-007",
     "chapter": "Bases du marketing",
     "question": "Quels sont les cinq types de besoins distingués par Kotler ?",
-    "answer": "Besoins exprimés, réels, latents, rêvés et profonds. Ils correspondent à ce que le client dit, veut dire, n’envisage pas encore, rêve d’obtenir ou recherche plus secrètement.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 18,
-        "excerpt": "1- Les besoins exprimés (ce que dit le client)\n2- Les besoins réels (ce qu’il veut dire)\n3- Les besoins latents (ce à quoi il ne pense pas)\n4- Les besoins rêvés (ce sont il rêverait)\n5- Les besoins profonds (ce qui le motive \nsecrètement)\n2- Le marketing pour comprendre le marché et \nles besoins des consommateurs\n2-1)Besoins, désirs et demande\nGénéralement, on ne peut satisfaire qu’un besoin d’un certain",
-        "highlight": "exprimés"
-      }
-    ]
+    "answer": "Besoins exprimés, réels, latents, rêvés et profonds. Ils correspondent à ce que le client dit, veut dire, n’envisage pas encore, rêve d’obtenir ou recherche plus secrètement."
   },
   {
     "id": "marketing-concept-008",
@@ -104,10 +56,10 @@
     "answer": "C’est un bien ou un service proposé sur un marché pour satisfaire un besoin ou un désir.",
     "sources": [
       {
-        "documentId": "m1",
-        "page": 20,
-        "excerpt": "2-2) L’offre commerciale\n⇒Offre : Produit ou service proposés pour satisfaire un besoin ou un désir sur un\nmarché donné = réponse à un besoin\n• L’offre\ncommerciale\nn’est\ngénéralement\nque\nl’une\ndes\npossibilités\nqu’a\nun\nconsommateur de satisfaire un besoin : une multitude d’offres est à sa disposition\n• Un besoin présente une pérennité alors que tous les produits/services sont\namenés à terme à disparaître ou à évoluer significativement",
-        "highlight": "offre"
+        "documentId": "mf",
+        "page": 4,
+        "excerpt": "Tout ce qui peut être acquis sur un marché pour satisfaire un besoin (création de valeur) : bien\n(tangible) ou service (intangible), fruit de l'effort de l'entreprise en réponse aux besoins détectés.\n•\n3 dimensions : caractéristiques techniques, commerciales, psychologiques. Les consommateurs\ny sont plus ou moins sensibles ; l'entreprise doit réfléchir aux trois niveaux.\n•\nRôle de la marque : un bon produit sans marque forte n'est rien, et une marque forte sans bon\nproduit non plus. Le brand manager met en avant l'identité de la marque, ne cède pas aux actions de\ncourt terme et assure la cohérence de l'identité.\n•\nPackaging :\nFonctions techniques\nFonctions marketing\nProtection et conservation · facilité d'utilisation ·\ncommodité de transport et de stockage\nSource d'informations pratiques (origine, composition, date",
+        "highlight": "Tout ce qui peut être acquis"
       }
     ]
   },
@@ -118,10 +70,10 @@
     "answer": "Un bien est tangible, alors qu’un service est intangible.",
     "sources": [
       {
-        "documentId": "m1",
-        "page": 8,
-        "excerpt": "tangible\ne.g. voiture, café, \nlivre\nintangible\ne.g. livraison, coupe \ncoiffeur\n• C’est le cas des entreprises qui vendent des produits ou\ndes services, mais la notion de marketing a été étendue à\nd’autres\nactivités\n(e.g.\nles\nassociations\nhumanitaires,\nsportives, …)\n• Nous parlerons donc d’organisations\nIntroduction\n• Le marketing cherche à produire des relations durables et\n« rentables » avec les clients/prospects :\n\nattirer\nde\nnouveaux",
-        "highlight": "tangible"
+        "documentId": "mf",
+        "page": 4,
+        "excerpt": "Tout ce qui peut être acquis sur un marché pour satisfaire un besoin (création de valeur) : bien\n(tangible) ou service (intangible), fruit de l'effort de l'entreprise en réponse aux besoins détectés.\n•\n3 dimensions : caractéristiques techniques, commerciales, psychologiques. Les consommateurs\ny sont plus ou moins sensibles ; l'entreprise doit réfléchir aux trois niveaux.\n•\nRôle de la marque : un bon produit sans marque forte n'est rien, et une marque forte sans bon\nproduit non plus. Le brand manager met en avant l'identité de la marque, ne cède pas aux actions de\ncourt terme et assure la cohérence de l'identité.\n•\nPackaging :\nFonctions techniques\nFonctions marketing\nProtection et conservation · facilité d'utilisation ·\ncommodité de transport et de stockage\nSource d'informations pratiques (origine, composition, date\nlimite…) · reconnaissance et identification · expression du\npositionnement · impulsion d'achat\nLe prix\n•",
+        "highlight": "bien\n(tangible)"
       }
     ]
   },
@@ -129,99 +81,43 @@
     "id": "marketing-concept-010",
     "chapter": "Bases du marketing",
     "question": "Qu’est-ce que la myopie marketing ?",
-    "answer": "C’est le fait de se concentrer sur le produit lui-même plutôt que sur les besoins, bénéfices ou expériences recherchés par les clients.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 20,
-        "excerpt": "Marketing myopia : s’attacher davantage au produit ou service lui-même \nplutôt qu’aux bénéfices ou aux expériences produites (voir un film au \ncinéma n’est pas simplement voir un film)",
-        "highlight": "myopia"
-      }
-    ]
+    "answer": "C’est le fait de se concentrer sur le produit lui-même plutôt que sur les besoins, bénéfices ou expériences recherchés par les clients."
   },
   {
     "id": "marketing-concept-011",
     "chapter": "Bases du marketing",
     "question": "Qu’est-ce que la valeur perçue ?",
-    "answer": "C’est la différence entre les bénéfices perçus et les coûts perçus par le client. Elle est subjective.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 11,
-        "excerpt": "les bénéfices attendus et les coûts \ntangibles et intangibles perçus par le \nclient) et de relation avec le client\n• Ministère de l’Économie et des Finances : « La\nmercatique consiste en l’ensemble des actions\nqui, dans une économie de marché, ont pour\nobjectif de prévoir ou de constater et, le cas\néchéant, de stimuler, susciter ou renouveler les\nbesoins\ndu\nconsommateur\net\nde\nréaliser\nl’adaptation continue de l’appareil productif et",
-        "highlight": "bénéfices"
-      }
-    ]
+    "answer": "C’est la différence entre les bénéfices perçus et les coûts perçus par le client. Elle est subjective."
   },
   {
     "id": "marketing-concept-012",
     "chapter": "Bases du marketing",
     "question": "Qu’est-ce que la satisfaction du client ?",
-    "answer": "Elle résulte de la comparaison entre les attentes du client et l’expérience qu’il a réellement vécue.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 22,
-        "excerpt": "Valeur et satisfaction client\n•\nLa valeur d’un bien/service est propre à chaque individu et vaut ce que celui-ci est prêt à donner \nou payer pour l’obtenir\n•\nLe sentiment de satisfaction résulte de l’écart entre les attentes et l’expérience vécue\n•\nPromettre trop risque d’insatisfaction\n•\nPromettre peu n’attire pas de nouveaux consommateurs\n• Généralement, les consommateurs satisfaits achètent à nouveau et promeuvent  l’offre",
-        "highlight": "satisfaction"
-      }
-    ]
+    "answer": "Elle résulte de la comparaison entre les attentes du client et l’expérience qu’il a réellement vécue."
   },
   {
     "id": "marketing-concept-013",
     "chapter": "Bases du marketing",
     "question": "Quelle est la différence entre un client et un prospect ?",
-    "answer": "Un client a déjà acheté. Un prospect est un client potentiel qui n’a pas encore acheté.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 8,
-        "excerpt": "« rentables » avec les clients/prospects :\n\nattirer\nde\nnouveaux\nclients/prospects\npar\nune\n« promesse de valeur » et conserver la clientèle existante\npar divers moyens\nsatisfaire les besoins\ncréer de la valeur pour obtenir des parts de marchés,\ndes marges et donc pour survivre ou prospérer\nUn client a déjà acheté vos \nproduits ou services. Un \nprospect, en revanche, est un \npotentiel client qui n'a pas \nencore acheté.",
-        "highlight": "prospect"
-      }
-    ]
+    "answer": "Un client a déjà acheté. Un prospect est un client potentiel qui n’a pas encore acheté."
   },
   {
     "id": "marketing-concept-014",
     "chapter": "Bases du marketing",
     "question": "Que signifient B2C, B2B et C2C ?",
-    "answer": "B2C : entreprise vers consommateur. B2B : entreprise vers entreprise. C2C : échanges entre consommateurs.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 14,
-        "excerpt": "Marketing B2C (business to consumer)\nMarketing B2B (business to business)\nMarketing C2C (consumer to consumer)\nLa nature de l’offre\nProduits\nServices\nCanal de communication\nTraditionnel",
-        "highlight": "B2C"
-      }
-    ]
+    "answer": "B2C : entreprise vers consommateur. B2B : entreprise vers entreprise. C2C : échanges entre consommateurs."
   },
   {
     "id": "marketing-concept-015",
     "chapter": "Démarche et orientations",
     "question": "Quelles sont les trois phases de la démarche marketing ?",
-    "answer": "Le marketing d’études, le marketing stratégique et le marketing opérationnel. Le contrôle permet de mesurer les résultats et de corriger les actions.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 25,
-        "excerpt": "lancement sur le marché ou piloter les phases du cycle de vie\n• Elle s’organise autour des « 4P » du marketing mix (produit-prix-distribution-promotion)\n3- Le marketing \nopérationnel",
-        "highlight": "phases"
-      }
-    ]
+    "answer": "Le marketing d’études, le marketing stratégique et le marketing opérationnel. Le contrôle permet de mesurer les résultats et de corriger les actions."
   },
   {
     "id": "marketing-concept-016",
     "chapter": "Démarche et orientations",
     "question": "Qu’est-ce que le marketing d’études ?",
-    "answer": "Il consiste à recueillir et analyser des informations sur le marché, l’entreprise et son environnement pour comprendre la situation.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 25,
-        "excerpt": "1- Le marketing d’études\n• Sélectionner les segments que l’entreprise souhaite cibler sur un marché donné et à élaborer \nl’offre la plus adaptée (stratégie SCP)\n• Phase limitée si l’entreprise adopte un marketing de masse indifférencié \n2- Le marketing stratégique\n• Mettre en œuvre des actions marketing une fois le produit élaboré, pour accompagner son \nlancement sur le marché ou piloter les phases du cycle de vie",
-        "highlight": "études"
-      }
-    ]
+    "answer": "Il consiste à recueillir et analyser des informations sur le marché, l’entreprise et son environnement pour comprendre la situation."
   },
   {
     "id": "marketing-concept-017",
@@ -230,10 +126,10 @@
     "answer": "Il consiste notamment à choisir les segments à servir et à définir une offre et un positionnement adaptés.",
     "sources": [
       {
-        "documentId": "m1",
-        "page": 25,
-        "excerpt": "2- Le marketing stratégique\n• Mettre en œuvre des actions marketing une fois le produit élaboré, pour accompagner son \nlancement sur le marché ou piloter les phases du cycle de vie\n• Elle s’organise autour des « 4P » du marketing mix (produit-prix-distribution-promotion)\n3- Le marketing \nopérationnel",
-        "highlight": "stratégique"
+        "documentId": "mf",
+        "page": 3,
+        "excerpt": "3.3 La politique marketing en place\nPolitique produit ou marque (cf. marketing-mix). Regarder les dimensions stratégiques (objectifs,\nsegmentation, ciblage, positionnement) et opérationnelles (marketing-mix : produit, prix, distribution,\ncommunication).\n3.4 L'avantage concurrentiel\nLes stratégies génériques de Porter (détail non noté dans votre cours).\nRésultat : l'analyse de l'environnement interne identifie les forces et faiblesses.\n4. Conclusion : connaître, s'adapter, influencer\n•\nUne organisation doit chercher à s'adapter et à modifier l'environnement dans lequel elle évolue,\ndonc d'abord bien le connaître. Cette triple nécessité (connaître, s'adapter, influencer) fonde\nle marketing.\n•\nAnalyse interne = forces / faiblesses. Analyse externe = menaces / opportunités (c'est aussi un",
+        "highlight": "3.3 La politique marketing en place"
       }
     ]
   },
@@ -244,10 +140,10 @@
     "answer": "Il met en œuvre les actions marketing autour du produit, du prix, de la distribution et de la communication.",
     "sources": [
       {
-        "documentId": "m1",
-        "page": 25,
-        "excerpt": "opérationnel\n3 phases au sein d’une démarche itérative",
-        "highlight": "opérationnel"
+        "documentId": "mf",
+        "page": 3,
+        "excerpt": "3.3 La politique marketing en place\nPolitique produit ou marque (cf. marketing-mix). Regarder les dimensions stratégiques (objectifs,\nsegmentation, ciblage, positionnement) et opérationnelles (marketing-mix : produit, prix, distribution,\ncommunication).\n3.4 L'avantage concurrentiel\nLes stratégies génériques de Porter (détail non noté dans votre cours).\nRésultat : l'analyse de l'environnement interne identifie les forces et faiblesses.\n4. Conclusion : connaître, s'adapter, influencer\n•\nUne organisation doit chercher à s'adapter et à modifier l'environnement dans lequel elle évolue,\ndonc d'abord bien le connaître. Cette triple nécessité (connaître, s'adapter, influencer) fonde\nle marketing.\n•\nAnalyse interne = forces / faiblesses. Analyse externe = menaces / opportunités (c'est aussi un",
+        "highlight": "3.3 La politique marketing en place"
       }
     ]
   },
@@ -255,155 +151,67 @@
     "id": "marketing-concept-019",
     "chapter": "Démarche et orientations",
     "question": "Qu’est-ce qu’une étude documentaire ?",
-    "answer": "C’est l’exploitation d’informations déjà disponibles. Elle est rapide et peu coûteuse, mais les données peuvent être trop générales ou peu adaptées.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 26,
-        "excerpt": "Etude documentaire : documents déjà existants, données disponibles \n(Ex : Insee, enquêtes d’instituts de sondage, …)\n•\nAvantages : faible coût, rapide\n•\nInconvénients : fiabilités, manque de précision , informations globales, …\n•\nEnquêtes : collecter soi-même les infos sur le terrain \n•\nAvantages : précision, gestion de objectifs\n•\nInconvénients : temps, coût élevé\nDifférents types d’enquêtes\n-\nObservations\n-\nSondages (quantitative)\n-",
-        "highlight": "documentaire"
-      }
-    ]
+    "answer": "C’est l’exploitation d’informations déjà disponibles. Elle est rapide et peu coûteuse, mais les données peuvent être trop générales ou peu adaptées."
   },
   {
     "id": "marketing-concept-020",
     "chapter": "Démarche et orientations",
     "question": "Quelle différence y a-t-il entre une étude qualitative et une étude quantitative ?",
-    "answer": "L’étude qualitative cherche à comprendre les motivations, notamment par des entretiens. L’étude quantitative mesure des phénomènes, notamment par des sondages.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 26,
-        "excerpt": "Entretiens (qualitatif)",
-        "highlight": "qualitatif"
-      }
-    ]
+    "answer": "L’étude qualitative cherche à comprendre les motivations, notamment par des entretiens. L’étude quantitative mesure des phénomènes, notamment par des sondages."
   },
   {
     "id": "marketing-concept-021",
     "chapter": "Démarche et orientations",
     "question": "Qu’est-ce que l’orientation production ?",
-    "answer": "Elle donne la priorité à la capacité de production, à la productivité, à la baisse des coûts et à la disponibilité des produits.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 30,
-        "excerpt": "5-1) L’orientation production\nLe marketing a un rôle limité et passif : organiser l'écoulement des\nproduits fabriqués.\nLes préoccupations prioritaires sont de :\n• développer la capacité de production,\n• trouver les financements nécessaires à ce développement,\n• réduire les coûts en allongeant les séries,\n• améliorer la productivité en rationalisant les méthodes d'organisation du\ntravail\nConception\nProduction\nDiffusion\nConsommation",
-        "highlight": "production"
-      }
-    ]
+    "answer": "Elle donne la priorité à la capacité de production, à la productivité, à la baisse des coûts et à la disponibilité des produits."
   },
   {
     "id": "marketing-concept-022",
     "chapter": "Démarche et orientations",
     "question": "Qu’est-ce que l’orientation produit ?",
-    "answer": "Elle repose sur l’idée que le consommateur choisit le produit offrant la meilleure qualité ou les meilleures performances techniques.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 30,
-        "excerpt": "produits fabriqués.\nLes préoccupations prioritaires sont de :\n• développer la capacité de production,\n• trouver les financements nécessaires à ce développement,\n• réduire les coûts en allongeant les séries,\n• améliorer la productivité en rationalisant les méthodes d'organisation du\ntravail\nConception\nProduction\nDiffusion\nConsommation\n5- Les orientations marketing\n5-2) L’orientation produit\n•",
-        "highlight": "produit"
-      }
-    ]
+    "answer": "Elle repose sur l’idée que le consommateur choisit le produit offrant la meilleure qualité ou les meilleures performances techniques."
   },
   {
     "id": "marketing-concept-023",
     "chapter": "Démarche et orientations",
     "question": "Qu’est-ce que l’orientation vente ?",
-    "answer": "Elle consiste à chercher à faire accepter et acheter ce qui a été produit, grâce à la pression commerciale et publicitaire.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 31,
-        "excerpt": "5-3) L’orientation vente\n•\nTenter de forcer le marché à accepter ce qui a été produit (rôle prédominent du\nvendeur et de la publicité)\n•\nLa prééminence de l'optique « vente » est encore manifeste dans certains secteurs\n(énergie, téléphonie, crédit à la consommation…)\nLes abus génèrent des contre-pouvoirs (mouvement consumériste) et des\nmesures législatives (e.g. bloctel)\nConception\nProduction\nPression \ncommerciale\nConsommation",
-        "highlight": "vente"
-      }
-    ]
+    "answer": "Elle consiste à chercher à faire accepter et acheter ce qui a été produit, grâce à la pression commerciale et publicitaire."
   },
   {
     "id": "marketing-concept-024",
     "chapter": "Démarche et orientations",
     "question": "Qu’est-ce que l’orientation marketing ?",
-    "answer": "Elle part des besoins et attentes des consommateurs pour concevoir les produits et services susceptibles de les satisfaire.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 32,
-        "excerpt": "semble plus judicieux d’étudier ces derniers pour connaître leurs besoins et \nproduire des biens en conséquence\nConception du \nproduit/service\nProduction\nConsommateur/prospects \n(besoins, attentes, \ndésirs…)\nMise sur le \nmarché\n5- Les orientations marketing\n5-4) L’orientation marketing\n•\nLe marketing se doit toute à la fois de guider le marché et de se laisser \nguider par le marché  : un mélange de technology push et de demand pull",
-        "highlight": "besoins"
-      }
-    ]
+    "answer": "Elle part des besoins et attentes des consommateurs pour concevoir les produits et services susceptibles de les satisfaire."
   },
   {
     "id": "marketing-concept-025",
     "chapter": "Démarche et orientations",
     "question": "Qu’est-ce que le marketing sociétal ?",
-    "answer": "Il recherche un équilibre entre les désirs des consommateurs, les objectifs de l’entreprise et le bien-être collectif à long terme.",
-    "sources": [
-      {
-        "documentId": "m1",
-        "page": 33,
-        "excerpt": "5-5) L’orientation marketing sociétal\nNaît d’une question : en comblant les désirs immédiats des\nconsommateurs, le marketing ne menace-t-il pas son bien-être\nà long terme ?\nImpact de ma consommation sur ma santé, sur les autres…\nhttps://www.lemonde.fr/planete/article/2012/05/09/le-7e-continent-de-plastique-ces-tourbillons-de-\ndechets-dans-les-oceans_1696072_3244.html\n5- Les orientations marketing\n5-5) L’orientation marketing sociétal",
-        "highlight": "sociétal"
-      }
-    ]
+    "answer": "Il recherche un équilibre entre les désirs des consommateurs, les objectifs de l’entreprise et le bien-être collectif à long terme."
   },
   {
     "id": "marketing-concept-026",
     "chapter": "Environnement",
     "question": "Qu’est-ce que le macro-environnement ?",
-    "answer": "C’est l’ensemble des grandes forces externes que l’organisation ne contrôle pas directement mais auxquelles elle doit s’adapter.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 4,
-        "excerpt": "Le Macro-\nenvironnement\nLes fournisseurs\nLes concurrents\nLes acheteurs et les \nconsommateurs\nLes intermédiaires\nLes groupes \nd’influence\nL’environnem\nent \ntechnologique\nL’environnement politico-légal\nL’environnem\nent naturel\nL’environnem\nent socio-\nculturel\nL’environnement économique\nLes prescripteurs\nL’organisation\nL’environnement \ntechnologique\nL’environnement politico-\nlégal\nL’environnement \nnaturel\nL’environnement \nsocio-culturel",
-        "highlight": "Macro"
-      }
-    ]
+    "answer": "C’est l’ensemble des grandes forces externes que l’organisation ne contrôle pas directement mais auxquelles elle doit s’adapter."
   },
   {
     "id": "marketing-concept-027",
     "chapter": "Environnement",
     "question": "Qu’est-ce que le micro-environnement ?",
-    "answer": "Il est constitué des acteurs proches avec lesquels l’organisation interagit pour mener sa stratégie marketing.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 11,
-        "excerpt": "→Le micro-environnement est constitué d’entités ou d’acteurs avec lesquels\nl’organisation doit interagir pour mener à bien sa stratégie marketing\n→Ceux-ci sont susceptibles d’affecter dans un sens positif ou négatif\nL’organisation\nLes fournisseurs\nLes concurrents\nLes acheteurs et les\nconsommateurs\nLes intermédiaires\nLes groupes \nd’influence\nLes prescripteurs\n1- L’environnement marketing externe\n1-2) Le micro-environnement",
-        "highlight": "micro"
-      }
-    ]
+    "answer": "Il est constitué des acteurs proches avec lesquels l’organisation interagit pour mener sa stratégie marketing."
   },
   {
     "id": "marketing-concept-028",
     "chapter": "Environnement",
     "question": "Que signifie PESTEL ?",
-    "answer": "Politique, économique, socioculturel, technologique, écologique et légal. Cet outil sert à analyser le macro-environnement.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 5,
-        "excerpt": "• L’acronyme PESTEL est un moyen mémotechnique pour retenir les éléments\nconstitutifs\ndu\nmacro-environnement\n:\npolitique\n–\néconomique\n–\nsocial\n–\ntechnologique – légal – environnemental\nModèle PESTEL : répartit les influences environnementales en six grandes\ncatégories : politiques, économiques, sociologiques, technologiques, écologiques\net légales.\n• On peut établir des scénarios sur la manière dont\nla stratégie doit évoluer en",
-        "highlight": "PESTEL"
-      }
-    ]
+    "answer": "Politique, économique, socioculturel, technologique, écologique et légal. Cet outil sert à analyser le macro-environnement."
   },
   {
     "id": "marketing-concept-029",
     "chapter": "Environnement",
     "question": "Quels sont les principaux acteurs du micro-environnement ?",
-    "answer": "Les acheteurs et consommateurs, les fournisseurs, les concurrents, les prescripteurs, les intermédiaires et les groupes d’influence.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 11,
-        "excerpt": "Les fournisseurs\nLes concurrents\nLes acheteurs et les\nconsommateurs\nLes intermédiaires\nLes groupes \nd’influence\nLes prescripteurs\n1- L’environnement marketing externe\n1-2) Le micro-environnement\nAcheteurs = individus qui achètent les produits/services d’une entreprise \n≠\nConsommateurs = individus qui consomment les produits/services d’une entreprise\n•\nIl est primordial pour l’organisation de bien connaître ses clients (ou clients",
-        "highlight": "fournisseurs"
-      }
-    ]
+    "answer": "Les acheteurs et consommateurs, les fournisseurs, les concurrents, les prescripteurs, les intermédiaires et les groupes d’influence."
   },
   {
     "id": "marketing-concept-030",
@@ -412,10 +220,10 @@
     "answer": "L’acheteur effectue l’achat ; le consommateur utilise le produit ou le service. Ce peut être la même personne ou deux personnes différentes.",
     "sources": [
       {
-        "documentId": "m2",
-        "page": 11,
-        "excerpt": "Les acheteurs et les\nconsommateurs\nLes intermédiaires\nLes groupes \nd’influence\nLes prescripteurs\n1- L’environnement marketing externe\n1-2) Le micro-environnement\nAcheteurs = individus qui achètent les produits/services d’une entreprise \n≠\nConsommateurs = individus qui consomment les produits/services d’une entreprise\n•\nIl est primordial pour l’organisation de bien connaître ses clients (ou clients",
-        "highlight": "acheteurs"
+        "documentId": "mf",
+        "page": 7,
+        "excerpt": "consommation. Rôle dans le processus d'achat :\nacheteur, utilisateur, prescripteur ne sont pas la même\npersonne. Prix psychologique : prix que le\nconsommateur est prêt à payer, où le rapport qualité-prix\nest acceptable\nPsychographiques\nPersonnalité : réponses stables d'un individu dans son\nenvironnement. Valeurs : croyances durables selon\nlesquelles certains comportements ou buts de l'existence\nsont préférables ; varient selon l'individu et la culture.\nStyles de vie : manière d'occuper son temps, ce qu'on\njuge important, ce qu'on pense de soi et du monde ;\nrésultat probable de l'interaction entre valeurs et\npersonnalité\nSegmentation RFM : la rubrique est vide dans vos notes. RFM correspond habituellement à récence,\nfréquence, montant d'achat : à compléter avec votre cours.\n1.4 Segmenter la demande en B2B",
+        "highlight": "Rôle dans le processus d'achat"
       }
     ]
   },
@@ -423,239 +231,103 @@
     "id": "marketing-concept-031",
     "chapter": "Environnement",
     "question": "Qu’est-ce qu’un prescripteur ?",
-    "answer": "C’est une personne ou une organisation qui influence la décision d’achat par ses conseils ou recommandations, sans nécessairement acheter.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 18,
-        "excerpt": "Prescripteurs = individus ou organisations qui influencent les décisions d’achat des consommateurs\nsans nécessairement effectuer eux-mêmes l’achat par le biais de conseils, recommandations, …\n•\nDifférents types de prescripteurs\n•\nCercle familiale ou amis\n•\nProfessionnels de santé (recommandation de médicaments)\n•\nExperts techniques\n•\nInfluenceurs (blog, vidéos, …)\n•\nLeaders d’opinion\n•\nDistributeurs (par le biais de techniques commerciales)",
-        "highlight": "Prescripteurs"
-      }
-    ]
+    "answer": "C’est une personne ou une organisation qui influence la décision d’achat par ses conseils ou recommandations, sans nécessairement acheter."
   },
   {
     "id": "marketing-concept-032",
     "chapter": "Environnement",
     "question": "Quelle différence y a-t-il entre concurrence directe et indirecte ?",
-    "answer": "La concurrence directe propose des produits ou services identiques ou très proches. La concurrence indirecte propose des solutions différentes répondant au même besoin.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 15,
-        "excerpt": "Différents types de concurrents (directs, indirects)\nConcurrents directs : organisation offrant des produits/services \nidentiques ou très similaires. Coca-Cola versus Pepsi\nConcurrents indirects : organisation proposant des solutions \nalternatives qui répondent aux mêmes besoin du client. Cinéma \nversus Netflix versus Théâtre\n1- L’environnement marketing externe\n1-2) Le micro-environnement\nLes structures de marché existantes\nNombre",
-        "highlight": "directs"
-      }
-    ]
+    "answer": "La concurrence directe propose des produits ou services identiques ou très proches. La concurrence indirecte propose des solutions différentes répondant au même besoin."
   },
   {
     "id": "marketing-concept-033",
     "chapter": "Environnement",
     "question": "Qu’est-ce qu’un monopole ?",
-    "answer": "C’est une structure de marché dans laquelle une seule entreprise propose l’offre considérée.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 15,
-        "excerpt": "Monopole \nOligopole\nConcurrence \nmonopolistique\nEau\nElectricité\nTéléphonie\nLessive\nLivre\nJus de fruit, meuble\nBeaucoup\nUne seule\nQuelques unes\n1- L’environnement marketing externe",
-        "highlight": "Monopole"
-      }
-    ]
+    "answer": "C’est une structure de marché dans laquelle une seule entreprise propose l’offre considérée."
   },
   {
     "id": "marketing-concept-034",
     "chapter": "Environnement",
     "question": "Qu’est-ce qu’un oligopole ?",
-    "answer": "C’est une structure de marché dans laquelle quelques entreprises se partagent l’offre.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 15,
-        "excerpt": "Oligopole\nConcurrence \nmonopolistique\nEau\nElectricité\nTéléphonie\nLessive\nLivre\nJus de fruit, meuble\nBeaucoup\nUne seule\nQuelques unes\n1- L’environnement marketing externe",
-        "highlight": "Oligopole"
-      }
-    ]
+    "answer": "C’est une structure de marché dans laquelle quelques entreprises se partagent l’offre."
   },
   {
     "id": "marketing-concept-035",
     "chapter": "Environnement",
     "question": "Quelles sont les cinq forces de Porter ?",
-    "answer": "La rivalité entre concurrents, la menace des nouveaux entrants, la menace des substituts, le pouvoir de négociation des fournisseurs et le pouvoir de négociation des clients.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 17,
-        "excerpt": "Les forces concurrentielles : le modèle de Porter\nConcurrents du \nsecteur\nRivalité existante entre \nles organisations\nEntrants potentiels\nSubstituts\nFournisseurs\nClients\nMenace de nouveaux entrants\nMenace de produits/services substituables\nPouvoir de négociation des clients\nPouvoir de négociation des fournisseurs\n1- L’environnement marketing externe\n1-2) Le micro-environnement\nLes forces concurrentielles : le modèle des 5 forces de Porter",
-        "highlight": "Porter"
-      }
-    ]
+    "answer": "La rivalité entre concurrents, la menace des nouveaux entrants, la menace des substituts, le pouvoir de négociation des fournisseurs et le pouvoir de négociation des clients."
   },
   {
     "id": "marketing-concept-036",
     "chapter": "Environnement",
     "question": "Qu’est-ce qu’une tendance de marché ?",
-    "answer": "C’est une évolution durable des comportements, attentes ou technologies qui influence l’offre et la demande.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 23,
-        "excerpt": "Qu’est-ce qu’une tendance de marché ?\n•\nÉvolutions durables des comportements, des attentes ou des technologies qui influencent\nl’offre et la demande\n•\nElles structurent l’environnement externe et guident les décisions stratégiques\nPourquoi les analyser ?\n•\nIdentifier les opportunités (nouveaux segments, innovations, …)\n•\nDétecter les menaces (concurrence accrue, obsolescence, …)\n•",
-        "highlight": "tendance"
-      }
-    ]
+    "answer": "C’est une évolution durable des comportements, attentes ou technologies qui influence l’offre et la demande."
   },
   {
     "id": "marketing-concept-037",
     "chapter": "Marché",
     "question": "Quelle est la définition d’un marché ?",
-    "answer": "Un marché est le lieu de rencontre entre l’offre et la demande permettant des transactions. Il peut être physique ou virtuel.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 27,
-        "excerpt": "Un marché = lieu de rencontre entre l’offre et la demande dans le but d’y opérer des\ntransactions (marché physique, virtuel, local, national, …)\n•\nSe définit d’un point de vue géographique, mais pas que !\n•\nIndispensable de le décrire selon le type de produit, la catégorie d’acheteur etc…\nE.g. marché des sneakers, marché français, marché des nourrissons, …\nUne organisation opère sur un ou plusieurs marchés en même temps\n2- Le marché",
-        "highlight": "rencontre"
-      }
-    ]
+    "answer": "Un marché est le lieu de rencontre entre l’offre et la demande permettant des transactions. Il peut être physique ou virtuel."
   },
   {
     "id": "marketing-concept-038",
     "chapter": "Marché",
     "question": "Quelle différence y a-t-il entre un marché atomisé et un marché concentré ?",
-    "answer": "Un marché atomisé est partagé entre de nombreux acteurs. Un marché concentré compte peu d’entreprises qui occupent une place importante.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 28,
-        "excerpt": "• Marché fragmenté (ou atomisé) : de nombreux acteurs se partagent le marché\n• Marché concentré : peu d’entreprises sont présentes\n2- Le marché\n2-1) Qu’est-ce qu’un marché ?\nMarché des jus de fruits, \nmarché du lait, du textile, …\nMédia télévisé, téléphonie, \ntransport ferroviaire, …\nDeux approches : par l’offre ou par la demande \n2- Le marché\n2-2) Les différentes approches du marché\nOffre\nDemande\n1\n2\npoint de vue des produits qui",
-        "highlight": "fragmenté"
-      }
-    ]
+    "answer": "Un marché atomisé est partagé entre de nombreux acteurs. Un marché concentré compte peu d’entreprises qui occupent une place importante."
   },
   {
     "id": "marketing-concept-039",
     "chapter": "Marché",
     "question": "Qu’est-ce que le marché principal ?",
-    "answer": "Il regroupe les produits techniquement identiques et directement concurrents.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 30,
-        "excerpt": "Le marché principal : ensemble des produits techniquement identiques et directement\nconcurrents\n•\nLe marché environnant: produits substituts de nature différentes des produits du\nmarché principal, mais satisfaisant les mêmes besoins dans les mêmes conditions\n•\nLa marché générique : produits liés à la catégorie de besoins satisfaits par les produits\ndu marché principal\n•",
-        "highlight": "principal"
-      }
-    ]
+    "answer": "Il regroupe les produits techniquement identiques et directement concurrents."
   },
   {
     "id": "marketing-concept-040",
     "chapter": "Marché",
     "question": "Qu’est-ce que le marché environnant ?",
-    "answer": "Il regroupe les produits de nature différente qui peuvent se substituer aux produits du marché principal pour satisfaire le même besoin.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 30,
-        "excerpt": "Le marché environnant: produits substituts de nature différentes des produits du\nmarché principal, mais satisfaisant les mêmes besoins dans les mêmes conditions\n•\nLa marché générique : produits liés à la catégorie de besoins satisfaits par les produits\ndu marché principal\n•\nLe marché support (ou marché des produits associés) : produits complémentaires\ndont l’existence est nécessaire à la consommation des produits des marché\nprécédents",
-        "highlight": "environnant"
-      }
-    ]
+    "answer": "Il regroupe les produits de nature différente qui peuvent se substituer aux produits du marché principal pour satisfaire le même besoin."
   },
   {
     "id": "marketing-concept-041",
     "chapter": "Marché",
     "question": "Qu’est-ce que le marché générique ?",
-    "answer": "Il regroupe les produits liés à la catégorie générale de besoins satisfaite par les produits du marché principal.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 30,
-        "excerpt": "La marché générique : produits liés à la catégorie de besoins satisfaits par les produits\ndu marché principal\n•\nLe marché support (ou marché des produits associés) : produits complémentaires\ndont l’existence est nécessaire à la consommation des produits des marché\nprécédents\n2- Le marché\n2-2) Les différentes approches du marché",
-        "highlight": "générique"
-      }
-    ]
+    "answer": "Il regroupe les produits liés à la catégorie générale de besoins satisfaite par les produits du marché principal."
   },
   {
     "id": "marketing-concept-042",
     "chapter": "Marché",
     "question": "Qu’est-ce que le marché support ?",
-    "answer": "Il regroupe les produits associés ou complémentaires à la consommation des produits considérés.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 30,
-        "excerpt": "Le marché support (ou marché des produits associés) : produits complémentaires\ndont l’existence est nécessaire à la consommation des produits des marché\nprécédents\n2- Le marché\n2-2) Les différentes approches du marché",
-        "highlight": "support"
-      }
-    ]
+    "answer": "Il regroupe les produits associés ou complémentaires à la consommation des produits considérés."
   },
   {
     "id": "marketing-concept-043",
     "chapter": "Marché",
     "question": "Qu’est-ce que le marché réel ?",
-    "answer": "Il correspond aux consommateurs qui ont acheté le produit pendant une période donnée.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 29,
-        "excerpt": "Le marché actuel (ou réel) est constitué \ndes consommateurs (dits consommateurs \nactuels) ayant acheté au moins une fois un \nproduit considéré au cours d’une période \ndonnée. Le marché potentiel est constitué \ndes consommateurs actuels et des non-\nconsommateurs relatifs\n2\nDéfinit des segments de",
-        "highlight": "actuel"
-      }
-    ]
+    "answer": "Il correspond aux consommateurs qui ont acheté le produit pendant une période donnée."
   },
   {
     "id": "marketing-concept-044",
     "chapter": "Marché",
     "question": "Qu’est-ce que le marché potentiel ?",
-    "answer": "Il rassemble les consommateurs actuels et les non-consommateurs relatifs.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 29,
-        "excerpt": "donnée. Le marché potentiel est constitué \ndes consommateurs actuels et des non-\nconsommateurs relatifs\n2\nDéfinit des segments de",
-        "highlight": "potentiel"
-      }
-    ]
+    "answer": "Il rassemble les consommateurs actuels et les non-consommateurs relatifs."
   },
   {
     "id": "marketing-concept-045",
     "chapter": "Marché",
     "question": "Quelle différence y a-t-il entre un non-consommateur relatif et un non-consommateur absolu ?",
-    "answer": "Le non-consommateur relatif pourrait devenir consommateur. Le non-consommateur absolu ne peut pas ou ne veut durablement pas consommer le produit dans le cadre étudié.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 30,
-        "excerpt": "absolus\nNon consommateurs\nConsommateurs actuels\nMarché réel de l’entreprise\nProspects\nMarché potentiel\n2\nL’approche du marché par la demande\n2- Le marché\n2-2) Les différentes approches du marché\nL’approche par niveaux\n•\nLe marché principal : ensemble des produits techniquement identiques et directement\nconcurrents\n•\nLe marché environnant: produits substituts de nature différentes des produits du",
-        "highlight": "absolus"
-      }
-    ]
+    "answer": "Le non-consommateur relatif pourrait devenir consommateur. Le non-consommateur absolu ne peut pas ou ne veut durablement pas consommer le produit dans le cadre étudié."
   },
   {
     "id": "marketing-concept-046",
     "chapter": "Marché",
     "question": "Quelle différence y a-t-il entre un marché en volume et un marché en valeur ?",
-    "answer": "Le volume mesure les quantités physiques vendues. La valeur mesure le montant monétaire des ventes.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 33,
-        "excerpt": "volume\nvaleur\n= Nombre d’unités physiques du\nproduits achetés (tonne de riz,\nlitre de bière, …)\ne.g. en France, près de 3 kilos de \nchips sont vendus en moyenne \npar personne et par an\n= Sommes totales dépensées par\nles\nclients\npour\nle produit ou\nservice en question\ne.g. en France, le marché bio \nreprésente environ 12 millions \nd’euros en 2023 (Agence Bio)\n•\nCes\ndeux\nmesures\nsont\nnécessaires et complémentaires\n•\nParfois, seule le volume ou la",
-        "highlight": "volume"
-      }
-    ]
+    "answer": "Le volume mesure les quantités physiques vendues. La valeur mesure le montant monétaire des ventes."
   },
   {
     "id": "marketing-concept-047",
     "chapter": "Marché",
     "question": "Comment calcule-t-on le taux de croissance d’un marché ?",
-    "answer": "Taux de croissance (%) = (valeur d’arrivée - valeur de départ) / valeur de départ × 100.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 33,
-        "excerpt": "• Le taux de croissance d’un marché se calcule en volume ou en valeur\n• La part de marché absolue se calcule en volume ou en valeur :\n2- Le marché\n2-3) Les différentes mesures du marché\nTaux de croissance = (𝒕𝒂𝒊𝒍𝒍𝒆 𝒅𝒖 𝒎𝒂𝒓𝒄𝒉é 𝒆𝒏 𝑵ା𝟏) ି(𝒕𝒂𝒊𝒍𝒍𝒆 𝒅𝒖 𝒎𝒂𝒓𝒄𝒉é 𝒆𝒏 𝑵)\n𝒕𝒂𝒊𝒍𝒍𝒆 𝒅𝒖 𝒎𝒂𝒓𝒄𝒉é 𝒆𝒏 𝑵\nP𝐚𝐫𝐭 𝐝𝐞 𝐦𝐚𝐫𝐜𝐡é 𝒅ᇱ𝒖𝒏𝒆 𝒆𝒏𝒕𝒓𝒆𝒑𝒓𝒊𝒔𝒆= 𝒗𝒆𝒏𝒕𝒆𝒔 𝒅𝒆 𝒍ᇲ𝒆𝒏𝒕𝒓𝒆𝒑𝒓𝒊𝒔𝒆 \n𝑽𝒆𝒏𝒕𝒆𝒔 𝒅𝒖 𝒎𝒂𝒓𝒄𝒉é\n∗𝟏𝟎𝟎",
-        "highlight": "croissance"
-      }
-    ]
+    "answer": "Taux de croissance (%) = (valeur d’arrivée - valeur de départ) / valeur de départ × 100."
   },
   {
     "id": "marketing-concept-048",
@@ -664,10 +336,10 @@
     "answer": "Part de marché (%) = ventes de l’entreprise / ventes totales du marché × 100. Le calcul peut se faire en volume ou en valeur.",
     "sources": [
       {
-        "documentId": "m2",
-        "page": 33,
-        "excerpt": "• La part de marché absolue se calcule en volume ou en valeur :\n2- Le marché\n2-3) Les différentes mesures du marché\nTaux de croissance = (𝒕𝒂𝒊𝒍𝒍𝒆 𝒅𝒖 𝒎𝒂𝒓𝒄𝒉é 𝒆𝒏 𝑵ା𝟏) ି(𝒕𝒂𝒊𝒍𝒍𝒆 𝒅𝒖 𝒎𝒂𝒓𝒄𝒉é 𝒆𝒏 𝑵)\n𝒕𝒂𝒊𝒍𝒍𝒆 𝒅𝒖 𝒎𝒂𝒓𝒄𝒉é 𝒆𝒏 𝑵\nP𝐚𝐫𝐭 𝐝𝐞 𝐦𝐚𝐫𝐜𝐡é 𝒅ᇱ𝒖𝒏𝒆 𝒆𝒏𝒕𝒓𝒆𝒑𝒓𝒊𝒔𝒆= 𝒗𝒆𝒏𝒕𝒆𝒔 𝒅𝒆 𝒍ᇲ𝒆𝒏𝒕𝒓𝒆𝒑𝒓𝒊𝒔𝒆 \n𝑽𝒆𝒏𝒕𝒆𝒔 𝒅𝒖 𝒎𝒂𝒓𝒄𝒉é\n∗𝟏𝟎𝟎\nEn analysant les parts de marché des concurrents présents, on peut identifier le leader, qui",
-        "highlight": "absolue"
+        "documentId": "mf",
+        "page": 2,
+        "excerpt": "Part de marché absolue (PDM) = ventes de l'entreprise ÷ ventes du marché × 100.\n•\nPart de marché relative = PDM de l'entreprise ÷ PDM du 1er concurrent. Elle indique la position\nconcurrentielle : elle mesure la distance entre une marque et le leader. Une PDM relative supérieure\nà 1 (ex. 1,1) signifie que l'entreprise domine le marché.\n•\nTaux de pénétration = marché réel rapporté au marché potentiel (nombre d'abonnements ÷\npopulation totale de référence). Un taux bas signifie un potentiel de croissance élevé pour toutes\nles entreprises du marché. Exemple : mobiles en France, de 40 % en juin 2000 à plus de 91 % en 2009.\nExercice Duplay (CA en M€)\nProduit\nCA Duplay\nCA principal concurrent\nCA du secteur\nPDM absolue\nPDM relative\nSaxophone\n7,5\n2,5\n30,5\n24,6 %\n3\nTrompette\n1,5\n3\n6\n25 %\n0,50\nCor de chasse\n1\n4\n11\n9,09 %\n0,25\nAccordéon\n1\n3\n13,5",
+        "highlight": "Part de marché absolue"
       }
     ]
   },
@@ -678,10 +350,10 @@
     "answer": "Part de marché relative = part de marché de l’entreprise / part de marché de son principal concurrent. C’est un ratio.",
     "sources": [
       {
-        "documentId": "m2",
-        "page": 34,
-        "excerpt": "• La part de marché relative se calcule en volume ou en valeur :\n• La part de marché (PDM) relative indique la position concurrentielle sur un marché puisqu’elle\nmesure la distance entre une marque et le leader\n• Ainsi, une entreprise possédant une PDM relative de 1,1 domine certes le marché mais son\nchallenger vend presque autant\n• La part de marché absolus est un % tandis que la part de marché relative est un ratio\n2- Le marché",
-        "highlight": "relative"
+        "documentId": "mf",
+        "page": 2,
+        "excerpt": "Part de marché relative = PDM de l'entreprise ÷ PDM du 1er concurrent. Elle indique la position\nconcurrentielle : elle mesure la distance entre une marque et le leader. Une PDM relative supérieure\nà 1 (ex. 1,1) signifie que l'entreprise domine le marché.\n•\nTaux de pénétration = marché réel rapporté au marché potentiel (nombre d'abonnements ÷\npopulation totale de référence). Un taux bas signifie un potentiel de croissance élevé pour toutes\nles entreprises du marché. Exemple : mobiles en France, de 40 % en juin 2000 à plus de 91 % en 2009.\nExercice Duplay (CA en M€)\nProduit\nCA Duplay\nCA principal concurrent\nCA du secteur\nPDM absolue\nPDM relative\nSaxophone\n7,5\n2,5\n30,5\n24,6 %\n3\nTrompette\n1,5\n3\n6\n25 %\n0,50\nCor de chasse\n1\n4\n11\n9,09 %\n0,25\nAccordéon\n1\n3\n13,5\n7,41 %\n0,33\nHarmonica\n3\n1,5\n8,5\n35,29 %\n2\nSynthétiseur\n1\n4\n13\n7,69 %\n0,25",
+        "highlight": "Part de marché relative"
       }
     ]
   },
@@ -692,10 +364,10 @@
     "answer": "Supérieure à 1 : l’entreprise dépasse son principal concurrent. Égale à 1 : elles réalisent les mêmes ventes. Inférieure à 1 : l’entreprise est derrière.",
     "sources": [
       {
-        "documentId": "m2",
-        "page": 34,
-        "excerpt": "• Ainsi, une entreprise possédant une PDM relative de 1,1 domine certes le marché mais son\nchallenger vend presque autant\n• La part de marché absolus est un % tandis que la part de marché relative est un ratio\n2- Le marché\n2-3) Les différentes mesures du marché\nPart de marché de l’entreprise= \n𝒑𝒂𝒓𝒕 𝒅𝒆 𝒎𝒂𝒓𝒄𝒉é 𝒂𝒃𝒔𝒐𝒍𝒖𝒆 𝒅𝒆 𝒍ᇲ𝒆𝒏𝒕𝒓𝒆𝒑𝒓𝒊𝒔𝒆 (𝒆𝒏 %)\n𝒑𝒂𝒓𝒕 𝒅𝒆 𝒎𝒂𝒓𝒄𝒉é 𝒂𝒃𝒔𝒐𝒍𝒖𝒆 𝒅𝒖 𝟏𝒆𝒓 𝒄𝒐𝒏𝒄𝒖𝒓𝒓𝒆𝒏𝒕 𝒅𝒆 𝒍ᇲ𝒆𝒏𝒕𝒓𝒆𝒑𝒓𝒊𝒔𝒆",
-        "highlight": "1,1"
+        "documentId": "mf",
+        "page": 2,
+        "excerpt": "Part de marché relative = PDM de l'entreprise ÷ PDM du 1er concurrent. Elle indique la position\nconcurrentielle : elle mesure la distance entre une marque et le leader. Une PDM relative supérieure\nà 1 (ex. 1,1) signifie que l'entreprise domine le marché.\n•\nTaux de pénétration = marché réel rapporté au marché potentiel (nombre d'abonnements ÷\npopulation totale de référence). Un taux bas signifie un potentiel de croissance élevé pour toutes\nles entreprises du marché. Exemple : mobiles en France, de 40 % en juin 2000 à plus de 91 % en 2009.\nExercice Duplay (CA en M€)\nProduit\nCA Duplay\nCA principal concurrent\nCA du secteur\nPDM absolue\nPDM relative\nSaxophone\n7,5\n2,5\n30,5\n24,6 %\n3\nTrompette\n1,5\n3\n6\n25 %\n0,50\nCor de chasse\n1\n4\n11\n9,09 %\n0,25\nAccordéon\n1\n3\n13,5\n7,41 %\n0,33\nHarmonica\n3\n1,5\n8,5\n35,29 %\n2\nSynthétiseur\n1\n4\n13\n7,69 %\n0,25",
+        "highlight": "Part de marché relative"
       }
     ]
   },
@@ -706,10 +378,10 @@
     "answer": "Taux de pénétration (%) = marché réel / marché potentiel × 100.",
     "sources": [
       {
-        "documentId": "m2",
-        "page": 34,
-        "excerpt": "Le taux de pénétration est le marché réel rapporté au marché potentiel. Un taux de\npénétration bas signifie qu’il existe un potentiel de croissance élevé pour toutes les\nentreprises présentes sur le marché\nExemple : le marché du mobile\n•\nLe taux de pénétration des mobiles en France est passé de 40% en juin 2000 à plus de 91%\nen 2009. Le taux de pénétration est le rapport entre le nombre d’abonnements (58,9",
-        "highlight": "pénétration"
+        "documentId": "mf",
+        "page": 2,
+        "excerpt": "Taux de pénétration = marché réel rapporté au marché potentiel (nombre d'abonnements ÷\npopulation totale de référence). Un taux bas signifie un potentiel de croissance élevé pour toutes\nles entreprises du marché. Exemple : mobiles en France, de 40 % en juin 2000 à plus de 91 % en 2009.\nExercice Duplay (CA en M€)\nProduit\nCA Duplay\nCA principal concurrent\nCA du secteur\nPDM absolue\nPDM relative\nSaxophone\n7,5\n2,5\n30,5\n24,6 %\n3\nTrompette\n1,5\n3\n6\n25 %\n0,50\nCor de chasse\n1\n4\n11\n9,09 %\n0,25\nAccordéon\n1\n3\n13,5\n7,41 %\n0,33\nHarmonica\n3\n1,5\n8,5\n35,29 %\n2\nSynthétiseur\n1\n4\n13\n7,69 %\n0,25\nConclusion : Duplay est leader (PDM relative supérieure à 1) sur le saxophone et l'harmonica.\n2. Le cycle de vie\n•\nLes marchés évoluent en 4 phases : naissance, croissance, maturité, déclin.\n•",
+        "highlight": "Taux de pénétration"
       }
     ]
   },
@@ -720,10 +392,10 @@
     "answer": "Naissance, croissance, maturité et déclin.",
     "sources": [
       {
-        "documentId": "m2",
-        "page": 36,
-        "excerpt": "• Les marchés évoluent selon un cycle composé de 4 phases : naissance, croissance, maturité et déclin\n2- Le marché\n2-4) La notion de cycle de vie\nhttps://debitoor.fr/termes-comptables/cycle-de-vie-d-un-produit\nLes phases du cycle de vie d’un marché ne doivent pas être confondues avec celles du produit.\nUn marché peut avoir atteint sa phase de maturité (le marché de l’automobile par exemple) alors",
-        "highlight": "naissance"
+        "documentId": "mf",
+        "page": 2,
+        "excerpt": "2. Le cycle de vie\n•\nLes marchés évoluent en 4 phases : naissance, croissance, maturité, déclin.\n•\nLes phases du cycle de vie d'un marché ne doivent pas être confondues avec celles du produit. Ex. :\nle marché de l'automobile peut être mature alors que le véhicule électrique est en phase de\ncroissance.\n3. L'environnement interne de l'organisation\nAnalyse interne : diagnostic systématique des caractéristiques propres à l'organisation (ressources,\nfonctionnement, compétences, politique marketing).\nObjectifs : évaluer les atouts · détecter les limites ou dysfonctionnements qui freinent la performance ·\npréparer la matrice SWOT.\nChaîne de valeur (Porter) : identifie les activités clés qui créent de la valeur et analyse les coûts ; elle\npeut servir de base à l'analyse interne.\n3.1 Les ressources internes (ce que l'organisation peut mobiliser)",
+        "highlight": "2. Le cycle de vie"
       }
     ]
   },
@@ -734,10 +406,10 @@
     "answer": "C’est l’analyse des ressources, compétences, fonctionnement et politique marketing de l’organisation pour identifier ses forces et ses faiblesses.",
     "sources": [
       {
-        "documentId": "m2",
-        "page": 37,
-        "excerpt": "L’analyse interne\nL’analyse interne vise à créer un diagnostic interne d’une organisation analyse\nsystématique\ndes\ncaractéristiques\npropres\nà\nl’organisation\n(ressources,\nfonctionnement, compétences, politique marketing, …)\nObjectifs\n• Evaluer les atouts de l’organisation\n• Détecter les limites ou les dysfonctionnement pouvant freiner la performance\n• Préparer la matrice SWOT\n3- L’environnement interne à l’organisation",
-        "highlight": "interne"
+        "documentId": "mf",
+        "page": 2,
+        "excerpt": "Analyse interne : diagnostic systématique des caractéristiques propres à l'organisation (ressources,\nfonctionnement, compétences, politique marketing).\nObjectifs : évaluer les atouts · détecter les limites ou dysfonctionnements qui freinent la performance ·\npréparer la matrice SWOT.\nChaîne de valeur (Porter) : identifie les activités clés qui créent de la valeur et analyse les coûts ; elle\npeut servir de base à l'analyse interne.\n3.1 Les ressources internes (ce que l'organisation peut mobiliser)\nType\nExemples\nMatérielles et financières\nQualité, quantité et modernité des équipements, business model, capacité\nd'investissement\nImmatérielles\nSavoir-faire, brevets, innovations, certifications, engagements, réseau de",
+        "highlight": "Analyse interne :"
       }
     ]
   },
@@ -748,10 +420,10 @@
     "answer": "Elle identifie les activités qui créent de la valeur et permet d’en analyser les coûts.",
     "sources": [
       {
-        "documentId": "m2",
-        "page": 37,
-        "excerpt": "Le modèle de la chaîne de valeur (Porter)\n3- L’environnement interne à l’organisation\nSource : https://www.e-marketing.fr/Thematique/academie-1078/fiche-\noutils-10154/chaine-valeur-306758.htm \nPermet\nd’identifier\nles\nactivités clés susceptibles\nde créer de la valeur et\nd’analyser les coûts\nLe modèle peut servir de",
-        "highlight": "valeur"
+        "documentId": "mf",
+        "page": 2,
+        "excerpt": "Chaîne de valeur (Porter) : identifie les activités clés qui créent de la valeur et analyse les coûts ; elle\npeut servir de base à l'analyse interne.\n3.1 Les ressources internes (ce que l'organisation peut mobiliser)\nType\nExemples\nMatérielles et financières\nQualité, quantité et modernité des équipements, business model, capacité\nd'investissement\nImmatérielles\nSavoir-faire, brevets, innovations, certifications, engagements, réseau de",
+        "highlight": "Chaîne de valeur (Porter)"
       }
     ]
   },
@@ -762,10 +434,10 @@
     "answer": "C’est le degré de connaissance d’une marque et de sa catégorie de produits par le public.",
     "sources": [
       {
-        "documentId": "m2",
-        "page": 41,
-        "excerpt": "La notoriété\nCapacité d’une organisation/marque à être connue\n% d’individus qui connaissent la marque et la catégorie de produits à laquelle \nelle appartient\n3- L’environnement interne à l’organisation\n3-2) La notoriété et l’image de l’organisation\nNotoriété spontanée\nNotoriété top of mind\nNotoriété assistée\n% d’individus qui citent spontanément \nla marque en question (sans aide)\n% d’individus qui citent spontanément \nla marque en 1ère réponse",
-        "highlight": "notoriété"
+        "documentId": "mf",
+        "page": 3,
+        "excerpt": "3.2 Notoriété et image\nElles influencent les clients actuels et les prospects (satisfaction, fidélisation) ; d'autres acteurs peuvent\naussi les influencer.\nType de notoriété\nDéfinition\nSpontanée\n% d'individus qui citent la marque sans aide\nTop of mind\n% d'individus qui citent la marque en 1re réponse\nAssistée\n% d'individus qui reconnaissent la marque à partir d'une liste proposée\nVos notes ajoutent une mesure : % d'individus qui connaissent la marque et la catégorie de produits à\nlaquelle elle appartient.\n3.3 La politique marketing en place\nPolitique produit ou marque (cf. marketing-mix). Regarder les dimensions stratégiques (objectifs,\nsegmentation, ciblage, positionnement) et opérationnelles (marketing-mix : produit, prix, distribution,\ncommunication).\n3.4 L'avantage concurrentiel",
+        "highlight": "3.2 Notoriété et image"
       }
     ]
   },
@@ -776,10 +448,10 @@
     "answer": "Spontanée : la marque est citée sans aide. Top of mind : elle est citée en premier. Assistée : elle est reconnue à partir d’une liste.",
     "sources": [
       {
-        "documentId": "m2",
-        "page": 41,
-        "excerpt": "Notoriété spontanée\nNotoriété top of mind\nNotoriété assistée\n% d’individus qui citent spontanément \nla marque en question (sans aide)\n% d’individus qui citent spontanément \nla marque en 1ère réponse\n% d’individus qui reconnaissent une \nmarque à partir d’une liste proposée\nPolitique produit ou politique marque (cf Marketing-mix)\nNécessité de regarder les dimensions stratégiques (objectifs, segmentation,\nciblage\net\npositionnement)\net",
-        "highlight": "spontanée"
+        "documentId": "mf",
+        "page": 3,
+        "excerpt": "Spontanée\n% d'individus qui citent la marque sans aide\nTop of mind\n% d'individus qui citent la marque en 1re réponse\nAssistée\n% d'individus qui reconnaissent la marque à partir d'une liste proposée\nVos notes ajoutent une mesure : % d'individus qui connaissent la marque et la catégorie de produits à\nlaquelle elle appartient.\n3.3 La politique marketing en place\nPolitique produit ou marque (cf. marketing-mix). Regarder les dimensions stratégiques (objectifs,\nsegmentation, ciblage, positionnement) et opérationnelles (marketing-mix : produit, prix, distribution,\ncommunication).\n3.4 L'avantage concurrentiel\nLes stratégies génériques de Porter (détail non noté dans votre cours).\nRésultat : l'analyse de l'environnement interne identifie les forces et faiblesses.\n4. Conclusion : connaître, s'adapter, influencer\n•",
+        "highlight": "Spontanée"
       }
     ]
   },
@@ -787,29 +459,13 @@
     "id": "marketing-concept-057",
     "chapter": "Diagnostic et stratégie",
     "question": "Qu’est-ce que l’image de marque ?",
-    "answer": "C’est l’ensemble des représentations et associations que les consommateurs attachent à une marque.",
-    "sources": [
-      {
-        "documentId": "com",
-        "page": 13,
-        "excerpt": "Image de \nmarque\nCe que les consommateurs perçoivent \nréellement : la représentation mentale \nqu'ils s'en font\nTesla veut incarner l'innovation \ndurable, mais certains perçoivent une \nimage liée à Elon Musk\nRéputation\nL'image dans la durée, façonnée par \nl'expérience, le bouche-à-oreille, les \nmédias\nAmazon : image d'efficacité, mais \nréputation ternie par les critiques sur \nses conditions de travail",
-        "highlight": "Image de"
-      }
-    ]
+    "answer": "C’est l’ensemble des représentations et associations que les consommateurs attachent à une marque."
   },
   {
     "id": "marketing-concept-058",
     "chapter": "Diagnostic et stratégie",
     "question": "Quelles sont les stratégies génériques de Porter ?",
-    "answer": "La domination par les coûts, la différenciation et la concentration ou focalisation.",
-    "sources": [
-      {
-        "documentId": "m2",
-        "page": 42,
-        "excerpt": "Les stratégies génériques de Porter\n3- L’environnement interne à l’organisation\n3-4) L’avantage concurrentiel\nLa situation de l’organisation se caractérise par \ndes coûts faibles\nL’offre est perçue comme étant unique par \nles consommateurs\nAvantage stratégique\nLié au coût de l’offre\nLié à la différenciation de \nl’offre\nCible\nSecteur entier (cible \nlarge)\nDomination par les coûts\nDifférenciation\nSecteur particulier (cible \nrestreinte)",
-        "highlight": "Porter"
-      }
-    ]
+    "answer": "La domination par les coûts, la différenciation et la concentration ou focalisation."
   },
   {
     "id": "marketing-concept-059",
@@ -818,10 +474,10 @@
     "answer": "Strengths, Weaknesses, Opportunities, Threats : forces, faiblesses, opportunités et menaces.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 5,
-        "excerpt": "= diagnostic stratégique S.W.O.T. (Strengths, Weakness, Opportunities, Threats)\n•\nL’analyse SWOT pour évaluer les forces, les faiblesses, les opportunités et les \nmenaces de l’organisation en question\n•\nProvient de l’analyse de l’environnement (interne/externe) et du marché\n•\nPoint de vue interne à l’organisation \n1- Stratégie marketing : une démarche \nanalysée, planifiée, mise en œuvre et contrôlée",
-        "highlight": "S.W.O.T"
+        "documentId": "mf",
+        "page": 3,
+        "excerpt": "Étape 1 : analyse de la situation (diagnostic stratégique = SWOT)\nPositifs / favorables\nNégatifs / défavorables\nFacteurs\ninternes\nForces : capacités internes qui aident à\natteindre les objectifs (ex. notoriété, innovation)\nFaiblesses : limites internes qui empêchent\nd'atteindre les objectifs (ex. manque de\nreconnaissance de la marque)\nFacteurs\nexternes\nOpportunités : facteurs externes à exploiter\n(ex. émergence du numérique, nouvelles\nhabitudes)\nMenaces : facteurs externes qui nuisent à la\nperformance (ex. produit facile à copier)\nObjectifs de l'analyse : combler les faiblesses · développer les forces · identifier et anticiper les\nmenaces · faire correspondre forces et opportunités · éliminer ou surmonter les menaces.\nQuestions du diagnostic : les forces compensent-elles les faiblesses ? Permettent-elles d'envisager",
+        "highlight": "Étape 1 : analyse de la situation"
       }
     ]
   },
@@ -832,10 +488,10 @@
     "answer": "Les forces et faiblesses sont internes à l’organisation. Les opportunités et menaces viennent de l’environnement externe.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 6,
-        "excerpt": "Capacités internes pouvant aider \nl’organisation à atteindre ses objectifs\ne.g. notoriété, innovation, …\nFaiblesses (Weakness)\nLimites internes qui peuvent empêcher \nl’organisation d’atteindre ses objectifs\ne.g. manque de reconnaissance de la marque\nOpportunités (Opportunities)\nFacteurs externes que l’organisation peut \nexploiter à son avantage\ne.g. émergence du numérique, nouvelles habitudes\nMenaces (Threats)",
-        "highlight": "internes"
+        "documentId": "mf",
+        "page": 3,
+        "excerpt": "Étape 1 : analyse de la situation (diagnostic stratégique = SWOT)\nPositifs / favorables\nNégatifs / défavorables\nFacteurs\ninternes\nForces : capacités internes qui aident à\natteindre les objectifs (ex. notoriété, innovation)\nFaiblesses : limites internes qui empêchent\nd'atteindre les objectifs (ex. manque de\nreconnaissance de la marque)\nFacteurs\nexternes\nOpportunités : facteurs externes à exploiter\n(ex. émergence du numérique, nouvelles\nhabitudes)\nMenaces : facteurs externes qui nuisent à la\nperformance (ex. produit facile à copier)\nObjectifs de l'analyse : combler les faiblesses · développer les forces · identifier et anticiper les\nmenaces · faire correspondre forces et opportunités · éliminer ou surmonter les menaces.\nQuestions du diagnostic : les forces compensent-elles les faiblesses ? Permettent-elles d'envisager",
+        "highlight": "Étape 1 : analyse de la situation"
       }
     ]
   },
@@ -846,10 +502,10 @@
     "answer": "Analyse, planification, implémentation et contrôle. La démarche est itérative.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 4,
-        "excerpt": "contrôle et analyse…)\n1- Stratégie marketing : une démarche \nanalysée, planifiée, mise en œuvre et contrôlée\n1-1) La démarche globale\nAnalyse\nPlanification\nDéveloppement de plans \nstratégiques\nDéveloppement de plans \nmarketing \nImplémentation\nMis en œuvre des plans\nContrôle\nMesure des résultats\nEvaluation des résultats\nAction corrective\n4 fonctions pour une démarche itérative",
-        "highlight": "analyse"
+        "documentId": "mf",
+        "page": 3,
+        "excerpt": "1. La stratégie marketing\nDémarche planifiée, mise en œuvre, contrôlée et analysée. Démarche globale itérative, en 4\nfonctions : analyse → planification → implémentation → contrôle.\nÉtape 1 : analyse de la situation (diagnostic stratégique = SWOT)\nPositifs / favorables\nNégatifs / défavorables\nFacteurs\ninternes\nForces : capacités internes qui aident à\natteindre les objectifs (ex. notoriété, innovation)\nFaiblesses : limites internes qui empêchent\nd'atteindre les objectifs (ex. manque de\nreconnaissance de la marque)\nFacteurs\nexternes\nOpportunités : facteurs externes à exploiter\n(ex. émergence du numérique, nouvelles\nhabitudes)\nMenaces : facteurs externes qui nuisent à la\nperformance (ex. produit facile à copier)\nObjectifs de l'analyse : combler les faiblesses · développer les forces · identifier et anticiper les",
+        "highlight": "1. La stratégie marketing"
       }
     ]
   },
@@ -860,10 +516,10 @@
     "answer": "C’est la mise en œuvre concrète de la stratégie prévue dans le plan marketing : qui agit, où, quand et comment.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 9,
-        "excerpt": "Etape 3 : L’implémentation marketing\n= Mettre en œuvre la stratégie marketing décrite dans la planification\n• Se situe ici dans le marketing opérationnel (cf séquence 1)\nS’intéresse au qui, au où, au quand et au comment des activités marketing\n1- Stratégie marketing : une démarche \nanalysée, planifiée, mise en œuvre et contrôlée\n1-4) L’implémentation marketing\nPour fonctionner, l’implémentation de la stratégie doit être en",
-        "highlight": "implémentation"
+        "documentId": "mf",
+        "page": 4,
+        "excerpt": "Étape 3 : l'implémentation\nMettre en œuvre la stratégie décrite, par des actions concrètes.\nÉtape 4 : le contrôle marketing\nContrôle constant des actions, en 3 temps : mesurer les performances · évaluer l'écart entre\nperformances réalisées et attendues · mettre en place des actions correctrices pour réduire cet\nécart.\n2. Le marketing-mix\nDéfinition : ensemble des outils à la disposition de l'entreprise pour atteindre ses objectifs auprès du\nmarché visé.\nLe produit\n•\nTout ce qui peut être acquis sur un marché pour satisfaire un besoin (création de valeur) : bien\n(tangible) ou service (intangible), fruit de l'effort de l'entreprise en réponse aux besoins détectés.\n•\n3 dimensions : caractéristiques techniques, commerciales, psychologiques. Les consommateurs\ny sont plus ou moins sensibles ; l'entreprise doit réfléchir aux trois niveaux.\n•",
+        "highlight": "Étape 3 : l'implémentation"
       }
     ]
   },
@@ -874,10 +530,10 @@
     "answer": "Mesurer les performances, comparer les résultats aux objectifs, puis mettre en place des actions correctrices.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 10,
-        "excerpt": "Etape 4 : Contrôle marketing\nNécessité d’effectuer un contrôle constant des actions mises en place\n3 étapes :\n1. Mesurer les performances des actions marketing\n2. Evaluer l’écart entre les performances réalisées et les performances espérées en objectifs\n3. Mettre en place des actions correctrices pour réduire cet écart\n1- Stratégie marketing : une démarche \nanalysée, planifiée, mise en œuvre et contrôlée\n1-5) Le contrôle marketing",
-        "highlight": "Contrôle"
+        "documentId": "mf",
+        "page": 4,
+        "excerpt": "Étape 4 : le contrôle marketing\nContrôle constant des actions, en 3 temps : mesurer les performances · évaluer l'écart entre\nperformances réalisées et attendues · mettre en place des actions correctrices pour réduire cet\nécart.\n2. Le marketing-mix\nDéfinition : ensemble des outils à la disposition de l'entreprise pour atteindre ses objectifs auprès du\nmarché visé.\nLe produit\n•\nTout ce qui peut être acquis sur un marché pour satisfaire un besoin (création de valeur) : bien\n(tangible) ou service (intangible), fruit de l'effort de l'entreprise en réponse aux besoins détectés.\n•\n3 dimensions : caractéristiques techniques, commerciales, psychologiques. Les consommateurs\ny sont plus ou moins sensibles ; l'entreprise doit réfléchir aux trois niveaux.\n•\nRôle de la marque : un bon produit sans marque forte n'est rien, et une marque forte sans bon",
+        "highlight": "Étape 4 : le contrôle marketing"
       }
     ]
   },
@@ -888,10 +544,10 @@
     "answer": "Pénétration de marché : produits et marchés existants. Développement de marché : produits existants et nouveaux marchés. Développement de produits : nouveaux produits et marchés existants. Diversification : nouveaux produits et nouveaux marchés.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 8,
-        "excerpt": "Pénétration de marché développer les ventes \ndes produits existants auprès des marchés actuels \n(attirer, convaincre, accroître)\n•\nDéveloppement/extension de marché \nintroduire des produits actuels sur de nouveaux \nmarchés (e.g. sur un plan géographique)\n•\nDéveloppement de produits accroître les \nventes avec de nouveaux produits pour les cibles \nactuelles\n•\nDiversification développer des nouveaux \nproduits pour de nouveaux marchés\n1\n2\n3",
-        "highlight": "Pénétration"
+        "documentId": "mf",
+        "page": 4,
+        "excerpt": "Matrice d'Ansoff :\nProduits actuels\nProduits nouveaux\nMarchés\nactuels\n1. Pénétration du marché : développer les\nventes des produits existants sur les marchés\nactuels (attirer, convaincre, accroître)\n3. Développement de produits\nMarchés\nnouveaux\n2. Développement / extension de marché :\nproduits actuels sur de nouveaux marchés\n4. Diversification : nouveaux produits pour de\nnouveaux marchés\nÉtape 3 : l'implémentation\nMettre en œuvre la stratégie décrite, par des actions concrètes.\nÉtape 4 : le contrôle marketing\nContrôle constant des actions, en 3 temps : mesurer les performances · évaluer l'écart entre\nperformances réalisées et attendues · mettre en place des actions correctrices pour réduire cet\nécart.\n2. Le marketing-mix\nDéfinition : ensemble des outils à la disposition de l'entreprise pour atteindre ses objectifs auprès du\nmarché visé.",
+        "highlight": "Matrice d'Ansoff"
       }
     ]
   },
@@ -902,10 +558,10 @@
     "answer": "C’est l’ensemble cohérent des outils dont dispose l’entreprise pour atteindre ses objectifs sur le marché visé.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 11,
-        "excerpt": "Le marketing mix = « ensemble des outils à la disposition de l’entreprise pour\natteindre ses objectifs auprès du marché visé » (Kotler et al., 2019)\n4 outils : les « 4P » de McCarthy\nIl s’agit ici, d’analyser, d’organiser et de contrôler pour positionner une offre de bien et/ou de service\n2- Le marketing mix\n2-1) Présentation\nProduit\nPromotion\n(communication)\nPrix\nPlace\n(distribution)\nCible marketing\nPublicité, promotion des ventes,",
-        "highlight": "mix"
+        "documentId": "mf",
+        "page": 4,
+        "excerpt": "2. Le marketing-mix\nDéfinition : ensemble des outils à la disposition de l'entreprise pour atteindre ses objectifs auprès du\nmarché visé.\nLe produit\n•\nTout ce qui peut être acquis sur un marché pour satisfaire un besoin (création de valeur) : bien\n(tangible) ou service (intangible), fruit de l'effort de l'entreprise en réponse aux besoins détectés.\n•\n3 dimensions : caractéristiques techniques, commerciales, psychologiques. Les consommateurs\ny sont plus ou moins sensibles ; l'entreprise doit réfléchir aux trois niveaux.\n•\nRôle de la marque : un bon produit sans marque forte n'est rien, et une marque forte sans bon\nproduit non plus. Le brand manager met en avant l'identité de la marque, ne cède pas aux actions de\ncourt terme et assure la cohérence de l'identité.\n•\nPackaging :\nFonctions techniques\nFonctions marketing",
+        "highlight": "2. Le marketing-mix"
       }
     ]
   },
@@ -916,10 +572,10 @@
     "answer": "Product : produit. Price : prix. Place : distribution. Promotion : communication.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 11,
-        "excerpt": "4 outils : les « 4P » de McCarthy\nIl s’agit ici, d’analyser, d’organiser et de contrôler pour positionner une offre de bien et/ou de service\n2- Le marketing mix\n2-1) Présentation\nProduit\nPromotion\n(communication)\nPrix\nPlace\n(distribution)\nCible marketing\nPublicité, promotion des ventes, \nparrainage, relations publiques, \nmédias sociaux, …\nCanaux de distribution, zone de \nchalandise, stocks/entrepôts, \nmoyens de transport, …",
-        "highlight": "4P"
+        "documentId": "mf",
+        "page": 3,
+        "excerpt": "segmentation, ciblage, positionnement) et opérationnelles (marketing-mix : produit, prix, distribution,\ncommunication).\n3.4 L'avantage concurrentiel\nLes stratégies génériques de Porter (détail non noté dans votre cours).\nRésultat : l'analyse de l'environnement interne identifie les forces et faiblesses.\n4. Conclusion : connaître, s'adapter, influencer\n•\nUne organisation doit chercher à s'adapter et à modifier l'environnement dans lequel elle évolue,\ndonc d'abord bien le connaître. Cette triple nécessité (connaître, s'adapter, influencer) fonde\nle marketing.\n•\nAnalyse interne = forces / faiblesses. Analyse externe = menaces / opportunités (c'est aussi un\nétat d'esprit : une menace peut être une opportunité pour une organisation avisée).\n•\nAnalyse interne + analyse externe = diagnostic stratégique (SWOT).\nStratégie marketing et marketing-mix\n1. La stratégie marketing",
+        "highlight": "marketing-mix : produit, prix, distribution"
       }
     ]
   },
@@ -930,10 +586,10 @@
     "answer": "Les caractéristiques techniques, commerciales et psychologiques.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 11,
-        "excerpt": "3 grandes dimensions : \n•\ncaractéristiques techniques (ce qu’il est)\n•\ncaractéristiques commerciales (ce qui permet de le vendre)\n•\nmarque, nom, slogan, design, couleurs, emballages, …\n•\ncaractéristiques psychologiques (ce que le consommateur achète au global, image du produit)\n2- Le marketing mix",
-        "highlight": "dimensions"
+        "documentId": "mf",
+        "page": 4,
+        "excerpt": "3 dimensions : caractéristiques techniques, commerciales, psychologiques. Les consommateurs\ny sont plus ou moins sensibles ; l'entreprise doit réfléchir aux trois niveaux.\n•\nRôle de la marque : un bon produit sans marque forte n'est rien, et une marque forte sans bon\nproduit non plus. Le brand manager met en avant l'identité de la marque, ne cède pas aux actions de\ncourt terme et assure la cohérence de l'identité.\n•\nPackaging :\nFonctions techniques\nFonctions marketing\nProtection et conservation · facilité d'utilisation ·\ncommodité de transport et de stockage\nSource d'informations pratiques (origine, composition, date\nlimite…) · reconnaissance et identification · expression du\npositionnement · impulsion d'achat\nLe prix\n•\nFixé par l'entreprise, il se situe entre le coût de production et la valeur du produit aux yeux du\nclient.\n•",
+        "highlight": "3 dimensions :"
       }
     ]
   },
@@ -941,29 +597,13 @@
     "id": "marketing-concept-068",
     "chapter": "Marketing mix",
     "question": "Quelle différence y a-t-il entre produit intrinsèque, standard et global ?",
-    "answer": "Le produit intrinsèque réunit les caractéristiques fondamentales. Le produit standard comprend sa présentation commerciale et sa marque. Le produit global ajoute les services associés, comme la garantie et le SAV.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 13,
-        "excerpt": "Produit global\nNouveau bénéfice client en 2013 (cœur liquide) : changement de \npackaging pour communiquer sur le positionnement « santé » et \nles bénéfices de ce nouveau produit\n2- Le marketing mix\n2-2) Le produit\n•\nLes consommateurs sont (plus ou moins) sensibles à tous ces niveaux\n•\nPour les entreprises : réfléchir aux trois niveaux les uns après les autres pour offrir",
-        "highlight": "global"
-      }
-    ]
+    "answer": "Le produit intrinsèque réunit les caractéristiques fondamentales. Le produit standard comprend sa présentation commerciale et sa marque. Le produit global ajoute les services associés, comme la garantie et le SAV."
   },
   {
     "id": "marketing-concept-069",
     "chapter": "Marketing mix",
     "question": "Qu’est-ce que le capital marque ?",
-    "answer": "C’est l’effet de la connaissance de la marque sur la manière dont les consommateurs réagissent à son marketing.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 15,
-        "excerpt": "Capital marque\n«Différence provoquée par la \nconnaissance de la marque dans la \nmanière dont les consommateurs \nréagissent à son marketing »\nQuel point commun",
-        "highlight": "Capital"
-      }
-    ]
+    "answer": "C’est l’effet de la connaissance de la marque sur la manière dont les consommateurs réagissent à son marketing."
   },
   {
     "id": "marketing-concept-070",
@@ -972,10 +612,10 @@
     "answer": "Fonctions techniques : protéger, conserver et faciliter l’utilisation, le transport et le stockage. Fonctions marketing : informer, identifier le produit, exprimer le positionnement et favoriser l’achat.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 16,
-        "excerpt": "Le rôle du packaging\nDes fonctions techniques\n•\nProtection et conservation du produit\n•\nFacilité d’utilisation du produit\n•\nCommodité de transport, de stockage, de rangement et d’élimination du produit\n•\nProtection de l’environnement\n2- Le marketing mix\n2-2) Le produit\nLe rôle du packaging\nDes fonctions marketing\n•\nSource d’informations pratiques (origine, composition, date limite d’utilisation, etc.)\n•",
-        "highlight": "packaging"
+        "documentId": "mf",
+        "page": 4,
+        "excerpt": "Packaging :\nFonctions techniques\nFonctions marketing\nProtection et conservation · facilité d'utilisation ·\ncommodité de transport et de stockage\nSource d'informations pratiques (origine, composition, date\nlimite…) · reconnaissance et identification · expression du\npositionnement · impulsion d'achat\nLe prix\n•\nFixé par l'entreprise, il se situe entre le coût de production et la valeur du produit aux yeux du\nclient.\n•\nLes stratégies de tarification d'un nouveau produit varient selon les phases du cycle de vie. Au\nlancement, il existe 2 approches (non détaillées dans vos notes).\nSéquence 4 – Segmentation, ciblage et positionnement\nLes entreprises ne cherchent pas à satisfaire tous les clients d'un marché, car leurs désirs, ressources et\ncomportements diffèrent. Elles ciblent donc ceux qui s'intéressent le plus à leur proposition de valeur,",
+        "highlight": "Packaging :"
       }
     ]
   },
@@ -986,10 +626,10 @@
     "answer": "Les coûts, la demande et la valeur perçue, les prix des concurrents, les objectifs de l’organisation, les contraintes légales et les tests de prix.",
     "sources": [
       {
-        "documentId": "m3",
-        "page": 20,
-        "excerpt": "✔Les coûts doivent baisser à mesure que les ventes augmentent\n✔Tenir la concurrence à l’écart\nFacteurs influençant la fixation \ndes prix\n2- Le marketing mix\n2-3) Le prix\nFixer les \nprix\nLes coûts\nPrix des \nconcurrents\nDemande \nTests des prix\nContraintes \nlégales et \nréglementaires\nObjectifs de",
-        "highlight": "coûts"
+        "documentId": "mf",
+        "page": 4,
+        "excerpt": "Le prix\n•\nFixé par l'entreprise, il se situe entre le coût de production et la valeur du produit aux yeux du\nclient.\n•\nLes stratégies de tarification d'un nouveau produit varient selon les phases du cycle de vie. Au\nlancement, il existe 2 approches (non détaillées dans vos notes).\nSéquence 4 – Segmentation, ciblage et positionnement\nLes entreprises ne cherchent pas à satisfaire tous les clients d'un marché, car leurs désirs, ressources et\ncomportements diffèrent. Elles ciblent donc ceux qui s'intéressent le plus à leur proposition de valeur,",
+        "highlight": "Le prix"
       }
     ]
   },
@@ -997,127 +637,55 @@
     "id": "marketing-concept-072",
     "chapter": "Marketing mix",
     "question": "Qu’est-ce qu’une politique d’écrémage ?",
-    "answer": "C’est une politique de lancement à prix élevé, destinée aux consommateurs les plus intéressés et solvables.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 20,
-        "excerpt": "d’écrémage\nPolitique de\npénétration\n✔Assigner un prix initial élevé pour « écrémer » le marché\n✔S’adresse aux plus intéressés et les plus solvables\n✔Le positionnement doit être compatible avec un prix élevé\n✔S’assurer que les concurrents ne rentrent pas facilement sur le \nmarché en cassant les prix\n✔Assigner un prix bas pour pénétrer le marché rapidement\n✔Séduire un grand nombre de consommateurs et conquérir \nune grande part de marché",
-        "highlight": "écrémage"
-      }
-    ]
+    "answer": "C’est une politique de lancement à prix élevé, destinée aux consommateurs les plus intéressés et solvables."
   },
   {
     "id": "marketing-concept-073",
     "chapter": "Marketing mix",
     "question": "Qu’est-ce qu’une politique de pénétration tarifaire ?",
-    "answer": "C’est une politique de lancement à prix bas pour attirer rapidement de nombreux acheteurs et gagner une part de marché importante.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 20,
-        "excerpt": "pénétration\n✔Assigner un prix initial élevé pour « écrémer » le marché\n✔S’adresse aux plus intéressés et les plus solvables\n✔Le positionnement doit être compatible avec un prix élevé\n✔S’assurer que les concurrents ne rentrent pas facilement sur le \nmarché en cassant les prix\n✔Assigner un prix bas pour pénétrer le marché rapidement\n✔Séduire un grand nombre de consommateurs et conquérir \nune grande part de marché",
-        "highlight": "pénétration"
-      }
-    ]
+    "answer": "C’est une politique de lancement à prix bas pour attirer rapidement de nombreux acheteurs et gagner une part de marché importante."
   },
   {
     "id": "marketing-concept-074",
     "chapter": "Marketing mix",
     "question": "Qu’est-ce que la distribution ?",
-    "answer": "C’est l’ensemble des choix et actions qui rendent le produit ou service accessible au consommateur final.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 21,
-        "excerpt": "accessible aux consommateurs finaux en\nchoisissant les canaux par lesquels il sera\nvendu\n2- Le marketing mix\n2-4) La distribution\nLa distribution\n• Distribution ne veut pas systématiquement dire Grande Distribution,\nGMS, Hypermarché…\n• La distribution est une étape obligée dans une entreprise qui fait suite à\nla production\n2- Le marketing mix",
-        "highlight": "accessible"
-      }
-    ]
+    "answer": "C’est l’ensemble des choix et actions qui rendent le produit ou service accessible au consommateur final."
   },
   {
     "id": "marketing-concept-075",
     "chapter": "Marketing mix",
     "question": "Qu’est-ce qu’un circuit de distribution direct ?",
-    "answer": "C’est un circuit dans lequel le producteur vend directement au consommateur, sans intermédiaire.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 22,
-        "excerpt": "sans intermédiaire\nNe peut exister que si : producteur et\nconsommateur sont physiquement\nproches et que si producteur peut\nfaire la vente (ou déléguer à une\npoignée de distributeur proche)\n2- Le marketing mix\n2-4) La distribution\nLa distribution\nLorsque les producteurs sont « éloignés » des consommateurs :\n• Métiers différents, exigences différentes\n• Production et vente ne sont pas forcément compatibles d’un point de",
-        "highlight": "intermédiaire"
-      }
-    ]
+    "answer": "C’est un circuit dans lequel le producteur vend directement au consommateur, sans intermédiaire."
   },
   {
     "id": "marketing-concept-076",
     "chapter": "Marketing mix",
     "question": "Qu’est-ce que la distribution multicanale ?",
-    "answer": "C’est l’utilisation de plusieurs canaux de distribution pour rendre l’offre accessible aux clients.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 23,
-        "excerpt": "La distribution multicanale\n2- Le marketing mix\n2-4) La distribution\nles fonctions de la distribution\n2- Le marketing mix\n2-4) La distribution\nFonction transactionnelle \n+ \nFonction expérientielle\n1",
-        "highlight": "multicanale"
-      }
-    ]
+    "answer": "C’est l’utilisation de plusieurs canaux de distribution pour rendre l’offre accessible aux clients."
   },
   {
     "id": "marketing-concept-077",
     "chapter": "Marketing mix",
     "question": "Quelle différence y a-t-il entre communication interne et externe ?",
-    "answer": "La communication interne s’adresse aux membres de l’organisation. La communication externe s’adresse aux publics extérieurs, notamment aux clients et prospects.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 27,
-        "excerpt": "Communication interne\n•\nActions\nde\nl’organisation\nau\nsein\nde\nl’organisation\n•\nPublic visé : membres de l’organisation (ex:\nsalariés)\n•\nObjectif\n:\nmobiliser\nles\nmembres\nde\nl’organisation, les informer, développer le\nsentiment d’appartenance\n•\nExemples\n:\njournal\ninterne,\nintranet,\nnewsletter, compte-rendu de réunion, …\n2- Le marketing mix\n2-5) La communication\nCommunication\nCommunication interne\nCommunication externe\n•\nActions\nde\nl’organisation\nau",
-        "highlight": "interne"
-      }
-    ]
+    "answer": "La communication interne s’adresse aux membres de l’organisation. La communication externe s’adresse aux publics extérieurs, notamment aux clients et prospects."
   },
   {
     "id": "marketing-concept-078",
     "chapter": "Marketing mix",
     "question": "Quels sont les trois objectifs de communication ?",
-    "answer": "Cognitif : faire connaître. Affectif : faire aimer. Conatif : faire agir.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 28,
-        "excerpt": "Objectif cognitif\n2- Le marketing mix\n2-5) La communication\nFaire connaître\nFaire aimer\nFaire agir\nObjectif conatif\nObjectif affectif",
-        "highlight": "cognitif"
-      }
-    ]
+    "answer": "Cognitif : faire connaître. Affectif : faire aimer. Conatif : faire agir."
   },
   {
     "id": "marketing-concept-079",
     "chapter": "Marketing mix",
     "question": "Que signifie le modèle POEM ?",
-    "answer": "Paid : médias payants. Owned : supports maîtrisés par la marque. Earned : visibilité obtenue auprès de tiers.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 29,
-        "excerpt": "le modèle POEM\nAttention à l’opportunisme … !\n•\nCertaines\nentreprises\nsont\nclairement\npositionnées\ncomme\n« éthiques » dans leurs missions (Nature & Découvertes, The Body\nShop, Biocoop, Patagonia, Alter Eco…)\n(attention aux déconvenues)\n•\nTandis\nque\nd’autres\nfont\nsurtout\npreuve\nd’opportunisme\n(greenwashing)\n•\nOn observe en tous cas une multiplication des codes d’éthique à\nl’échelle des secteurs ou des entreprises.\n242\n2- Le marketing mix",
-        "highlight": "POEM"
-      }
-    ]
+    "answer": "Paid : médias payants. Owned : supports maîtrisés par la marque. Earned : visibilité obtenue auprès de tiers."
   },
   {
     "id": "marketing-concept-080",
     "chapter": "Marketing mix",
     "question": "Qu’est-ce que le greenwashing ?",
-    "answer": "C’est l’utilisation trompeuse ou opportuniste d’arguments environnementaux pour donner une image plus responsable que les pratiques réelles.",
-    "sources": [
-      {
-        "documentId": "m3",
-        "page": 29,
-        "excerpt": "(greenwashing)\n•\nOn observe en tous cas une multiplication des codes d’éthique à\nl’échelle des secteurs ou des entreprises.\n242\n2- Le marketing mix",
-        "highlight": "greenwashing"
-      }
-    ]
+    "answer": "C’est l’utilisation trompeuse ou opportuniste d’arguments environnementaux pour donner une image plus responsable que les pratiques réelles."
   },
   {
     "id": "marketing-concept-081",
@@ -1126,10 +694,10 @@
     "answer": "La segmentation consiste à découper un marché en groupes de consommateurs qui partagent des besoins, caractéristiques ou comportements communs.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 6,
-        "excerpt": "2- Segmenter le marché\n2-1) Définition\nSegmenter = Découper le marché en groupes d’individus\npartageant des besoins, des caractéristiques ou des \ncomportements communs \nSur quels critères ??\n257\n2- Segmenter le marché\n2-1) Définition\nLes critères de segmentation\nLa segmentation géographique Où habite-t-il? Où achète-t-il?\nLa segmentation socio-démographique Qui est-il?\nLa segmentation psychographique Que pense-t-il?",
-        "highlight": "Segmenter"
+        "documentId": "mf",
+        "page": 5,
+        "excerpt": "Segmenter : découper le marché en groupes d'individus partageant des besoins, caractéristiques ou\ncomportements communs.\nCritère\nQuestion\nExemples\nGéographique\nOù habite-t-il ? Où achète-t-il ?\nPays, régions, villes ; habitat rural/urbain ; climat\nSocio-démographique\nQui est-il ?\nÂge, sexe, revenu, composition du foyer, CSP, niveau\nd'étude\nPsychographique\nQue pense-t-il ?\nStyle de vie, personnalité, valeurs, motivations\nAvantages recherchés\nPourquoi achète-t-il ?\nProduits pas chers, produits santé\nComportemental\nQue fait-il ?\nComportements réels et observables\nPhysique\nTaille, corpulence, couleur de cheveux ou de peau\nDétail des critères\n•\nGéographique : unités territoriales, type d'habitat, climat ; l'implantation se limite à un secteur.",
+        "highlight": "Segmenter :"
       }
     ]
   },
@@ -1140,10 +708,10 @@
     "answer": "Critères géographiques, sociodémographiques, psychographiques, avantages recherchés, comportements et caractéristiques physiques.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 7,
-        "excerpt": "Principaux critères de segmentation\nGéographiques\nSocioéconomiques/démogra\nphiques\nPsychographiques\nConsommation et \néquipement\nRelatifs aux produits\n•\nrégion\n•\ntaille de la \ncommune, \n•\ntype d’habitat\n•\nquartier\n•\nâge, \n•\nSituation familiale\n•\ngenre\n•\nrevenu\n•\ntaille et composition du \nfoyer\n•\nniveau d’études\n•\nCSP\n•\nAncrage culturelle (langue, \nreligion, …)\nPar avantages recherchés\n•\nRecherche de produit santé \n(eg bio)\n•\nProduits pas chers \n•",
-        "highlight": "critères"
+        "documentId": "mf",
+        "page": 5,
+        "excerpt": "Critère\nQuestion\nExemples\nGéographique\nOù habite-t-il ? Où achète-t-il ?\nPays, régions, villes ; habitat rural/urbain ; climat\nSocio-démographique\nQui est-il ?\nÂge, sexe, revenu, composition du foyer, CSP, niveau\nd'étude\nPsychographique\nQue pense-t-il ?\nStyle de vie, personnalité, valeurs, motivations\nAvantages recherchés\nPourquoi achète-t-il ?\nProduits pas chers, produits santé\nComportemental\nQue fait-il ?\nComportements réels et observables\nPhysique\nTaille, corpulence, couleur de cheveux ou de peau\nDétail des critères\n•\nGéographique : unités territoriales, type d'habitat, climat ; l'implantation se limite à un secteur.\nExemples : Sorel (chaussures de ski), Dasani (eau purifiée). Marketing localisé : adapte l'offre à une\nclientèle. Marketing personnalisé ou one to one : différencie partiellement l'offre (conditions",
+        "highlight": "Critère\nQuestion"
       }
     ]
   },
@@ -1154,10 +722,10 @@
     "answer": "Elle regroupe les consommateurs selon leur personnalité, leur style de vie, leurs valeurs et leurs motivations.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 11,
-        "excerpt": "2-4) La segmentation par critères psychographiques\nLes critères psychographiques\n=basés sur les caractéristiques psychologiques des consommateurs, se \nconcentrant sur les aspects intangibles \ne.g. \n•\nStyle de vie : activités, hobbies et opinions des individus tels que les sportifs, les \naventuriers, les écologistes, …\n•\nPersonnalité : progressiste, conservateur, ouvert d’esprit, humour, …\n•",
-        "highlight": "psychographiques"
+        "documentId": "mf",
+        "page": 5,
+        "excerpt": "Psychographique : caractéristiques psychologiques, aspects intangibles. Reconnaît la diversité des\nstyles de vie au-delà de l'âge ou du revenu ; caractéristiques générales et stables, mais plus\nsubjectives, plus difficiles à mesurer que les critères socio-démographiques.\n•\nAvantages recherchés : regrouper les consommateurs selon la similarité de leurs attentes et\npréférences vis-à-vis d'un produit. Bénéfices fonctionnels, économiques, émotionnels.\n•\nComportemental : basé sur les actes observables ; développé grâce au data mining (analyse de\nbases de données). Exemple : petits écoliers, 2 modes de consommation (à la maison, dans la cour de\nrécré).\n•\nChoix des critères : les responsables marketing utilisent rarement 1 ou 2 critères : segmentation\nmulticritères, qui donne des segments mieux définis et plus homogènes.\n2. Le ciblage",
+        "highlight": "Psychographique :"
       }
     ]
   },
@@ -1168,10 +736,10 @@
     "answer": "Elle regroupe les consommateurs à partir de comportements observables : fréquence, quantité, occasion ou mode de consommation.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 13,
-        "excerpt": "2-6) La segmentation par critères comportementaux\n•\nCritères\nbasés\nsur\nles\ncomportements\nréels,\nles\nconduites et les actes observables\n•\nDéveloppement\nde\nce\ntype\nde\nsegmentation\ngrâce\nau\ndéveloppement\ndu\ndata\nmining,\nanalyse des bases de données\n•\nLa quantité consommée\n•\nLa fréquence de consommation\n•\nLe rôle dans la situation d’achat\n•\nLa rentabilité des clients\n•\nLe mode de consommation : \nconsommation seul ou en groupe, à",
-        "highlight": "comportementaux"
+        "documentId": "mf",
+        "page": 5,
+        "excerpt": "Comportemental : basé sur les actes observables ; développé grâce au data mining (analyse de\nbases de données). Exemple : petits écoliers, 2 modes de consommation (à la maison, dans la cour de\nrécré).\n•\nChoix des critères : les responsables marketing utilisent rarement 1 ou 2 critères : segmentation\nmulticritères, qui donne des segments mieux définis et plus homogènes.\n2. Le ciblage\nCibler : évaluer les segments du marché et choisir ceux sur lesquels l'entreprise concentrera ses efforts.\n•\nIdéalement une offre = un acheteur, mais le ciblage individuel est souvent impraticable. Défi : trouver\nle bon équilibre entre marketing de masse et marketing one-to-one.\n•\nMarketing de masse (stratégie indifférenciée) : ignore les différences entre individus, une offre\nunique pour tout le marché ; très présent dans la grande distribution.\n•",
+        "highlight": "Comportemental :"
       }
     ]
   },
@@ -1182,10 +750,10 @@
     "answer": "Elle regroupe les consommateurs selon les bénéfices qu’ils attendent du produit.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 12,
-        "excerpt": "2-5) La segmentation par avantages recherchés\nConsiste à regrouper les consommateurs en fonction de la\nsimilarité\nde\nleurs\nattentes,\npréférences\npar\nrapport\naux",
-        "highlight": "avantages"
+        "documentId": "mf",
+        "page": 5,
+        "excerpt": "Avantages recherchés : regrouper les consommateurs selon la similarité de leurs attentes et\npréférences vis-à-vis d'un produit. Bénéfices fonctionnels, économiques, émotionnels.\n•\nComportemental : basé sur les actes observables ; développé grâce au data mining (analyse de\nbases de données). Exemple : petits écoliers, 2 modes de consommation (à la maison, dans la cour de\nrécré).\n•\nChoix des critères : les responsables marketing utilisent rarement 1 ou 2 critères : segmentation\nmulticritères, qui donne des segments mieux définis et plus homogènes.\n2. Le ciblage\nCibler : évaluer les segments du marché et choisir ceux sur lesquels l'entreprise concentrera ses efforts.\n•\nIdéalement une offre = un acheteur, mais le ciblage individuel est souvent impraticable. Défi : trouver\nle bon équilibre entre marketing de masse et marketing one-to-one.\n•",
+        "highlight": "Avantages recherchés :"
       }
     ]
   },
@@ -1196,10 +764,10 @@
     "answer": "Elle combine plusieurs critères pour former des segments plus précis et plus homogènes, mais généralement plus petits.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 15,
-        "excerpt": "segmentation multicritères\n• Segmentation « multicritères » permet\nde segmenter plus étroitement et avoir des\nsegments mieux définis\n+ on affine la segmentation , + on\ns’assure\nde\nl’homogénéité\ndes\nsegments\n+ on affine la segmentation, + on\nréduit la taille de chaque segment\n+ on affine la segmentation, + on se\nspécialise sur un segment\n+ on affine la segmentation,+ il sera\ndifficile d’accéder au segment\n2- Segmenter le marché",
-        "highlight": "multicritères"
+        "documentId": "mf",
+        "page": 5,
+        "excerpt": "Choix des critères : les responsables marketing utilisent rarement 1 ou 2 critères : segmentation\nmulticritères, qui donne des segments mieux définis et plus homogènes.\n2. Le ciblage\nCibler : évaluer les segments du marché et choisir ceux sur lesquels l'entreprise concentrera ses efforts.\n•\nIdéalement une offre = un acheteur, mais le ciblage individuel est souvent impraticable. Défi : trouver\nle bon équilibre entre marketing de masse et marketing one-to-one.\n•\nMarketing de masse (stratégie indifférenciée) : ignore les différences entre individus, une offre\nunique pour tout le marché ; très présent dans la grande distribution.\n•\nMarketing différencié (multi-segmenté) : plusieurs segments, avec une offre et un marketing-mix\nadaptés à chacun.\n•",
+        "highlight": "Choix des critères :"
       }
     ]
   },
@@ -1210,10 +778,10 @@
     "answer": "Il doit être substantiel, homogène, différenciable et accessible.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 33,
-        "excerpt": "Substantiel\nEn nombre \nd’individus pour \nespérer un chiffre \nd’affaires suffisant\nHomogène\nEn termes d’attentes, \nd’attitude, de \ncomportement / au \ntype de produit\nDifférenciable\nRéellement différent \ndes autres segments\nAccessible\nDoit pouvoir être ciblé \nde façon sélective par \nun mix marketing\nPour\nJustifier\nPermettre\nUne action marketing spécifique",
-        "highlight": "Substantiel"
+        "documentId": "mf",
+        "page": 7,
+        "excerpt": "1.5 Les conditions d'une bonne segmentation\nCondition\nSignification\nDifférenciables\nDistincts et exclusifs, réagissent différemment aux actions marketing\nMesurables\nOn peut quantifier le nombre d'individus et obtenir des données quantitatives et\nqualitatives\nAccessibles\nOn peut les toucher par des moyens spécifiques (point de vente, média)\nSubstantiels\nTaille suffisante pour des investissements rentables. Trop de petits segments =\nsur-segmentation ; seulement de très gros segments = sous-segmentation\nPertinents\nPossibilité d'élaborer des stratégies efficaces, l'entreprise doit avoir une stratégie\ngagnante pour le segment\nActualisables\nDonnées mises à jour, car une segmentation peut vieillir et devenir obsolète\n1.6 Les techniques de segmentation\nMéthode\nPrincipe\nPrécisions\nDescendante ou a\npriori",
+        "highlight": "1.5 Les conditions d'une bonne segmentation"
       }
     ]
   },
@@ -1226,8 +794,8 @@
       {
         "documentId": "mf",
         "page": 6,
-        "excerpt": "1.2 Segmentation de la demande et de l'offre\n•\nDemande : partitionner les consommateurs (B2C) ou les entreprises clientes (B2B) selon des critères\nqui forment des groupes homogènes (segments).\n•\nOffre : regrouper les produits et services selon leurs points communs. Idéalement, un segment de\nconsommateurs correspond à un segment de produits, mais ce n'est pas toujours le cas.\n•",
-        "highlight": "demande"
+        "excerpt": "1.2 Segmentation de la demande et de l'offre\n•\nDemande : partitionner les consommateurs (B2C) ou les entreprises clientes (B2B) selon des critères\nqui forment des groupes homogènes (segments).\n•\nOffre : regrouper les produits et services selon leurs points communs. Idéalement, un segment de\nconsommateurs correspond à un segment de produits, mais ce n'est pas toujours le cas.\n•\nLa segmentation consommateur guide la réflexion marketing ; la segmentation produit est\nun outil d'analyse.\n•\nLes entreprises utilisent plusieurs types de segmentation en même temps : il n'existe pas de\nsegmentation unique et pertinente.",
+        "highlight": "1.2 Segmentation de la demande et de l'offre"
       }
     ]
   },
@@ -1241,7 +809,7 @@
         "documentId": "mf",
         "page": 7,
         "excerpt": "Descendante ou a\npriori\nOn part de toute la population et on fait des\npartitions successives selon des critères\ndéfinis à l'avance (on peut réaliser un arbre\nde segmentation)\nPour un nombre restreint de critères, des\nmarchés mûrs et des problématiques",
-        "highlight": "Descendante"
+        "highlight": "Descendante ou a"
       }
     ]
   },
@@ -1254,8 +822,8 @@
       {
         "documentId": "mf",
         "page": 8,
-        "excerpt": "Ascendante ou\ntypologique\nOn cherche les ressemblances entre\nindividus pour les agréger ; très grand\nnombre de données, sans savoir à l'avance\nlesquelles serviront\nAnalyses factorielles (composantes principales,\ncorrespondances) et typologiques (nuées\ndynamiques, centres mobiles, classification\nhiérarchique). Traitement statistique :\nindividus semblables regroupés en types,\ntypes les plus éloignés possible. Limite :",
-        "highlight": "Ascendante"
+        "excerpt": "Ascendante ou\ntypologique\nOn cherche les ressemblances entre\nindividus pour les agréger ; très grand\nnombre de données, sans savoir à l'avance\nlesquelles serviront\nAnalyses factorielles (composantes principales,\ncorrespondances) et typologiques (nuées\ndynamiques, centres mobiles, classification\nhiérarchique). Traitement statistique :\nindividus semblables regroupés en types,\ntypes les plus éloignés possible. Limite :\nfrontières floues entre les types ; chaque type\nse décrit par son centre de gravité\n(moyenne des variables)\n2. Le ciblage\nLa segmentation forme des groupes aux attentes et comportements homogènes. Il faut ensuite analyser\npour choisir un ou plusieurs segments prioritaires. Le ciblage est une décision stratégique : elle\ndétermine d'autres choix stratégiques (positionnement) et opérationnels (marketing-mix).",
+        "highlight": "Ascendante ou"
       }
     ]
   },
@@ -1268,8 +836,8 @@
       {
         "documentId": "mf",
         "page": 7,
-        "excerpt": "1.4 Segmenter la demande en B2B\nMême logique que pour les particuliers, mais les décideurs sont rarement les destinataires et\nutilisateurs du produit acheté. Critères utiles :\n•\nSecteur d'activité : périmètre d'activité des entreprises acheteuses.\n•\nTaille de l'entreprise : impact sur le potentiel et le renouvellement des commandes (petits, moyens,\ngros clients).\n•\nPerformances économiques : distinguer entreprises saines et fragiles.\n•",
-        "highlight": "B2B"
+        "excerpt": "1.4 Segmenter la demande en B2B\nMême logique que pour les particuliers, mais les décideurs sont rarement les destinataires et\nutilisateurs du produit acheté. Critères utiles :\n•\nSecteur d'activité : périmètre d'activité des entreprises acheteuses.\n•\nTaille de l'entreprise : impact sur le potentiel et le renouvellement des commandes (petits, moyens,\ngros clients).\n•\nPerformances économiques : distinguer entreprises saines et fragiles.\n•\nLocalisation : délais de transport ; pour les services, rapidité d'intervention.\n•\nProcessus de décision : qui décide, décisions centralisées ou décentralisées, procédure simple ou\ncomplexe.\n•\nCritères de choix des fournisseurs : fonctionnels (configuration, qualité, délais) ou financiers\n(budget, optimisation des coûts).\n•\nNiveau de fidélité : clients fidélisés, perdus, nouveaux, prospects.",
+        "highlight": "1.4 Segmenter la demande en B2B"
       }
     ]
   },
@@ -1280,10 +848,10 @@
     "answer": "Le ciblage consiste à évaluer les segments puis à choisir celui ou ceux sur lesquels l’entreprise concentrera ses efforts.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 16,
-        "excerpt": "Cibler = évaluer les différents segments de ce \nmarché et à choisir ceux sur lesquels elle fera \nporter son effort\nQu’est-ce que le ciblage?\n278\nEvaluer les différents segments à partir de :\n• La taille, la croissance, le consentement à payer sur le segment, l’intensité concurrentielle\nou tout autre facteur lui conférant un intérêt\n• Les objectifs et les ressources/compétences propres de votre entreprise.",
-        "highlight": "Cibler"
+        "documentId": "mf",
+        "page": 5,
+        "excerpt": "Cibler : évaluer les segments du marché et choisir ceux sur lesquels l'entreprise concentrera ses efforts.\n•\nIdéalement une offre = un acheteur, mais le ciblage individuel est souvent impraticable. Défi : trouver\nle bon équilibre entre marketing de masse et marketing one-to-one.\n•\nMarketing de masse (stratégie indifférenciée) : ignore les différences entre individus, une offre\nunique pour tout le marché ; très présent dans la grande distribution.\n•\nMarketing différencié (multi-segmenté) : plusieurs segments, avec une offre et un marketing-mix\nadaptés à chacun.\n•\nFacteurs du choix : ressources de l'entreprise · potentiel de différenciation des produits · phase du\ncycle de vie du marché · hétérogénéité du marché · stratégies des concurrents.\n3. Le positionnement",
+        "highlight": "Cibler :"
       }
     ]
   },
@@ -1294,10 +862,10 @@
     "answer": "On évalue l’attractivité du segment et sa compatibilité avec les objectifs, ressources et compétences de l’entreprise.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 16,
-        "excerpt": "• Les objectifs et les ressources/compétences propres de votre entreprise.\nSélectionner les segments de marché visés\n• Marché/segment\ncible\n:\nEnsemble\nd’acheteurs\nayant\nen\ncommun\ncertaines\ncaractéristiques, ou partageant certains besoins auxquels l’entreprise se propose de\nrépondre.\n• La cible est plus ou moins large : du marketing indifférencié au marketing individualisé…\n3- Le ciblage\n3-1) Définition\n1",
-        "highlight": "ressources"
+        "documentId": "mf",
+        "page": 8,
+        "excerpt": "2.1 L'évaluation des segments\nAttractivité : taille (valeur et volume), dynamisme (croissance), intensité concurrentielle, accessibilité\n(obstacles à l'entrée), rentabilité, perspectives de développement. Il n'y a pas de seuil établi : un très\npetit segment peut être très rentable, un grand segment peut être difficile d'accès à cause de la\nconcurrence.\nAdéquation aux moyens de l'entreprise : moyens financiers (budget) · technologiques\n(savoir-faire) · humains et organisationnels (structure commerciale) · informationnels (informations\nnécessaires).\nAdéquation à la stratégie de l'entreprise : le ciblage doit être compatible avec la stratégie générale.\n•\nMission : donne les marchés, produits, zones géographiques et clientèle visée.\n•\nBusiness model : façon de créer de la valeur et de la répartir entre l'entreprise et ses clients (ex.",
+        "highlight": "2.1 L'évaluation des segments"
       }
     ]
   },
@@ -1308,10 +876,10 @@
     "answer": "Il consiste à proposer une offre commune à l’ensemble du marché, en privilégiant les besoins partagés.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 17,
-        "excerpt": "Le marketing de masse ou stratégie indifférenciée\nIgnorer les différences entre individus, s’intéresser\naux besoins communs et cibler l’ensemble du marché\navec une offre unique.\nTrès présent dans la grande distribution alimentaire\n3- Le ciblage\n3-2) Les stratégies de ciblages\non propose le ou les\nmêmes\nproduits\nà\nl'ensemble du marché,\nsans tenir compte des\néventuelles différences",
-        "highlight": "indifférenciée"
+        "documentId": "mf",
+        "page": 5,
+        "excerpt": "Marketing de masse (stratégie indifférenciée) : ignore les différences entre individus, une offre\nunique pour tout le marché ; très présent dans la grande distribution.\n•\nMarketing différencié (multi-segmenté) : plusieurs segments, avec une offre et un marketing-mix\nadaptés à chacun.\n•\nFacteurs du choix : ressources de l'entreprise · potentiel de différenciation des produits · phase du\ncycle de vie du marché · hétérogénéité du marché · stratégies des concurrents.\n3. Le positionnement\nDéfinition : conception d'un produit et de son image pour lui donner une place déterminée dans",
+        "highlight": "Marketing de masse"
       }
     ]
   },
@@ -1322,10 +890,10 @@
     "answer": "Il consiste à servir plusieurs segments avec une offre et un marketing mix adaptés à chacun.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 18,
-        "excerpt": "Le marketing différencié ou multisegmenté\n•\nCibler plusieurs segments avec une offre\nspécifique pour chacun\n•\nOn s'adresse à plusieurs segments du marché\navec des produits distincts (e.g. Kellogg’s,\nRenault, Unilever).\n•\nAdapter le marketing mix aux besoins de",
-        "highlight": "différencié"
+        "documentId": "mf",
+        "page": 5,
+        "excerpt": "Marketing différencié (multi-segmenté) : plusieurs segments, avec une offre et un marketing-mix\nadaptés à chacun.\n•\nFacteurs du choix : ressources de l'entreprise · potentiel de différenciation des produits · phase du\ncycle de vie du marché · hétérogénéité du marché · stratégies des concurrents.\n3. Le positionnement\nDéfinition : conception d'un produit et de son image pour lui donner une place déterminée dans",
+        "highlight": "Marketing différencié"
       }
     ]
   },
@@ -1336,10 +904,10 @@
     "answer": "Il consiste à concentrer les efforts sur un segment particulier. Une niche est un segment particulièrement étroit et spécifique.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 20,
-        "excerpt": "On parle de stratégie de niche quand le segment \nvisé est particulièrement étroit (mais toutefois \nrentable !) et que l'offre est de ce fait très spécifique. \nL'entreprise se spécialise sur un produit pour un \nsegment de marché donné.\nLa stratégie de concentration\nou de niche : on décide de mobiliser\nses efforts sur un segment particulier du\nmarché\n3- Le ciblage",
-        "highlight": "niche"
+        "documentId": "mf",
+        "page": 9,
+        "excerpt": "Concentré\nUn seul segment, offre et plan marketing\nadaptés à ce segment\nMicro-marketing ou\none-to-one\nIndividualiser et personnaliser l'offre,\nparfois jusqu'au sur-mesure\nProblème : la rentabilité\n3. Le positionnement\n3.1 Dimensions\n•\nLe positionnement décrit ce qu'est le produit, à quoi il sert et en quoi il se distingue. Il porte sur\ndes bénéfices fonctionnels, des caractéristiques physiques et des éléments symboliques. Un\npositionnement fort fait les grandes marques.\n•\nC'est le choix de traits saillants et distinctifs qui permettent de situer l'offre parmi les produits\ncomparables : une représentation simplifiée, réductrice, comparative et distinctive.\n•\nIl est la clé de voûte et le facteur de cohérence du marketing-mix.\n•\n4 grands thèmes : performances du produit · imaginaire de marque · publics cibles · mode\nd'utilisation.\n•",
+        "highlight": "Concentré"
       }
     ]
   },
@@ -1350,10 +918,10 @@
     "answer": "C’est l’adaptation de tout ou partie de l’offre à chaque individu. On l’appelle aussi marketing one to one.",
     "sources": [
       {
-        "documentId": "m4",
+        "documentId": "mf",
         "page": 9,
-        "excerpt": "le marketing personnalisé ou one to one : il consiste à\ndifférencier\npartiellement\nson\noffre\n(conditions\nd’achat,\ncommunication, produit ou service) pour chaque individu (ex. :\nhôtels\nCarlton,\nAmazon.com).\nCette\npersonnalisation\nou",
-        "highlight": "one to one"
+        "excerpt": "Micro-marketing ou\none-to-one\nIndividualiser et personnaliser l'offre,\nparfois jusqu'au sur-mesure\nProblème : la rentabilité\n3. Le positionnement\n3.1 Dimensions\n•\nLe positionnement décrit ce qu'est le produit, à quoi il sert et en quoi il se distingue. Il porte sur\ndes bénéfices fonctionnels, des caractéristiques physiques et des éléments symboliques. Un\npositionnement fort fait les grandes marques.\n•\nC'est le choix de traits saillants et distinctifs qui permettent de situer l'offre parmi les produits\ncomparables : une représentation simplifiée, réductrice, comparative et distinctive.\n•\nIl est la clé de voûte et le facteur de cohérence du marketing-mix.\n•\n4 grands thèmes : performances du produit · imaginaire de marque · publics cibles · mode\nd'utilisation.\n•\nQuel que soit l'axe, il répond à un avantage recherché, explicite ou implicite.",
+        "highlight": "Micro-marketing ou"
       }
     ]
   },
@@ -1361,15 +929,7 @@
     "id": "marketing-concept-098",
     "chapter": "Ciblage",
     "question": "Qu’est-ce qu’un persona ?",
-    "answer": "C’est un personnage fictif représentant un groupe de clients, construit à partir de données réelles sur leurs profils, comportements et motivations.",
-    "sources": [
-      {
-        "documentId": "m4",
-        "page": 21,
-        "excerpt": "⇒représentations fictives de vos clients idéaux basées sur des données démographiques, des\ncomportements, des motivations et des objectifs réels\n⇒permettent aux entreprises de mieux comprendre et de cibler leur audience, en adaptant les\nstratégies de communication et de marketing de manière plus précise",
-        "highlight": "représentations"
-      }
-    ]
+    "answer": "C’est un personnage fictif représentant un groupe de clients, construit à partir de données réelles sur leurs profils, comportements et motivations."
   },
   {
     "id": "marketing-concept-099",
@@ -1378,10 +938,10 @@
     "answer": "Le positionnement vise à donner à l’offre une place claire et distinctive dans l’esprit des clients ciblés, par rapport aux concurrents.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 23,
-        "excerpt": "4- Le positionnement\n4-1) Définition \nLe positionnement = conception d’un produit et de son image dans le but de lui\ndonner une place déterminée dans l’esprit des clients ciblés ; le produit/service doit\nêtre perçu par eux comme répondant avantageusement (par rapport à la concurrence)\nà l'une au moins de leurs attentes.\n292\n4- Le positionnement\n4-1) Définition \nLe positionnement",
-        "highlight": "positionnement"
+        "documentId": "mf",
+        "page": 9,
+        "excerpt": "3.1 Dimensions\n•\nLe positionnement décrit ce qu'est le produit, à quoi il sert et en quoi il se distingue. Il porte sur\ndes bénéfices fonctionnels, des caractéristiques physiques et des éléments symboliques. Un\npositionnement fort fait les grandes marques.\n•\nC'est le choix de traits saillants et distinctifs qui permettent de situer l'offre parmi les produits\ncomparables : une représentation simplifiée, réductrice, comparative et distinctive.\n•\nIl est la clé de voûte et le facteur de cohérence du marketing-mix.\n•\n4 grands thèmes : performances du produit · imaginaire de marque · publics cibles · mode\nd'utilisation.\n•\nQuel que soit l'axe, il répond à un avantage recherché, explicite ou implicite.\nIdentification : le consommateur doit identifier immédiatement le produit, rattaché à une catégorie",
+        "highlight": "3.1 Dimensions"
       }
     ]
   },
@@ -1392,10 +952,10 @@
     "answer": "L’identification, qui rattache l’offre à une catégorie, et la différenciation, qui la distingue des offres concurrentes.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 26,
-        "excerpt": "L’identification : rattacher le produit à une catégorie, à un \nunivers de consommation\nLa différenciation : distinguer le produit dans sa catégorie > le \npoint de différence\n4- Le positionnement",
-        "highlight": "identification"
+        "documentId": "mf",
+        "page": 6,
+        "excerpt": "Deux éléments constitutifs :\n1. Identification : rattacher le produit à une catégorie, à un univers de consommation (« de quel genre\nde produit s'agit-il ? »).\n2. Différenciation : distinguer le produit dans sa catégorie (point de différence). Attributs possibles :\ngoût, couleur, odeur, texture, fiabilité, prestige, naturalité, caractère équitable, circuit de distribution,\ncomportement des vendeurs, service commercial.\nÉnoncé de positionnement : « Pour les gens qui… la marque X est… qui apporte… »\nMéthode SCP en détail (cours Louvrier)\nLa méthode SCP est une démarche en trois temps (segmentation, ciblage, positionnement, ou\nsegmentation, targeting, positioning). Elle établit des orientations claires, qui doivent se refléter dans\ntoutes les actions du plan marketing opérationnel.\nÉtape\nRôle\n1. Segmentation",
+        "highlight": "Deux éléments constitutifs"
       }
     ]
   },
@@ -1406,10 +966,10 @@
     "answer": "C’est le choix d’attributs ou de bénéfices valorisés par la cible qui distinguent l’offre de celle des concurrents.",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 27,
-        "excerpt": "La différenciation :\nqu’est-ce qui peut distinguer mon produit/service des autres du même genre ? (NB :\nLa différence perçue est très faible dans certains secteurs (banques, sucre…))\n•\nDéterminer les attributs de valeurs susceptibles d’être pris en compte par les\nacheteurs pour ce genre de produits/services : goût, couleur, odeur, texture,\nfiabilité, prestige, naturalité, caractère équitable, circuit de distribution,",
-        "highlight": "différenciation"
+        "documentId": "mf",
+        "page": 6,
+        "excerpt": "2. Différenciation : distinguer le produit dans sa catégorie (point de différence). Attributs possibles :\ngoût, couleur, odeur, texture, fiabilité, prestige, naturalité, caractère équitable, circuit de distribution,\ncomportement des vendeurs, service commercial.\nÉnoncé de positionnement : « Pour les gens qui… la marque X est… qui apporte… »\nMéthode SCP en détail (cours Louvrier)\nLa méthode SCP est une démarche en trois temps (segmentation, ciblage, positionnement, ou\nsegmentation, targeting, positioning). Elle établit des orientations claires, qui doivent se refléter dans\ntoutes les actions du plan marketing opérationnel.\nÉtape\nRôle\n1. Segmentation\nRéduire la complexité et la diversité des profils de consommateurs en identifiant des\nsous-groupes aux caractéristiques communes\n2. Ciblage",
+        "highlight": "2. Différenciation"
       }
     ]
   },
@@ -1420,10 +980,10 @@
     "answer": "« Pour [cible], la marque X est [catégorie] qui apporte [bénéfice distinctif]. »",
     "sources": [
       {
-        "documentId": "m4",
-        "page": 29,
-        "excerpt": "Enoncé de positionnement\nPour les gens qui… > cible\nLa marque X est… > identification\nQui apporte … > différenciation\n4- Le positionnement\n4-2) La démarche\nles machines Nespresso sont conçues pour révéler les saveurs\net les arômes subtils de nos cafés, pour des consommateurs\nexigeants et esthètes, afin de leur offrir une expérience\ncomplète de consommation de café d’exception.\n4- Le positionnement",
-        "highlight": "Enoncé"
+        "documentId": "mf",
+        "page": 6,
+        "excerpt": "Énoncé de positionnement : « Pour les gens qui… la marque X est… qui apporte… »\nMéthode SCP en détail (cours Louvrier)\nLa méthode SCP est une démarche en trois temps (segmentation, ciblage, positionnement, ou\nsegmentation, targeting, positioning). Elle établit des orientations claires, qui doivent se refléter dans\ntoutes les actions du plan marketing opérationnel.\nÉtape\nRôle\n1. Segmentation\nRéduire la complexité et la diversité des profils de consommateurs en identifiant des\nsous-groupes aux caractéristiques communes\n2. Ciblage\nÉvaluer chaque segment et décider de se spécialiser sur un ou plusieurs\n3. Positionnement\nDéfinir l'offre par rapport à la cible et à la concurrence pour qu'elle soit la meilleure\npossible\n1. La segmentation\n1.1 Objectifs et intérêts\n•",
+        "highlight": "Énoncé de positionnement"
       }
     ]
   },
@@ -1436,8 +996,8 @@
       {
         "documentId": "mf",
         "page": 9,
-        "excerpt": "Attractivité\nAttirant pour la cible, en phase avec ses attentes (exprimées ou latentes)\nDifférenciation\nDifférent de l'offre existante, ce qui justifie le produit\nCrédibilité\nLes consommateurs croient que le produit tiendra ses promesses\nSimple\nPeu de caractéristiques ; doit tenir en une phrase\nProfitable\nCible au potentiel économique suffisant (un segment peut être rentable pour une PME et\npas pour une multinationale)\nPérenne",
-        "highlight": "Attractivité"
+        "excerpt": "3.2 Évaluation du positionnement\nIl faut savoir l'évaluer pour comprendre la dynamique d'une marque et déceler des zones d'optimisation.\nCritère\nSignification\nAttractivité\nAttirant pour la cible, en phase avec ses attentes (exprimées ou latentes)\nDifférenciation\nDifférent de l'offre existante, ce qui justifie le produit\nCrédibilité\nLes consommateurs croient que le produit tiendra ses promesses\nSimple\nPeu de caractéristiques ; doit tenir en une phrase\nProfitable\nCible au potentiel économique suffisant (un segment peut être rentable pour une PME et\npas pour une multinationale)\nPérenne\nInvestissement à long terme, mais il faut rester pertinent face à des marchés qui\névoluent\n3.3 Stratégies de positionnement\nGestion du positionnement\n•\nIdentifier les avantages concurrentiels pertinents pour la cible.\n•",
+        "highlight": "3.2 Évaluation du positionnement"
       }
     ]
   },
@@ -1451,7 +1011,7 @@
         "documentId": "mf",
         "page": 9,
         "excerpt": "Mettre en avant un seul bénéfice = USP (Unique Selling Proposition) : positionnement plus clair dans\nl'esprit des consommateurs. Ou plusieurs bénéfices, choisis avec des critères : importance pour la\ncible, caractère distinctif, supériorité sur la concurrence, facilité à communiquer, caractère défendable\net justifiable, rentabilité.\n•\nLe positionnement est intégré aux briefs de chaque action marketing, et sa perception par les",
-        "highlight": "USP"
+        "highlight": "Mettre en avant un seul bénéfice"
       }
     ]
   }
