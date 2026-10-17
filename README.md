@@ -1,6 +1,6 @@
 # Déclic — Mes quiz et mes cours
 
-Une bibliothèque de matières avec questions de cours, réponse libre, correction et répétition des erreurs.
+Une bibliothèque de matières avec questions de cours, réponse dans la tête, correction et répétition des erreurs. Aucune saisie n’est nécessaire : afficher la correction, puis choisir « Bon » ou « Mauvais ».
 
 ## Questions
 
@@ -13,7 +13,7 @@ Les questions portent sur les définitions et notions. Elles ont été réécrit
 
 Le bouton **Voir le cours** ouvre les documents de la matière en texte intégral ou en PDF, avec recherche et navigation par page. Les quatre séquences de marketing, la fiche de marketing et le cours de communication représentent 171 pages. La fiche de communication d’origine est également téléchargeable au format Word.
 
-Sous chaque correction figurent un extrait du document, le titre et le numéro de page. **Voir ce passage dans le cours** ouvre cette page avec l’extrait surligné. Le retour au quiz conserve la réponse et la correction affichée.
+Sous chaque correction figurent un extrait du document, le titre et le numéro de page. **Voir ce passage dans le cours** ouvre cette page avec l’extrait surligné. Le retour au quiz conserve la question et la correction affichée.
 
 Les informations d’accès à la plateforme universitaire ont été masquées dans le document publié. Les pages pédagogiques et la numérotation sont conservées.
 
@@ -31,7 +31,7 @@ Créer un quiz ou importer un fichier JSON. Les exports contiennent les question
 
 Le site est statique et ne requiert ni secret ni base de données. Installer les dépendances de développement avec `npm install --ignore-scripts`, puis lancer `npm test`.
 
-Les tests couvrent le parcours de révision, les sauvegardes, les imports/exports, les onglets concurrents, les références exactes aux documents et la navigation entre cours et réponse. Happy DOM teste les interactions ; le rendu sur de vrais téléphones n’est pas validé par ces tests.
+Les tests couvrent le parcours de révision, les sauvegardes, les imports/exports, les onglets concurrents, les références exactes aux documents et la navigation entre cours et question. Happy DOM teste les interactions ; le rendu sur de vrais téléphones n’est pas validé par ces tests.
 
 ## Publication
 
