@@ -1,10 +1,15 @@
 {
   "name": "declic-marketing",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "Quiz de révision marketing avec réponses libres, correction et répétition différée.",
+  "description": "Bibliothèque de quiz : marketing, communication et matières personnelles.",
   "scripts": {
-    "test": "node test.cjs && node ui-test.cjs"
+    "test": "node test.cjs && node catalog-test.cjs && node ui-test.cjs"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "devDependencies": {
+    "happy-dom": "21.0.3"
+  }
 }

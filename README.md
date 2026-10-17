@@ -1,29 +1,39 @@
-# Déclic Marketing
+# Déclic — Mes quiz
 
-Application de révision en français avec 224 questions couvrant 16 chapitres.
+Une bibliothèque de matières avec réponses libres, corrections et répétition des questions ratées.
+
+## Quiz inclus
+
+- Marketing : 224 questions, 16 chapitres.
+- Communication commerciale : 135 questions, 5 chapitres.
 
 ## Utilisation
 
-1. Choisir tout le cours ou un chapitre.
-2. Écrire sa réponse puis afficher la correction.
-3. Choisir **Bon** pour mettre la question de côté, ou **Mauvais** pour la revoir après trois autres questions quand il en reste suffisamment.
+Choisir une matière, écrire sa réponse, afficher la correction puis cliquer sur **Bon** ou **Mauvais**. Une question réussie est mise de côté ; une erreur revient après trois autres questions si possible. Le filtre de chapitre est propre à chaque matière.
 
-La progression et la réponse en cours sont conservées dans le navigateur. Il n’y a pas de compte utilisateur, de base de données ni de correction automatique. La progression est propre à chaque navigateur et à chaque adresse du site.
+L’accueil permet de rechercher une matière, créer un quiz personnel et importer ou exporter un quiz JSON. Un quiz personnel peut être supprimé après confirmation. Les quiz inclus restent disponibles.
 
-## Structure
+Les quiz personnels, réponses en cours et progressions sont sauvegardés dans le navigateur. Les anciennes progressions marketing sont conservées avec la même clé de stockage. Chaque appareil et chaque adresse du site dispose de son propre stockage. Les exports contiennent les questions, pas la progression.
 
-- `dist/index.html` : interface responsive.
-- `dist/app.js` : interactions et sauvegarde locale.
-- `dist/engine.js` : file de questions et compteurs.
-- `dist/cards.js` : banque de questions chargée par l’application.
-- `dist/cards.json` : copie structurée de la banque.
-- `test.cjs` et `ui-test.cjs` : tests sans dépendances.
-- `vercel.json` : publication statique du dossier `dist`.
+## Format d’import
 
-## Vérification
+```json
+{
+  "title": "Économie",
+  "cards": [
+    {"question": "Qu’est-ce qu’un marché ?", "answer": "La rencontre de l’offre et de la demande.", "chapter": "Introduction"}
+  ]
+}
+```
 
-Avec Node.js 20 ou plus récent, lancer `npm test`.
+La banque accepte 1 à 2 000 questions par quiz et 50 quiz personnels. Les fichiers d’import sont limités à 5 Mo. Tout contenu importé est validé et affiché comme du texte.
 
-## Vercel
+## Développement
 
-Importer ce dépôt dans Vercel. La configuration utilise le dossier `dist` sans installation de dépendances ni compilation. Pour une consultation publique, vérifier que la protection du déploiement de production ne demande pas de connexion Vercel.
+Le site est statique. `dist/index.html` charge `quizzes.js`, `engine.js`, `catalog.js`, `app.js` et `library.js`. Les données des quiz inclus sont dans `quizzes.js`. Aucun secret ni base de données n’est nécessaire.
+
+Installer les dépendances de développement (`npm install --ignore-scripts`) puis lancer `npm test`. Happy DOM sert uniquement aux tests de l’interface ; il n’est pas chargé dans le site.
+
+## Publication
+
+Vercel publie `dist` sans installation ni compilation. Les modifications de la branche `main` sont déployées par l’intégration GitHub.

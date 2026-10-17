@@ -1,0 +1,5 @@
+const assert=require('node:assert/strict'),{QuizCatalog:C}=require('./dist/catalog.js'),{QuizEngine:E}=require('./dist/engine.js');
+const cards=[{id:'a',chapter:'A',question:'Question ?',answer:'Réponse'}];
+assert.equal(C.normalizeQuiz({title:'Test',cards}).title,'Test');assert.equal(C.normalizeQuiz([[1,'Q','R']],'Autre').cards[0].chapter,'1');assert.throws(()=>C.normalizeQuiz({title:'',cards}));assert.throws(()=>C.normalizeQuiz({title:'T',cards:[]}));assert.throws(()=>C.validateCards([...cards,...cards]));assert.throws(()=>C.validateCards([{question:'Q',answer:''}]));
+const state=E.initial(['a']);state.draft='Brouillon';assert.equal(C.restore(state,cards).draft,'Brouillon');assert.equal(C.restore({...state,history:null},cards),null);assert.equal(C.restore({...state,queue:['a','a']},cards),null);assert.equal(C.restore({...state,queue:['absent']},cards),null);assert.equal(C.restore({...state,history:[{id:'missing',good:true}]},cards),null);
+console.log('PASS catalogue : validation des imports, identifiants, contenu, restauration et état corrompu.');
