@@ -1,0 +1,10 @@
+{
+  "name": "declic-marketing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quiz de révision marketing avec réponses libres, correction et répétition différée.",
+  "scripts": {
+    "test": "node test.cjs && node ui-test.cjs"
+  },
+  "engines": { "node": ">=20" }
+}

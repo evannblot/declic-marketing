@@ -1,0 +1,6 @@
+.vercel/
+.openai/
+node_modules/
+*.png
+*.tar.gz
+course.txt
