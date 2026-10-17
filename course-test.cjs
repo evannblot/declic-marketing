@@ -1,0 +1,19 @@
+const assert=require('node:assert/strict'),{boot}=require('./qa-harness.cjs'),fs=require('node:fs'),path=require('node:path');
+(async()=>{
+ const a=await boot();const docs=Array.from(a.w.DECLIC_COURSES),quizzes=a.w.DeclicLibrary.all();let references=0;
+ assert.equal(docs.length,6);assert.equal(docs.reduce((n,d)=>n+d.pages.length,0),171);
+ for(const d of docs){assert(fs.statSync(path.join(__dirname,'dist',d.url)).size>1000);}
+ for(const quiz of quizzes){assert.equal(new Set(quiz.cards.map(c=>c.question)).size,quiz.cards.length);for(const card of quiz.cards){
+  assert(!/duplay|bonne maman|sézane|nespresso|danone|saint albray|nike|coca|pepsi|exemple|cas du|cas de|dans le cas|moyens humains|· Comment définir ou expliquer/i.test(card.question),card.question);
+  assert(card.question.length<180);assert(card.sources?.length>0,card.question);
+  for(const src of card.sources){const doc=docs.find(d=>d.id===src.documentId);assert(doc);assert(doc.pages[src.page-1]);assert(doc.pages[src.page-1].text.includes(src.excerpt),card.question);references++;}
+ }}
+ const marketing=quizzes.find(q=>q.id==='marketing');assert(marketing.cards.some(c=>c.question==='Quelle est la définition de la segmentation ?'));assert(marketing.cards.some(c=>c.question==='Quelle est la définition du ciblage ?'));
+ a.w.DeclicLibrary.openQuiz('marketing');a.input('answer','Ma réponse personnelle');assert(a.$('answer-sources').classList.contains('hidden'));a.click('reveal');const state=JSON.parse(a.w.localStorage.getItem(marketing.storageKey));const card=marketing.cards.find(c=>c.id===state.queue[0]),src=card.sources[0];assert(a.$('answer-sources').textContent.includes('page '+src.page));assert(a.$('answer-sources').textContent.includes(src.excerpt));a.$('answer-sources').querySelector('button').click();assert(!a.$('course-screen').classList.contains('hidden'));assert.equal(a.$('course-document').value,src.documentId);assert.equal(a.$('course-page-select').value,String(src.page));assert.equal(a.$('course-pages').querySelector('mark').textContent,src.excerpt);
+ a.click('course-pdf-mode');assert(a.$('course-pdf').src.endsWith('#page='+src.page));a.click('course-text-mode');a.click('course-back');assert(!a.$('quiz-screen').classList.contains('hidden'));assert.equal(a.$('answer').value,'Ma réponse personnelle');assert(a.$('answer').readOnly);a.click('good');assert.equal(a.$('mastered').textContent,'1');
+ a.click('read-course');assert(!a.$('course-screen').classList.contains('hidden'));a.input('course-search','mot-inexistant-0123456789');assert(!a.$('course-no-results').classList.contains('hidden'));a.input('course-search','');assert.equal(a.$('course-pages').children.length,docs.find(d=>d.id===a.$('course-document').value).pages.length);a.click('course-back');a.click('home-button');
+ const com=quizzes.find(q=>q.id==='communication');a.w.DeclicCourses.open(com);assert.equal(a.$('course-document').value,'com');assert(a.$('course-download').href.endsWith('communication.docx'));assert.equal(a.$('course-pages').children.length,19);a.click('course-back');assert(!a.$('library-screen').classList.contains('hidden'));
+ // Importing a supported quiz preserves its verified course references.
+ const normalized=a.w.QuizCatalog.normalizeQuiz(JSON.parse(JSON.stringify(marketing)));assert.equal(normalized.cards[0].sources[0].documentId,marketing.cards[0].sources[0].documentId);
+ await a.close();console.log('PASS cours : '+references+' questions claires sans exemples, références exactes, 171 pages, 6 documents, lecture/PDF, surlignage, recherche, retour sans perdre la réponse et sources conservées à l’import.');
+})().catch(e=>{console.error(e);process.exitCode=1});

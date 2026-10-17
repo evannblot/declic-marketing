@@ -11,7 +11,8 @@ function validateCards(data){
   let id=typeof row.id==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(row.id)?row.id:'q'+(i+1);
   if(!(typeof row.id==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(row.id))){let suffix=1;while(ids.has(id)||reserved.has(id))id='generated-'+(i+1)+'-'+suffix++;}
   if(ids.has(id))throw new Error('Chaque question doit avoir un identifiant différent.');ids.add(id);
-  return {id,chapter:typeof row.chapter==='string'&&row.chapter.trim()?row.chapter.trim().slice(0,150):'Général',question:question.trim(),answer:answer.trim()};
+  const sources=Array.isArray(row.sources)?row.sources.filter(s=>s&&typeof s.documentId==='string'&&/^[a-z0-9-]{1,60}$/.test(s.documentId)&&Number.isInteger(s.page)&&s.page>0&&s.page<=500&&typeof s.excerpt==='string').slice(0,5).map(s=>({documentId:s.documentId,page:s.page,excerpt:s.excerpt.slice(0,5000),highlight:typeof s.highlight==='string'?s.highlight.slice(0,300):''})):[];
+  return {id,chapter:typeof row.chapter==='string'&&row.chapter.trim()?row.chapter.trim().slice(0,150):'Général',question:question.trim(),answer:answer.trim(),...(sources.length?{sources}:{})};
  });
 }
 function normalizeQuiz(data,fallbackTitle='Mon quiz'){

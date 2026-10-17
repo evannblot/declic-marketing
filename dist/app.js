@@ -16,7 +16,7 @@ function open(quiz){if(s)save();activeQuiz=quiz;cards=quiz.cards;byId=new Map(ca
  if(!s&&sessionStates.has(key))s=QuizCatalog.restore(sessionStates.get(key),cards);if(!s)s=fresh();filter=Object.hasOwn(s,'chapterFilter')?s.chapterFilter:(s.filter&&s.filter!=='all'?s.filter:null);
  const chapters=[...new Set(cards.map(c=>c.chapter))];if(filter!==null&&!chapters.includes(filter))filter=null;
  $('chapter').replaceChildren();const all=document.createElement('option');all.value='all';all.textContent='Tout le cours';$('chapter').appendChild(all);for(const [index,chapter] of chapters.entries()){const o=document.createElement('option');o.value='chapter-'+index;o.textContent=chapter;$('chapter').appendChild(o);}$('chapter').value=filter===null?'all':'chapter-'+chapters.indexOf(filter);
- $('quiz-subject').textContent=quiz.title;$('quiz-description').textContent=quiz.description;$('reset').textContent='Recommencer toute cette matière';$('toast').textContent='';document.title='Déclic · '+quiz.title;render();if(recovered)$('toast').textContent='La sauvegarde précédente était endommagée. Une copie a été conservée avant de recommencer.';}
+ $('quiz-subject').textContent=quiz.title;$('quiz-description').textContent=quiz.description;$('reset').textContent='Recommencer toute cette matière';$('toast').textContent='';document.title='Déclic · '+quiz.title;$('read-course').classList.toggle('hidden',!globalThis.DeclicCourses?.available(quiz));render();if(recovered)$('toast').textContent='La sauvegarde précédente était endommagée. Une copie a été conservée avant de recommencer.';}
 function syncExternal(){
  if(!s||!lastStored.has(key)||blockedKeys.has(key))return false;
  try{const raw=localStorage.getItem(key);if(raw===lastStored.get(key))return false;lastStored.set(key,raw);
@@ -34,7 +34,7 @@ function render(focus=false){const ids=activeQueue(),selected=selectedCards(),m=
  if(!ids.length){$('finish-text').textContent=`Tu as réussi les ${selected.length} questions de ${filter===null?'cette matière':'ce chapitre'}. Elles sont toutes mises de côté.`;save();return;}
  const c=current();$('topic').textContent=c.chapter;$('session-count').textContent=ids.length+' à travailler';$('question').textContent=c.question;$('answer').value=s.draft||'';$('answer').readOnly=!!s.revealed;
  // Do not put correction text in the visible DOM before it has been requested.
- $('correction').textContent=s.revealed?c.answer.replace(/^\* /gm,'• '):'';$('reveal-actions').classList.toggle('hidden',!!s.revealed);$('correction-zone').classList.toggle('hidden',!s.revealed);$('reveal').disabled=!$('answer').value.trim();save();if(focus)$('answer').focus();}
+ $('correction').textContent=s.revealed?c.answer.replace(/^\* /gm,'• '):'';if(globalThis.DeclicCourses)DeclicCourses.renderSources($('answer-sources'),s.revealed?c.sources:[],activeQuiz);$('reveal-actions').classList.toggle('hidden',!!s.revealed);$('correction-zone').classList.toggle('hidden',!s.revealed);$('reveal').disabled=!$('answer').value.trim();save();if(focus)$('answer').focus();}
 function reveal(skip=false){if(changedElsewhere())return;if(!s||s.revealed||!current())return;if(!skip&&!$('answer').value.trim())return;s.draft=$('answer').value;s.revealed=true;render();$('correction-zone').scrollIntoView({behavior:'smooth',block:'nearest'});}
 function grade(good){if(changedElsewhere())return;if(!s||!s.revealed||!current())return;const scoped={...s,queue:activeQueue(),mastered:[...s.mastered],history:[...s.history]};const next=E.grade(scoped,good),other=s.queue.filter(id=>!matches(id));s={...next,queue:[...next.queue,...other]};render(true);$('toast').textContent=good?'Bien joué. Cette question est mise de côté.':next.queue.length>1?'On la reverra après '+Math.min(3,next.queue.length-1)+' autre(s) question(s).':'Il ne reste que cette question. Prends un instant, puis réessaie.';}
 $('chapter').addEventListener('change',()=>{if(!s||changedElsewhere())return;const value=$('chapter').value;filter=value==='all'?null:[...new Set(cards.map(c=>c.chapter))][Number(value.replace('chapter-',''))];if(filter===undefined)filter=null;s.draft='';s.revealed=false;$('toast').textContent='';render();});$('answer').addEventListener('input',()=>{if(!s||changedElsewhere()||s.revealed)return;s.draft=$('answer').value;$('reveal').disabled=!s.draft.trim();save();});$('answer').addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key==='Enter'){e.preventDefault();reveal();}});$('reveal').onclick=()=>reveal();$('dont-know').onclick=()=>reveal(true);$('good').onclick=()=>grade(true);$('bad').onclick=()=>grade(false);
@@ -46,5 +46,6 @@ window.addEventListener('storage',event=>{
  else{sessionStates.delete(event.key);lastStored.delete(event.key);}
  window.dispatchEvent(new Event('declic:progress'));
 });
+$('read-course').onclick=()=>{if(activeQuiz)DeclicCourses.open(activeQuiz);};
 globalThis.DeclicQuiz={open,leave,progress};
 })();
