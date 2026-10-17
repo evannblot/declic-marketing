@@ -37,3 +37,11 @@ Installer les dépendances de développement (`npm install --ignore-scripts`) pu
 ## Publication
 
 Vercel publie `dist` sans installation ni compilation. Les modifications de la branche `main` sont déployées par l’intégration GitHub.
+
+## Fiabilité et vérifications
+
+La progression reste disponible pendant la session si le navigateur refuse de la sauvegarder. Les ajouts de quiz relisent la bibliothèque avant enregistrement pour conserver les modifications provenant d’autres onglets. Une sauvegarde illisible est copiée dans une clé de récupération avant son remplacement.
+
+Les résultats peuvent être synchronisés entre onglets du même navigateur. Une question actualisée par un autre onglet est affichée avant de poursuivre l’auto-évaluation.
+
+La suite de vérification approfondie couvre 23 scénarios : parcours complet des deux matières, stockage indisponible ou plein, données endommagées, modifications concurrentes, import et export, limites de taille, clavier et libellés accessibles. Le moteur est également testé sur 20 000 transitions. Ces tests utilisent Happy DOM et ne remplacent pas un contrôle visuel dans un vrai navigateur sur mobile.

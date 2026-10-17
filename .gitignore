@@ -4,3 +4,4 @@ node_modules/
 *.png
 *.tar.gz
 course.txt
+deep-test-result.json

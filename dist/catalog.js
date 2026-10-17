@@ -2,12 +2,14 @@
 'use strict';
 function validateCards(data){
  if(!Array.isArray(data)||!data.length||data.length>2000)throw new Error('Le quiz doit contenir entre 1 et 2 000 questions.');
+ const reserved=new Set(data.filter(r=>r&&typeof r==='object'&&!Array.isArray(r)&&typeof r.id==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(r.id)).map(r=>r.id));
  const ids=new Set();return data.map((row,i)=>{
   if(Array.isArray(row))row={chapter:String(row[0]||'Général'),question:row[1],answer:row[2]};
   if(!row||typeof row!=='object')throw new Error('La question '+(i+1)+' est invalide.');
   const question=row.question,answer=row.answer??row.correction;
   if(typeof question!=='string'||!question.trim()||question.length>10000||typeof answer!=='string'||!answer.trim()||answer.length>40000)throw new Error('Question '+(i+1)+' : ajoute une question et sa correction (texte).');
-  const id=typeof row.id==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(row.id)?row.id:'q'+(i+1);
+  let id=typeof row.id==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(row.id)?row.id:'q'+(i+1);
+  if(!(typeof row.id==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(row.id))){let suffix=1;while(ids.has(id)||reserved.has(id))id='generated-'+(i+1)+'-'+suffix++;}
   if(ids.has(id))throw new Error('Chaque question doit avoir un identifiant différent.');ids.add(id);
   return {id,chapter:typeof row.chapter==='string'&&row.chapter.trim()?row.chapter.trim().slice(0,150):'Général',question:question.trim(),answer:answer.trim()};
  });
