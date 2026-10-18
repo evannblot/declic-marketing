@@ -1,9 +1,9 @@
 (function(){
 'use strict';
 const E=QuizEngine,$=id=>document.getElementById(id);const sessionStates=new Map(),blockedKeys=new Set(),lastStored=new Map();let cards=[],byId=new Map(),key='',filter=null,examOnly=false,s=null,resetAll=true,storageWorks=true,activeQuiz=null;
-function fresh(){return {...E.initial([...E.shuffle(cards.filter(c=>c.priority).map(c=>c.id)),...E.shuffle(cards.filter(c=>!c.priority).map(c=>c.id))]),examOnly:activeQuiz?.id==='communication'};}
-function restoreFor(quiz,saved){return QuizCatalog.restore(saved,quiz.cards,quiz.legacyCardIds);}
-function readFilter(){filter=Object.hasOwn(s,'chapterFilter')?s.chapterFilter:(s.filter&&s.filter!=='all'?s.filter:null);const chapters=[...new Set(cards.map(c=>c.chapter))];if(filter!==null&&!chapters.includes(filter))filter=null;examOnly=cards.some(c=>c.priority)&&(typeof s.examOnly==='boolean'?s.examOnly:activeQuiz.id==='communication'&&filter===null);if(examOnly){filter=null;if(!Object.hasOwn(s,'examOnly')){s.revealed=false;s.draft='';}}}
+function fresh(){return {...E.initial([...E.shuffle(cards.filter(c=>c.priority).map(c=>c.id)),...E.shuffle(cards.filter(c=>!c.priority).map(c=>c.id))]),examOnly:activeQuiz?.examByDefault===true};}
+function restoreFor(quiz,saved){const state=QuizCatalog.restore(saved,quiz.cards,quiz.legacyCardIds);if(state&&saved.queue.length+saved.mastered.length<quiz.cards.length&&quiz.examByDefault===true){const previousFilter=Object.hasOwn(saved,'chapterFilter')?saved.chapterFilter:(saved.filter&&saved.filter!=='all'?saved.filter:null);if(previousFilter===null){state.examOnly=true;state.revealed=false;state.draft='';}}return state;}
+function readFilter(){filter=Object.hasOwn(s,'chapterFilter')?s.chapterFilter:(s.filter&&s.filter!=='all'?s.filter:null);const chapters=[...new Set(cards.map(c=>c.chapter))];if(filter!==null&&!chapters.includes(filter))filter=null;examOnly=cards.some(c=>c.priority)&&(typeof s.examOnly==='boolean'?s.examOnly:activeQuiz.examByDefault===true&&filter===null);if(examOnly){filter=null;if(!Object.hasOwn(s,'examOnly')){s.revealed=false;s.draft='';}}}
 function selectFilter(){const chapters=[...new Set(cards.map(c=>c.chapter))];$('chapter').value=examOnly?'exam':filter===null?'all':'chapter-'+chapters.indexOf(filter);}
 function matches(id){const card=byId.get(id);return !!card&&(filter===null||card.chapter===filter)&&(!examOnly||card.priority===true);}
 function activeQueue(){return s.queue.filter(matches);}
@@ -48,6 +48,6 @@ window.addEventListener('storage',event=>{
  else{sessionStates.delete(event.key);lastStored.delete(event.key);}
  window.dispatchEvent(new Event('declic:progress'));
 });
-$('read-course').onclick=()=>{if(activeQuiz)DeclicCourses.open(activeQuiz);};
+$('read-course').onclick=()=>{if(activeQuiz)DeclicCourses.open(activeQuiz,current()?.sources?.[0]);};
 globalThis.DeclicQuiz={open,leave,progress};
 })();
