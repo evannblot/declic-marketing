@@ -1,40 +1,48 @@
-# Déclic — Mes quiz et mes cours
+# Déclic — Mes matières et mes quiz
 
-Une bibliothèque de matières avec questions de cours, réponse dans la tête, correction et répétition des erreurs. Aucune saisie n’est nécessaire : afficher la correction, puis choisir « Bon » ou « Mauvais ».
+L’accueil affiche les matières. Chaque matière ouvre sa liste de quiz, puis la session de révision. On répond dans sa tête, on affiche la correction et on choisit « Bon » ou « Mauvais ».
 
-## Questions
+## Les quatre quiz intégrés
 
-- Marketing : 164 questions, 9 chapitres, dont 109 dans « Essentiels du partiel ».
-- Communication commerciale : 130 questions, 5 chapitres, dont 99 dans « Essentiels du partiel ».
+| Matière | Tout le cours | L’essentiel |
+| --- | --- | --- |
+| Marketing | 164 questions | 41 questions |
+| Communication commerciale | 130 questions | 55 questions |
 
-Les questions portent sur les définitions et notions. Elles ont été réécrites individuellement ; les questions consacrées aux exemples et cas de marques ont été retirées.
+Les quiz essentiels reprennent des questions du cours complet dans une sélection plus courte. Les questions sur les exemples et cas de marques restent exclues.
 
-Le marketing propose 60 questions supplémentaires sur les notions de la fiche : démarche et objectifs, mesures du marché, diagnostic interne, SWOT, marketing mix, segmentation, ciblage et positionnement. Sa sélection « Essentiels du partiel » regroupe les 109 questions avec renvoi à la fiche.
+En communication, la sélection suit les indications du PDF pour le partiel : définitions, hiérarchie des effets, identité/image/réputation et risques d’image, cibles, insight, motivations et freins, client idéal, théories, sémiologie, stratégie et copy stratégie. Les références utiles sont aux pages 1, 12 à 16 et 19, ainsi qu’aux pages des notions correspondantes.
 
-La communication s’ouvre sur « Essentiels du partiel » : définitions, hiérarchie des effets, identité/image/réputation, cibles, insight, motivations et freins, client idéal, théories, sémiologie, stratégie et copy stratégie. Les 130 questions restent accessibles via « Toutes les questions » ou par chapitre.
+La fiche marketing n’énumère pas une liste spécifique de thèmes du partiel. La sélection s’appuie sur ses définitions, mémos et repères centraux : démarche, mesures du marché, diagnostic et SWOT, mix, segmentation, ciblage et positionnement. Les six conditions de segmentation de la fiche sont incluses.
 
-## Cours complets
+## Progression et navigation
 
-Le bouton **Voir le cours** ouvre directement la fiche fournie pour la matière au format PDF : marketing (10 pages) ou communication commerciale (19 pages). Les deux fiches sont téléchargeables en PDF. Le site affiche uniquement les copies PDF, avec navigation par page et téléchargement. Il ne propose pas de retranscription des documents.
+Chaque quiz a sa propre sauvegarde et son propre filtre de chapitre. « Bon » retire la question de la session ; « Mauvais » la replace après trois autres questions si possible. La remise à zéro d’un quiz ne touche pas les autres.
 
-Lorsqu’une notion est présente dans la fiche fournie, sa correction indique le titre du document et le numéro de page. Les notions absentes de la fiche ne reçoivent pas de référence artificielle ; les questions et la progression sont conservées. **Voir la page du PDF** et le bouton **Voir le cours en entier** ouvrent directement la page liée à la question. Le lecteur indique la page concernée et défile jusqu’au document ; le lien ouvrant le PDF dans un autre onglet conserve cette page. La bibliothèque permet toujours de consulter le document depuis sa première page. Le retour au quiz conserve la question et la correction affichée.
+Les quiz complets conservent leurs identifiants et clés de sauvegarde, ainsi que les résultats et historiques déjà enregistrés. Les banques originales de 104 et 70 questions peuvent toujours être étendues aux banques complètes actuelles. L’ancien filtre des essentiels est remplacé par deux quiz distincts ; une correction affichée dans cet ancien filtre est masquée lors de la transition pour éviter de l’associer à une autre question.
 
-## Progression
+Le bouton de retour mène de la révision à la liste des quiz de la matière, puis à la liste des matières. Les cours consultés depuis une matière reviennent à cette matière ; ceux ouverts depuis une correction reviennent à la question.
 
-Une réponse « Bon » met la question de côté ; « Mauvais » la replace après trois autres questions si possible. Chaque matière a son propre filtre et sa propre progression. Les ajouts de 60 questions en marketing et de 60 en communication conservent les 104 anciennes questions de marketing et les 70 anciennes questions de communication, leurs identifiants, les clés de sauvegarde et les résultats précédents. Une migration ajoute les nouvelles questions à la file. Si aucune sélection de chapitre n’était active, elle ouvre la sélection des essentiels ; les choix de filtre effectués après cette mise à jour restent conservés. Les autres sauvegardes invalides restent protégées par une copie de récupération. Les quiz personnels restent conservés.
+Les données endommagées sont copiées avant remplacement. Si le stockage est indisponible, la progression reste disponible pendant la session. Les écritures de bibliothèque relisent les dernières données pour préserver les changements provenant d’autres onglets.
 
-Les sauvegardes restent dans le navigateur. Les ajouts relisent la bibliothèque avant écriture pour préserver les changements provenant d’autres onglets. Les données endommagées sont copiées avant remplacement. Si le stockage est indisponible, la progression reste accessible pendant la session.
+## Documents
+
+Le site présente uniquement les copies PDF fournies : marketing (10 pages) et communication (19 pages). Il n’affiche pas de retranscription. Les boutons d’accès au cours depuis une question ou sa correction ouvrent la page correspondante et font défiler l’écran vers le PDF. Le lien pour ouvrir le document dans un autre onglet conserve la page. Les notions absentes de la fiche n’ont pas de référence artificielle.
 
 ## Quiz personnels
 
-Créer un quiz ou importer un fichier JSON. Les exports contiennent les questions, corrections et références de cours, pas la progression. Le format est `{ "title": "Matière", "cards": [{ "question": "Question ?", "answer": "Correction", "chapter": "Chapitre" }] }`.
+Depuis une matière, ajouter un quiz préremplit son nom. Depuis l’accueil, on peut créer une nouvelle matière. Les anciens quiz personnels sans nom de matière sont conservés et utilisent leur titre comme matière. On peut aussi importer ou exporter des quiz JSON. Le regroupement par matière est conservé à l’import et après rechargement.
 
-## Développement et tests
+Le format accepte un nom de quiz, un nom de matière facultatif et les questions :
 
-Le site est statique et ne requiert ni secret ni base de données. Installer les dépendances de développement avec `npm install --ignore-scripts`, puis lancer `npm test`.
+```json
+{"title":"Formules","subjectTitle":"Marketing","cards":[{"question":"Question ?","answer":"Correction","chapter":"Chapitre"}]}
+```
 
-Les tests couvrent le parcours de révision, les sauvegardes, les imports/exports, les onglets concurrents, les références exactes aux documents et la navigation entre cours et question. Happy DOM teste les interactions ; le rendu sur de vrais téléphones n’est pas validé par ces tests.
+## Développement et publication
 
-## Publication
+Site statique sans secret ni base de données. Installer les dépendances avec `npm install --ignore-scripts`, puis lancer `npm test`.
 
-Vercel publie le dossier `dist` sans installation ni compilation. Les modifications de `main` sont automatiquement déployées par l’intégration GitHub.
+Les tests vérifient la navigation matière → quiz → question, les sélections essentielles, les sauvegardes et migrations, les imports/exports, les écritures concurrentes, la répétition et les liens PDF. Happy DOM teste les interactions ; le rendu sur de vrais téléphones n’est pas validé par ces tests.
+
+Vercel publie le dossier `dist` sans installation ni compilation. Les modifications de `main` sont déployées par l’intégration GitHub.

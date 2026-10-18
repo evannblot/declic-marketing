@@ -19,7 +19,8 @@ function normalizeQuiz(data,fallbackTitle='Mon quiz'){
  const cards=validateCards(Array.isArray(data)?data:data?.cards??data?.questions);
  const title=Array.isArray(data)?fallbackTitle:data?.title??data?.name??fallbackTitle;
  if(typeof title!=='string'||!title.trim()||title.length>100)throw new Error('Indique un nom de matière (100 caractères maximum).');
- return {title:title.trim(),description:typeof data?.description==='string'?data.description.slice(0,300):'Un quiz personnel pour progresser à ton rythme.',cards};
+ const subjectTitle=data?.subjectTitle;if(subjectTitle!==undefined&&(typeof subjectTitle!=='string'||!subjectTitle.trim()||subjectTitle.length>100))throw new Error('Indique un nom de matière (100 caractères maximum).');
+ return {title:title.trim(),...(subjectTitle?{subjectTitle:subjectTitle.trim()}:{}),description:typeof data?.description==='string'?data.description.slice(0,300):'Un quiz personnel pour progresser à ton rythme.',cards};
 }
 function restore(saved,cards,legacyCardIds=[]){
  if(!saved||saved.version!==1||!Array.isArray(saved.queue)||!Array.isArray(saved.mastered))return null;

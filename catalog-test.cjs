@@ -11,3 +11,5 @@ assert.deepEqual(C.normalizeQuiz({title:'PDF',cards:[{question:'Q',answer:'R',pr
 assert.equal(C.normalizeQuiz({title:'Priorités',cards:[{question:'Q',answer:'R',priority:true}]}).cards[0].priority,true);
 console.log('PASS migration : résultats conservés, ajout des nouvelles questions, refus des sauvegardes incomplètes et références PDF sans retranscription.');
 assert.equal(C.restore({version:1,queue:[],mastered:[],history:[]},cards),null);
+assert.equal(C.normalizeQuiz({title:'Formules',subjectTitle:'Marketing',cards}).subjectTitle,'Marketing');
+assert.throws(()=>C.normalizeQuiz({title:'Quiz',subjectTitle:'x'.repeat(101),cards}));
