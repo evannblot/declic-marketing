@@ -7,11 +7,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 1,
-        "excerpt": "Communication : ensemble des informations, messages et signaux de toute nature \nqu'une entreprise émet, volontairement ou non, vers tous ses publics.\n\nCommunication commerciale : ensemble des actions mises en œuvre par une \nentreprise pour influencer positivement les attitudes et comportements de ses \npublics, dans une perspective de performance économique.\n4 fonctions : INFORMER · SÉDUIRE · CONVAINCRE · FIDÉLISER\nFonction\nObjectif\nInformer",
-        "highlight": "ensemble des informations"
+        "page": 1
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-002",
@@ -21,11 +20,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 1,
-        "excerpt": "entreprise pour influencer positivement les attitudes et comportements de ses \npublics, dans une perspective de performance économique.\n4 fonctions : INFORMER · SÉDUIRE · CONVAINCRE · FIDÉLISER\nFonction\nObjectif\nInformer\nFaire connaître un produit ou une marque\nSéduire\nAttirer l'attention, provoquer une émotion\nConvaincre Déclencher l'achat\nFidéliser\nRenforcer la relation à long terme\n2 objectifs majeurs\n",
-        "highlight": "influencer positivement"
+        "page": 1
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-003",
@@ -35,9 +33,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 1,
-        "excerpt": "4 fonctions : INFORMER · SÉDUIRE · CONVAINCRE · FIDÉLISER\nFonction\nObjectif\nInformer\nFaire connaître un produit ou une marque\nSéduire\nAttirer l'attention, provoquer une émotion\nConvaincre Déclencher l'achat\nFidéliser\nRenforcer la relation à long terme\n2 objectifs majeurs\n\nÉconomiques : augmenter les ventes, conquérir des parts de marché, fidéliser la \nclientèle.\n\nSymboliques : créer de la valeur immatérielle (image, notoriété, crédibilité).",
-        "highlight": "INFORMER"
+        "page": 1
       }
     ]
   },
@@ -49,9 +45,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 1,
-        "excerpt": "Symboliques : créer de la valeur immatérielle (image, notoriété, crédibilité).\nÉvolution\n\nAux acteurs classiques s'ajoutent les influenceurs et créateurs de contenu.\n\nEnjeux : relation durable, montrer ses valeurs, gérer sa réputation.\nTypes de communication\nObjet de la communication\nType\nProduits / services\nCommunication de produit\nLa marque\nCommunication de marque\nL'entreprise\nCommunication institutionnelle",
-        "highlight": "Symboliques"
+        "page": 1
       }
     ]
   },
@@ -63,9 +57,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 1,
-        "excerpt": "Communication institutionnelle\nSecteur ou entreprise en crise Communication de crise\nLe personnel\nCommunication interne\nActionnaires / investisseurs\nCommunication externe (financière)\nLes candidats",
-        "highlight": "institutionnelle"
+        "page": 1
       }
     ]
   },
@@ -77,9 +69,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 2,
-        "excerpt": "Com. de produit : faire connaître le produit et ses caractéristiques, en restant \ncohérente avec l'image de marque.\n\nCom. de marque : utile sur les marchés très concurrentiels ou les produits à forte \nvaleur imaginaire ; crée un territoire de marque distinctif qui fidélise.\nPlace dans le mix marketing\n4P = Produit · Prix · Place · Promotion (= communication).\n\nLa communication est la partie visible du marketing et assure la cohérence du mix.\n",
-        "highlight": "Com. de produit"
+        "page": 2
       }
     ]
   },
@@ -91,9 +81,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 2,
-        "excerpt": "Com. de marque : utile sur les marchés très concurrentiels ou les produits à forte \nvaleur imaginaire ; crée un territoire de marque distinctif qui fidélise.\nPlace dans le mix marketing\n4P = Produit · Prix · Place · Promotion (= communication).\n\nLa communication est la partie visible du marketing et assure la cohérence du mix.\n\nUne stratégie = organiser des choix cohérents.\n",
-        "highlight": "Com. de marque"
+        "page": 2
       }
     ]
   },
@@ -105,9 +93,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 2,
-        "excerpt": "Annonceurs\nEntreprises qui commandent la campagne (Nike, Decathlon, Orange)\nAgences\nConçoivent les campagnes (Publicis, BETC)\nMédias et supports Diffusent le message (presse, télé, affichage, réseaux sociaux, \ninfluenceurs)\nRégies publicitaires Vendent et achètent des espaces pub selon prix, horaire, emplacement, \njour\nPublics\nConsommateurs, prescripteurs, leaders d'opinion, associations, \ninstitutions",
-        "highlight": "Annonceurs"
+        "page": 2
       }
     ]
   },
@@ -119,9 +105,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 2,
-        "excerpt": "Agences\nConçoivent les campagnes (Publicis, BETC)\nMédias et supports Diffusent le message (presse, télé, affichage, réseaux sociaux, \ninfluenceurs)\nRégies publicitaires Vendent et achètent des espaces pub selon prix, horaire, emplacement, \njour\nPublics\nConsommateurs, prescripteurs, leaders d'opinion, associations, \ninstitutions\nMétiers d'une agence : département stratégie (planneur stratégique) · service médias ·",
-        "highlight": "Agences"
+        "page": 2
       }
     ]
   },
@@ -133,9 +117,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 5,
-        "excerpt": "Régies publicitaires : elles commercialisent, auprès des annonceurs et des agences, \nles espaces publicitaires des médias dont elles ont la charge. Elles sont intermédiaires \nentre l'annonceur et le diffuseur.\n\nAgences, détail des métiers : les créatifs incluent le directeur de la création, les \ndirecteurs artistiques, les concepteurs-rédacteurs, graphistes, motion designers,",
-        "highlight": "Régie"
+        "page": 5
       }
     ]
   },
@@ -147,9 +129,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 2,
-        "excerpt": "Saturation publicitaire : trop de messages.\n\nFragmentation des audiences : chacun consomme des médias différents.\n\nDigital : réseaux sociaux, data, ciblage personnalisé.\n\nAttentes sociétales : transparence, durabilité, inclusion.\n\nInstantanéité : la marque doit être active ; un bad buzz est un danger.",
-        "highlight": "Saturation"
+        "page": 2
       }
     ]
   },
@@ -161,9 +141,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 2,
-        "excerpt": "Fragmentation des audiences : chacun consomme des médias différents.\n\nDigital : réseaux sociaux, data, ciblage personnalisé.\n\nAttentes sociétales : transparence, durabilité, inclusion.\n\nInstantanéité : la marque doit être active ; un bad buzz est un danger.",
-        "highlight": "Fragmentation"
+        "page": 2
       }
     ]
   },
@@ -175,11 +153,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 3,
-        "excerpt": "Ensemble des choix et orientations qui guident les actions de communication d'une \norganisation pour atteindre des objectifs précis auprès de cibles identifiées.\nElle répond à : quoi dire, comment, à qui, quand, pourquoi ? (le bon message, à la bonne \ncible, par le bon canal).\nElle doit être : alignée avec la stratégie globale · cohérente avec l'image de marque · \nmesurable (indicateurs de performance).\nLes 3 étapes\nÉtape 1 – Diagnostic\n",
-        "highlight": "choix et orientations"
+        "page": 3
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-014",
@@ -189,11 +166,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 6,
-        "excerpt": "Les 4 étapes\n1. Diagnostic · 2. Objectif de communication · 3. Cibles · 4. Positionnement et message \n(stratégie créative)\nDiagnostic, compléments : outil = matrice SWOT (forces, faiblesses, opportunités, \nmenaces). L'ensemble de ces données approfondies = audit de la communication.\nHiérarchie des effets appliquée aux objectifs :\nStade\nIdée\nContenu\nCognitif Faire savoir Notoriété, info produit, stimuler l'attention",
-        "highlight": "Les 4 étapes"
+        "page": 6
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-015",
@@ -203,11 +179,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 6,
-        "excerpt": "menaces). L'ensemble de ces données approfondies = audit de la communication.\nHiérarchie des effets appliquée aux objectifs :\nStade\nIdée\nContenu\nCognitif Faire savoir Notoriété, info produit, stimuler l'attention\nAffectif Faire aimer Attrait, effet sur l'image, préférence, éveiller l'intérêt\nConatif Faire agir\nAchat, conviction, créer du trafic, inciter à l'essai\nCibles, compléments\n",
-        "highlight": "audit"
+        "page": 6
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-016",
@@ -217,11 +192,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 6,
-        "excerpt": "Cognitif Faire savoir Notoriété, info produit, stimuler l'attention\nAffectif Faire aimer Attrait, effet sur l'image, préférence, éveiller l'intérêt\nConatif Faire agir\nAchat, conviction, créer du trafic, inciter à l'essai\nCibles, compléments\n\nCible marketing : clients actuels et prospects que l'on peut toucher. Elle prend en \ncompte un marché identifié, la concurrence et les clients potentiels, pour répondre aux",
-        "highlight": "Faire savoir"
+        "page": 6
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-017",
@@ -231,9 +205,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 3,
-        "excerpt": "Méthode SMART\nLettre\nCritère\nSens\nS\nSpécifique Précis et clair\nM\nMesurable Peut être mesuré\nA\nAtteignable Réalisable avec les compétences et ressources disponibles\nR\nRéaliste\nEn adéquation avec les contraintes et capacités actuelles\nT\nTemporel\nDate d'échéance définie\nÉtape 3 – Cibles\n\nStratégie marketing : segmentation → ciblage → positionnement.\n\nCible marketing = à qui l'entreprise vend. Cible de communication = à qui \nelle parle.\n",
-        "highlight": "SMART"
+        "page": 3
       }
     ]
   },
@@ -245,11 +217,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 6,
-        "excerpt": "Cible marketing : clients actuels et prospects que l'on peut toucher. Elle prend en \ncompte un marché identifié, la concurrence et les clients potentiels, pour répondre aux \nbesoins du mix marketing (prix, distribution…).\n\nCible principale : personnes directement concernées par le produit ou service ; \ncaractérisée par âge, sexe, lieu géographique, centres d'intérêt, CSP.\n",
-        "highlight": "Cible marketing"
+        "page": 6
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-019",
@@ -259,11 +230,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 6,
-        "excerpt": "Cible principale : personnes directement concernées par le produit ou service ; \ncaractérisée par âge, sexe, lieu géographique, centres d'intérêt, CSP.\n\nHiérarchisation des cibles : prise en compte du circuit de distribution et \ndu processus de décision d'achat(consommateur, acheteur, prescripteurs).\nConnaître et comprendre ses cibles : l'insight\n\nÀ comprendre : motivations profondes (hédonistes, oblatives, auto-",
-        "highlight": "Cible principale"
+        "page": 6
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-020",
@@ -273,11 +243,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 4,
-        "excerpt": "Cœur de cible : sous-ensemble de la cible principale, touché en premier, avec des \ncritères supplémentaires pour resserrer.\n\nCibles secondaires : ne concernent pas directement la marque mais la \nrecommandent : prescripteurs, distributeurs (force de vente), journalistes.\nMémo express\n\n4 fonctions : informer, séduire, convaincre, fidéliser.\n\n4P : produit, prix, place, promotion.\n\n3 objectifs : notoriété, image, action.\n",
-        "highlight": "Cœur de cible"
+        "page": 4
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-021",
@@ -287,11 +256,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 4,
-        "excerpt": "Cibles secondaires : ne concernent pas directement la marque mais la \nrecommandent : prescripteurs, distributeurs (force de vente), journalistes.\nMémo express\n\n4 fonctions : informer, séduire, convaincre, fidéliser.\n\n4P : produit, prix, place, promotion.\n\n3 objectifs : notoriété, image, action.\n\nSMART : spécifique, mesurable, atteignable, réaliste, temporel.\n\nCiblage : principale → cœur de cible → secondaires.",
-        "highlight": "Cibles secondaires"
+        "page": 4
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-022",
@@ -301,11 +269,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 6,
-        "excerpt": "Connaître et comprendre ses cibles : l'insight\n\nÀ comprendre : motivations profondes (hédonistes, oblatives, auto-\nexpression), freins (peurs, inhibitions, risques), besoins, attentes, perception.\n\nInsight : perception par le consommateur d'un problème ou dilemme irrésolu sur la \ncatégorie de produits où la marque opère. Notion clé : motivation ou besoin sous-\njacent, signe avant-coureur, constat d'un manque.\n",
-        "highlight": "insight"
+        "page": 6
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-023",
@@ -315,11 +282,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 6,
-        "excerpt": "À comprendre : motivations profondes (hédonistes, oblatives, auto-\nexpression), freins (peurs, inhibitions, risques), besoins, attentes, perception.\n\nInsight : perception par le consommateur d'un problème ou dilemme irrésolu sur la \ncatégorie de produits où la marque opère. Notion clé : motivation ou besoin sous-\njacent, signe avant-coureur, constat d'un manque.\n\nComment l'analyser : observation → motivation → frein → réponse de la marque.\n",
-        "highlight": "hédonistes"
+        "page": 6
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-024",
@@ -329,11 +295,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 6,
-        "excerpt": "expression), freins (peurs, inhibitions, risques), besoins, attentes, perception.\n\nInsight : perception par le consommateur d'un problème ou dilemme irrésolu sur la \ncatégorie de produits où la marque opère. Notion clé : motivation ou besoin sous-\njacent, signe avant-coureur, constat d'un manque.\n\nComment l'analyser : observation → motivation → frein → réponse de la marque.\n",
-        "highlight": "freins"
+        "page": 6
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-025",
@@ -343,11 +308,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 6,
-        "excerpt": "Positionnement (Ries et Trout) : ensemble des traits saillants qui permettent aux \nconsommateurs d'identifier le produit et de le différencier de l'univers des produits \nconcurrents.\nPourquoi positionner ? Se différencier des concurrents · répondre aux attentes clients · être",
-        "highlight": "Positionnement (Ries"
+        "page": 6
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-026",
@@ -357,11 +321,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 7,
-        "excerpt": "La stratégie créative = copy stratégie (brief créatif)\nElle expose les points clés de la réflexion stratégique et pose les axes de création. C'est le plan \nqui permet à l'annonceur de comprendre le travail de l'agence, une méthode synthétique pour \nexprimer ce que le message doit communiquer.\nÉlément\nDéfinition\nPromesse\nCe que la marque promet d'apporter au consommateur. Elle doit \nêtre unique (USP), simple (adaptée aux connaissances de la",
-        "highlight": "copy stratégie"
+        "page": 7
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-027",
@@ -371,11 +334,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 7,
-        "excerpt": "Bénéfice \nconsommateur\nCe que le consommateur retire de l'utilisation de la marque\nAvantage produit Performance du produit\nTon\nClimat / atmosphère du message : explicatif, démonstratif, informatif, \nhumoristique, imaginaire, symbolique\nPreuves\nJustifier la promesse par des éléments concrets\nContraintes\nLégales, de temps, de budget, respect de la charte graphique",
-        "highlight": "Bénéfice \nconsommateur"
+        "page": 7
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-028",
@@ -385,11 +347,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 7,
-        "excerpt": "Promesse\nCe que la marque promet d'apporter au consommateur. Elle doit \nêtre unique (USP), simple (adaptée aux connaissances de la \ncible), abstraite (pour ne pas contraindre la création)\nBénéfice \nconsommateur\nCe que le consommateur retire de l'utilisation de la marque\nAvantage produit Performance du produit\nTon\nClimat / atmosphère du message : explicatif, démonstratif, informatif, \nhumoristique, imaginaire, symbolique\nPreuves",
-        "highlight": "Promesse"
+        "page": 7
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-029",
@@ -399,11 +360,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 7,
-        "excerpt": "Avantage produit Performance du produit\nTon\nClimat / atmosphère du message : explicatif, démonstratif, informatif, \nhumoristique, imaginaire, symbolique\nPreuves\nJustifier la promesse par des éléments concrets\nContraintes\nLégales, de temps, de budget, respect de la charte graphique\nElle fixe un cadre à partir duquel la création se développe, et doit reposer sur un bénéfice \ntangible, simple, clair et cohérent.",
-        "highlight": "Avantage produit"
+        "page": 7
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-030",
@@ -413,11 +373,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 7,
-        "excerpt": "Climat / atmosphère du message : explicatif, démonstratif, informatif, \nhumoristique, imaginaire, symbolique\nPreuves\nJustifier la promesse par des éléments concrets\nContraintes\nLégales, de temps, de budget, respect de la charte graphique\nElle fixe un cadre à partir duquel la création se développe, et doit reposer sur un bénéfice \ntangible, simple, clair et cohérent.",
-        "highlight": "Climat"
+        "page": 7
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-031",
@@ -427,11 +386,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 7,
-        "excerpt": "Justifier la promesse par des éléments concrets\nContraintes\nLégales, de temps, de budget, respect de la charte graphique\nElle fixe un cadre à partir duquel la création se développe, et doit reposer sur un bénéfice \ntangible, simple, clair et cohérent.\nExemple : agence de voyage low cost. Promesse : les prix les plus bas · Bénéfice : voyager \nplus · Ton : détendu, exotique · Preuve : les prix de l'agence · Contraintes : charte graphique,",
-        "highlight": "Justifier la promesse"
+        "page": 7
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-032",
@@ -441,11 +399,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 7,
-        "excerpt": "Contraintes\nLégales, de temps, de budget, respect de la charte graphique\nElle fixe un cadre à partir duquel la création se développe, et doit reposer sur un bénéfice \ntangible, simple, clair et cohérent.\nExemple : agence de voyage low cost. Promesse : les prix les plus bas · Bénéfice : voyager \nplus · Ton : détendu, exotique · Preuve : les prix de l'agence · Contraintes : charte graphique, \nlogo du partenaire.",
-        "highlight": "Contraintes"
+        "page": 7
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-033",
@@ -455,11 +412,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 7,
-        "excerpt": "« Qui dit quoi, à qui, par quel canal, avec quel effet ? »\nQuestion\nÉlément",
-        "highlight": "Qui dit quoi"
+        "page": 7
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-034",
@@ -469,11 +425,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 8,
-        "excerpt": "B. Modèle de Shannon et Weaver (1949) : modèle télégraphique\nAbsence de rétroaction, modèle simpliste.\nC. Modèle de Jakobson (1960) : les fonctions du langage\nFonction\nRôle\nRéférentielle\nInformer\nExpressive\nÉmouvoir\nConative\nInfluencer\nPhatique\nCréer du contact\nPoétique\nJeu sur la forme\nMétalinguistique Expliquer un code\n2. Wiener et la cybernétique (1948)\n\nSystème : ensemble d'éléments interdépendants tels que la modification de l'un",
-        "highlight": "Shannon"
+        "page": 8
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-035",
@@ -483,11 +438,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 8,
-        "excerpt": "C. Modèle de Jakobson (1960) : les fonctions du langage\nFonction\nRôle\nRéférentielle\nInformer\nExpressive\nÉmouvoir\nConative\nInfluencer\nPhatique\nCréer du contact\nPoétique\nJeu sur la forme\nMétalinguistique Expliquer un code\n2. Wiener et la cybernétique (1948)\n\nSystème : ensemble d'éléments interdépendants tels que la modification de l'un \nentraîne celle de tous les autres.\n",
-        "highlight": "Jakobson"
+        "page": 8
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-036",
@@ -497,11 +451,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 8,
-        "excerpt": "Absence de rétroaction, modèle simpliste.\nC. Modèle de Jakobson (1960) : les fonctions du langage\nFonction\nRôle\nRéférentielle\nInformer\nExpressive\nÉmouvoir\nConative\nInfluencer\nPhatique\nCréer du contact\nPoétique\nJeu sur la forme\nMétalinguistique Expliquer un code\n2. Wiener et la cybernétique (1948)\n\nSystème : ensemble d'éléments interdépendants tels que la modification de l'un \nentraîne celle de tous les autres.\n",
-        "highlight": "rétroaction"
+        "page": 8
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-037",
@@ -511,9 +464,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 8,
-        "excerpt": "2. Wiener et la cybernétique (1948)\n\nSystème : ensemble d'éléments interdépendants tels que la modification de l'un \nentraîne celle de tous les autres.\n\nIl se régule grâce aux boucles de rétroaction (informations sur son état et celui de son \nenvironnement).\n\nUn système est ouvert car il communique sans interruption avec son \nenvironnement. Un système stable n'est pas nécessairement statique.\n",
-        "highlight": "cybernétique"
+        "page": 8
       }
     ]
   },
@@ -525,11 +476,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 8,
-        "excerpt": "1. On ne peut pas ne pas communiquer : même le silence, la posture ou le design \nminimaliste d'un produit envoient un message.\n2. Tout message a deux niveaux : contenu (ce qui est dit) + relation (la manière dont \nc'est dit).\n3. La communication est circulaire : système d'interactions, pas une ligne droite (ex. \npost TikTok d'une marque → commentaires → réponse → co-construction du \nmessage).",
-        "highlight": "On ne peut pas"
+        "page": 8
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-039",
@@ -539,11 +489,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 8,
-        "excerpt": "2. Tout message a deux niveaux : contenu (ce qui est dit) + relation (la manière dont \nc'est dit).\n3. La communication est circulaire : système d'interactions, pas une ligne droite (ex. \npost TikTok d'une marque → commentaires → réponse → co-construction du \nmessage).\n4. Verbal et non verbal : gestes, images, couleurs véhiculent un sens aussi fort que les \nmots.",
-        "highlight": "deux niveaux"
+        "page": 8
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-040",
@@ -553,11 +502,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 9,
-        "excerpt": "LOGOS\nFonctionnelle ou démonstrative : met en avant les performances du produit \nface aux problèmes du consommateur\nPATHOS\nÉmotionnelle : pulsions, motivations hédonistes, d'auto-expression, oblatives\nETHOS\nMet en avant le statut de la marque ou de l'entreprise\nb) Création d'automatismes : modèle behavioriste\n\nLes comportements sont des réponses à des stimuli du monde extérieur.\n",
-        "highlight": "LOGOS"
+        "page": 9
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-041",
@@ -567,11 +515,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 9,
-        "excerpt": "b) Création d'automatismes : modèle behavioriste\n\nLes comportements sont des réponses à des stimuli du monde extérieur.\n\nDéveloppé par Watson, Pavlov, Bekhterev. Réponses conditionnées par la fréquence \net la nature des stimuli.\n\nInspiré des théoriciens de la propagande politique (Tchakhotine).\nc) Persuasion logique : modèle de la hiérarchie des effets\nLe comportement est le résultat d'un processus mental d'acquisition et de traitement",
-        "highlight": "behavioriste"
+        "page": 9
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-042",
@@ -581,11 +528,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 9,
-        "excerpt": "Modèle AIDA (Lewis, 1898) : Attention → Intérêt → Désir → Achat.\nHiérarchie des effets : un consommateur ne passe pas instantanément de l'ignorance à \nl'achat. 3 niveaux, 6 étapes :\nStade\nÉtape\nDescription\nCognitif Prise de conscience Il découvre l'existence du produit ou de la marque\nConnaissance\nIl acquiert des informations\nAffectif Appréciation\nIl forme une opinion ou un ressenti positif ou négatif\nPréférence",
-        "highlight": "AIDA"
+        "page": 9
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-043",
@@ -595,11 +541,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 9,
-        "excerpt": "Cognitif Prise de conscience Il découvre l'existence du produit ou de la marque\nConnaissance\nIl acquiert des informations\nAffectif Appréciation\nIl forme une opinion ou un ressenti positif ou négatif\nPréférence\nIl compare et choisit une marque préférée\nConatif Conviction\nIl est persuadé que c'est le bon choix\nAchat\nIl agit et effectue l'achat\nUtilité : où se situe la cible ? choisir les bons canaux et contenus ; quel message selon l'étape",
-        "highlight": "Prise de conscience"
+        "page": 9
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-044",
@@ -609,11 +554,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 10,
-        "excerpt": "Art de raconter des histoires à fort pouvoir de séduction et de conviction. Pour parler \nà la tête, il faut souvent d'abord toucher le cœur.\n\nContenu non promotionnel : on crée un environnement, un contexte réel ou fictif lié \nà la marque, au lieu de vanter les points forts du produit. Technique de mise en récit \nsur la base d'une structure.\n\nBut : faire connaître un nouveau produit, améliorer l'image, augmenter la notoriété,",
-        "highlight": "Art de raconter"
+        "page": 10
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-045",
@@ -623,11 +567,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 10,
-        "excerpt": "d'information, rôle d'expert, bâtisseurs de notoriété (e-réputation). Modèle du two-step \nflow of communication.\n5. Analyse sémiotique du message\n\nSémiotique : science générale des signes. Précurseurs : Peirce, de Saussure, R. \nBarthes. Étymologie d'« image » : imitari. L'image est une représentation.\n\nLe signe se décompose en signifiant et signifié. Exemples : montagne (Leroy Merlin)",
-        "highlight": "two-step"
+        "page": 10
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-046",
@@ -637,11 +580,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 10,
-        "excerpt": "5. Analyse sémiotique du message\n\nSémiotique : science générale des signes. Précurseurs : Peirce, de Saussure, R. \nBarthes. Étymologie d'« image » : imitari. L'image est une représentation.\n\nLe signe se décompose en signifiant et signifié. Exemples : montagne (Leroy Merlin) \n= nature, liberté, air pur ; colombe = amour, espérance, paix.\n\nLa relation signifiant / signifié est implicite ou explicite. Si elle est trop subjective,",
-        "highlight": "sémiotique"
+        "page": 10
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-047",
@@ -651,11 +593,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 10,
-        "excerpt": "Le signe se décompose en signifiant et signifié. Exemples : montagne (Leroy Merlin) \n= nature, liberté, air pur ; colombe = amour, espérance, paix.\n\nLa relation signifiant / signifié est implicite ou explicite. Si elle est trop subjective, \nrisque de mauvaise interprétation. Un signe peut \nêtre monosémique ou polysémique.\n\nDénotation : le signifié est construit en tant que tel. Connotation : valeur subjective",
-        "highlight": "signifiant"
+        "page": 10
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-048",
@@ -665,11 +606,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 10,
-        "excerpt": "Dénotation : le signifié est construit en tant que tel. Connotation : valeur subjective \nliée au signe du fait de sa forme ou fonction.\nCas Pepsi (bad buzz) : signifiés imaginés = unité, rapprochement, paix ; perçu = banalisation \ndes protestations et des violences policières.\nConclusion : plus un signe est polysémique, subjectif et culturellement chargé, \nplus le risque d'interprétation divergente augmente.",
-        "highlight": "Dénotation"
+        "page": 10
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-049",
@@ -679,11 +619,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 10,
-        "excerpt": "être monosémique ou polysémique.\n\nDénotation : le signifié est construit en tant que tel. Connotation : valeur subjective \nliée au signe du fait de sa forme ou fonction.\nCas Pepsi (bad buzz) : signifiés imaginés = unité, rapprochement, paix ; perçu = banalisation \ndes protestations et des violences policières.\nConclusion : plus un signe est polysémique, subjectif et culturellement chargé, \nplus le risque d'interprétation divergente augmente.",
-        "highlight": "polysémique"
+        "page": 10
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-050",
@@ -693,9 +632,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 4,
-        "excerpt": "Cascade de propagation\nElle se produit lorsqu'on donne l'information à plusieurs personnes à la fois et que chacune \nla propage ensuite à plusieurs autres.\nExpériences\n\nGeste\n\nDessin\n\nParole\nÀ retenir : une rumeur se déforme selon les préjugés de ceux qui la relaient.",
-        "highlight": "Cascade"
+        "page": 4
       }
     ]
   },
@@ -707,9 +644,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 4,
-        "excerpt": "La distorsion de l'information n'est pas aléatoire.\n\nLa déformation reflète nos préjugés et notre culture.\n\nChaque groupe construit la vérité qu'il veut entendre.\nDifférentes chaînes de transmission\nChaîne\nCe qui se passe\nEffet\nInformation transmise à des \npersonnes qui ont déjà des préjugés \nnégatifs\nElle prend de plus en plus \nd'ampleur : tout le monde entend \nl'info et y croit\nMessage de plus en \nplus alarmant\nInformation transmise à des",
-        "highlight": "distorsion"
+        "page": 4
       }
     ]
   },
@@ -721,9 +656,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 10,
-        "excerpt": "ARPP (Autorité de régulation \nprofessionnelle de la publicité)\nAutorégulation : délivre des recommandations et",
-        "highlight": "ARPP"
+        "page": 10
       }
     ]
   },
@@ -735,9 +668,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 11,
-        "excerpt": "CSA / ARCOM\nRégule les médias audiovisuels\nCNIL\nEncadre la collecte et l'utilisation des données \npersonnelles\nDGCCRF\nLutte contre les pratiques commerciales \ntrompeuses\nEn Europe\n\nDirectives européennes (ex. directive 2005/29/CE sur les pratiques commerciales \ndéloyales).\n\nEncadrement du numérique avec le RGPD (Règlement général sur la protection des \ndonnées, 2018). Ex. : Facebook condamné à plusieurs reprises en Europe pour non-",
-        "highlight": "ARCOM"
+        "page": 11
       }
     ]
   },
@@ -749,9 +680,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 11,
-        "excerpt": "CNIL\nEncadre la collecte et l'utilisation des données \npersonnelles\nDGCCRF\nLutte contre les pratiques commerciales \ntrompeuses\nEn Europe\n\nDirectives européennes (ex. directive 2005/29/CE sur les pratiques commerciales \ndéloyales).\n\nEncadrement du numérique avec le RGPD (Règlement général sur la protection des \ndonnées, 2018). Ex. : Facebook condamné à plusieurs reprises en Europe pour non-\nrespect du RGPD.",
-        "highlight": "CNIL"
+        "page": 11
       }
     ]
   },
@@ -763,9 +692,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 11,
-        "excerpt": "DGCCRF\nLutte contre les pratiques commerciales \ntrompeuses\nEn Europe\n\nDirectives européennes (ex. directive 2005/29/CE sur les pratiques commerciales \ndéloyales).\n\nEncadrement du numérique avec le RGPD (Règlement général sur la protection des \ndonnées, 2018). Ex. : Facebook condamné à plusieurs reprises en Europe pour non-\nrespect du RGPD.\n2. Les grandes règles encadrant la publicité\na) Publicité trompeuse ou mensongère",
-        "highlight": "DGCCRF"
+        "page": 11
       }
     ]
   },
@@ -777,9 +704,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 11,
-        "excerpt": "trompeuses\nEn Europe\n\nDirectives européennes (ex. directive 2005/29/CE sur les pratiques commerciales \ndéloyales).\n\nEncadrement du numérique avec le RGPD (Règlement général sur la protection des \ndonnées, 2018). Ex. : Facebook condamné à plusieurs reprises en Europe pour non-\nrespect du RGPD.\n2. Les grandes règles encadrant la publicité\na) Publicité trompeuse ou mensongère",
-        "highlight": "trompeuse"
+        "page": 11
       }
     ]
   },
@@ -791,9 +716,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 11,
-        "excerpt": "b) Publicité comparative\n\nDéfinition : toute publicité qui, explicitement ou implicitement, identifie un \nconcurrent ou les biens / services qu'il offre.\n\nLongtemps non interdite, mais la jurisprudence la rendait impossible. Loi de \n1992 : elle l'autorise si elle est loyale, véridique et permet une comparaison \nvérifiable et objective.\nPOUR\nCONTRE\nS'aligner sur les pays occidentaux\nRelève souvent du dénigrement",
-        "highlight": "comparative"
+        "page": 11
       }
     ]
   },
@@ -805,9 +728,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 11,
-        "excerpt": "Encadrement du numérique avec le RGPD (Règlement général sur la protection des \ndonnées, 2018). Ex. : Facebook condamné à plusieurs reprises en Europe pour non-\nrespect du RGPD.\n2. Les grandes règles encadrant la publicité\na) Publicité trompeuse ou mensongère\nInterdite : ne pas induire le consommateur en erreur (prix, qualité, caractéristiques). Ex. : \npublicité mensongère de Volkswagen sur les émissions polluantes.\nb) Publicité comparative\n",
-        "highlight": "RGPD"
+        "page": 11
       }
     ]
   },
@@ -819,9 +740,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 12,
-        "excerpt": "3. L'éthique de la communication commerciale\nSujet\nDéfinition\nExemple\nStéréotypes et \nreprésentation sociale\nRisque de sexisme, \nracisme, grossophobie\nH&M 2018 : enfant noir portant un \nsweat « coolest monkey in the jungle » \n→ accusation de racisme, boycott \nmassif\nGreenwashing / social \nwashing\nPrétendre être écologique \nou engagé sans réelle \naction\nTotalEnergies accusé de greenwashing \ndans ses pubs sur la transition \nénergétique",
-        "highlight": "éthique"
+        "page": 12
       }
     ]
   },
@@ -833,11 +752,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 13,
-        "excerpt": "Identité de \nmarque\nCe que la marque veut dire d'elle-\nmême : son ADN, sa mission, ses \nvaleurs\nDecathlon : « rendre le sport \naccessible à tous »\nImage de \nmarque\nCe que les consommateurs perçoivent \nréellement : la représentation mentale \nqu'ils s'en font\nTesla veut incarner l'innovation \ndurable, mais certains perçoivent une \nimage liée à Elon Musk\nRéputation\nL'image dans la durée, façonnée par \nl'expérience, le bouche-à-oreille, les \nmédias",
-        "highlight": "Identité de"
+        "page": 13
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-061",
@@ -847,9 +765,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 13,
-        "excerpt": "b) Personnalité de marque (Aaker, 1997) : 5 dimensions\nDimension\nTraits associés\nExemples\nSincérité\nHonnêteté, proximité, chaleur, simplicité, \nbienveillance. Marques humaines et \naccessibles, relation de confiance et \nd'authenticité\nDisney (valeurs familiales, magie \nde l'enfance), Innocent\nExcitation\nÉnergie, audace, créativité, modernité, \njeunesse. Marques qui stimulent et \nsurprennent\nRed Bull (sports extrêmes, \ndépassement de soi), TikTok",
-        "highlight": "Personnalité de marque"
+        "page": 13
       }
     ]
   },
@@ -861,9 +777,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 13,
-        "excerpt": "b) Personnalité de marque (Aaker, 1997) : 5 dimensions\nDimension\nTraits associés\nExemples\nSincérité\nHonnêteté, proximité, chaleur, simplicité, \nbienveillance. Marques humaines et \naccessibles, relation de confiance et \nd'authenticité\nDisney (valeurs familiales, magie \nde l'enfance), Innocent\nExcitation\nÉnergie, audace, créativité, modernité, \njeunesse. Marques qui stimulent et \nsurprennent\nRed Bull (sports extrêmes, \ndépassement de soi), TikTok",
-        "highlight": "Aaker"
+        "page": 13
       }
     ]
   },
@@ -875,9 +789,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 14,
-        "excerpt": "Le capital-marque (brand equity)\nKeller (1993) : CBBE (Customer Based Brand Equity)\n\nLe pouvoir d'une marque ne dépend pas seulement de sa qualité réelle ou de son \nbudget publicitaire, mais de ce que les consommateurs pensent, ressentent et \ncroient à son sujet.\n\n« Une marque forte se construit dans la tête et le cœur des consommateurs. » Pour \nKeller, l'image de marque est une ressource.\nLa pyramide de Keller, 4 étages :\nÉtage\nDéfinition",
-        "highlight": "capital-marque"
+        "page": 14
       }
     ]
   },
@@ -889,9 +801,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 14,
-        "excerpt": "1. NOTORIÉTÉ\nMarque connue et reconnue. Reconnaissance : « je la reconnais quand je \nla vois ». Rappel spontané : « je la cite sans aide ». Objectif : la marque \nvient naturellement à l'esprit en situation d'achat\n2. \nASSOCIATIONS\nImage mentale de la marque. Associations de \nperformance (fonctionnel : qualité, fiabilité, design, innovation, service ; \nex. Toyota = fiabilité). Associations symboliques /",
-        "highlight": "NOTORIÉTÉ"
+        "page": 14
       }
     ]
   },
@@ -903,9 +813,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 14,
-        "excerpt": "performance (fonctionnel : qualité, fiabilité, design, innovation, service ; \nex. Toyota = fiabilité). Associations symboliques / \nimaginaires (émotionnel : valeurs, style de vie, personnalité ; ex. Nike = \nperformance et dépassement de soi). C'est ici que se forment les valeurs \net l'univers symbolique\n3. RÉPONSE\nRéactions des consommateurs. Jugement (rationnel : qualité, crédibilité,",
-        "highlight": "performance"
+        "page": 14
       }
     ]
   },
@@ -917,9 +825,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 14,
-        "excerpt": "Réactions des consommateurs. Jugement (rationnel : qualité, crédibilité, \nconsidération, supériorité ; ex. Apple jugée innovante et haut de \ngamme). Sentiments (émotionnels : sécurité, plaisir, fierté, excitation, \nnostalgie…)\n4. RÉSONANCE\nRelation forte, durable et affective. Fidélité comportementale (achats \nrépétés), attachement affectif(« la marque fait partie de moi \n»), sentiment d'appartenance (communauté forte), engagement",
-        "highlight": "Jugement"
+        "page": 14
       }
     ]
   },
@@ -931,9 +837,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 14,
-        "excerpt": "4. RÉSONANCE\nRelation forte, durable et affective. Fidélité comportementale (achats \nrépétés), attachement affectif(« la marque fait partie de moi \n»), sentiment d'appartenance (communauté forte), engagement \nactif(ambassadeurs). Ex. : clubs et tatouages Harley-Davidson, fans \nd'Apple qui font la queue\nUtilité du modèle : diagnostiquer à quel niveau se situe la marque et planifier des actions \nadaptées à chaque étape :\n1. Campagne de notoriété",
-        "highlight": "RÉSONANCE"
+        "page": 14
       }
     ]
   },
@@ -945,11 +849,10 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 15,
-        "excerpt": "Dissonance\nDécalage entre \nidentité voulue et \nimage perçue\nMcDonald's veut se \nrepositionner sur une image \nplus équilibrée et moderne, \nmais reste perçu comme fast-\nfood gras, industriel, riche en \nsucre et en sel → tentative \nperçue comme superficielle \nvoire hypocrite\nUne marque ne peut pas \nchanger son \nimage uniquement par \nla communication : il \nfaut changer les 4P pour \nêtre cohérent\nBad buzz\nErreur de \ncommunication \nvirale",
-        "highlight": "Dissonance"
+        "page": 15
       }
-    ]
+    ],
+    "priority": true
   },
   {
     "id": "communication-concept-069",
@@ -959,9 +862,7 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 15,
-        "excerpt": "Bad buzz\nErreur de \ncommunication \nvirale\nMarque italienne, 2018 : vidéos \nInstagram d'une Chinoise \nmangeant un plat italien avec \ndes baguettes. Intention : \nhumour sur le choc culturel. \nRéception : racisme, \ncondescendance, stéréotypes. \nConséquences : boycott, \nannulation du défilé, excuses \ntardives jugées peu sincères\nComprendre les \ndifférences culturelles \navant de communiquer, \nsurtout à l'ère des réseaux \nsociaux\nGreenwashing /",
-        "highlight": "Bad buzz"
+        "page": 15
       }
     ]
   },
@@ -973,9 +874,787 @@
     "sources": [
       {
         "documentId": "com",
-        "page": 15,
-        "excerpt": "Greenwashing / \nsocial washing\nCommuniquer sur \ndes valeurs \néthiques sans les \nappliquer\nH&M et la « Conscious \ncollection » : gamme censée \nêtre durable, étiquettes \nécologiques trompeuses → \nbaisse de crédibilité\nActions réelles et \nmesurables\nLe partiel : informations pratiques\n\nNe pas être en retard ; rentrer par le bas.\n\nDurée : 1h30.\n\nQuelques questions de cours. Pas besoin de définitions apprises par cœur, tant que la",
-        "highlight": "washing"
+        "page": 15
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-071",
+    "chapter": "3 · Les théories",
+    "question": "Quels sont les trois stades de la hiérarchie des effets, dans l’ordre ?",
+    "answer": "Cognitif, affectif, puis conatif : le consommateur apprend, développe une attitude, puis passe à l’action.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-072",
+    "chapter": "3 · Les théories",
+    "question": "Quelles étapes de la hiérarchie des effets appartiennent au stade cognitif ?",
+    "answer": "La prise de conscience et la connaissance : découvrir l’existence de la marque ou du produit, puis acquérir des informations.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-073",
+    "chapter": "3 · Les théories",
+    "question": "Quelles étapes de la hiérarchie des effets appartiennent au stade affectif ?",
+    "answer": "L’appréciation et la préférence : former une opinion ou un ressenti, puis comparer les marques et en préférer une.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-074",
+    "chapter": "3 · Les théories",
+    "question": "Quelles étapes de la hiérarchie des effets appartiennent au stade conatif ?",
+    "answer": "La conviction et l’achat : être persuadé que le produit constitue le bon choix, puis agir et l’acheter.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-075",
+    "chapter": "3 · Les théories",
+    "question": "Que signifie la prise de conscience dans la hiérarchie des effets ?",
+    "answer": "Le consommateur découvre l’existence du produit ou de la marque. C’est la première étape du stade cognitif.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-076",
+    "chapter": "3 · Les théories",
+    "question": "Que signifie la connaissance dans la hiérarchie des effets ?",
+    "answer": "Le consommateur acquiert des informations sur le produit ou la marque, au-delà de la simple découverte de son existence.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-077",
+    "chapter": "3 · Les théories",
+    "question": "Que signifie l’appréciation dans la hiérarchie des effets ?",
+    "answer": "Le consommateur forme une opinion ou un ressenti positif ou négatif envers la marque. Cette étape appartient au stade affectif.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-078",
+    "chapter": "3 · Les théories",
+    "question": "Que signifie la préférence dans la hiérarchie des effets ?",
+    "answer": "Le consommateur compare les marques et choisit celle qu’il préfère. Cette étape appartient au stade affectif.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-079",
+    "chapter": "3 · Les théories",
+    "question": "Que signifie la conviction dans la hiérarchie des effets ?",
+    "answer": "Le consommateur est persuadé que le produit ou la marque représente le bon choix. Cette étape précède l’achat dans le stade conatif.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-080",
+    "chapter": "3 · Les théories",
+    "question": "À quelle étape la hiérarchie des effets débouche-t-elle sur un comportement d’achat ?",
+    "answer": "À la dernière étape, l’achat : le consommateur agit effectivement. Elle suit la conviction et relève du stade conatif.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-081",
+    "chapter": "3 · Les théories",
+    "question": "Pourquoi le consommateur ne passe-t-il pas directement de l’ignorance à l’achat ?",
+    "answer": "L’achat résulte d’un processus progressif : il acquiert des informations, forme une attitude, développe une conviction, puis agit.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-082",
+    "chapter": "3 · Les théories",
+    "question": "À quoi sert la hiérarchie des effets pour préparer une campagne ?",
+    "answer": "À repérer l’étape où se trouve la cible et à adapter l’objectif, le message, les contenus et les canaux : informer, séduire ou inciter à agir.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-083",
+    "chapter": "3 · Les théories",
+    "question": "Quel type de campagne correspond à chacun des trois stades de la hiérarchie des effets ?",
+    "answer": "Cognitif : campagne informative. Affectif : campagne d’image. Conatif : campagne promotionnelle.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-084",
+    "chapter": "3 · Les théories",
+    "question": "Quelle différence y a-t-il entre AIDA et la hiérarchie des effets à six étapes ?",
+    "answer": "AIDA distingue attention, intérêt, désir et achat. La hiérarchie des effets détaille prise de conscience, connaissance, appréciation, préférence, conviction et achat, regroupées en trois stades.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-085",
+    "chapter": "5 · L’image de marque",
+    "question": "Qu’est-ce que l’identité de marque ?",
+    "answer": "C’est ce que la marque veut dire d’elle-même : son ADN, sa mission et ses valeurs.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-086",
+    "chapter": "5 · L’image de marque",
+    "question": "Qu’est-ce que l’image de marque ?",
+    "answer": "C’est ce que les consommateurs perçoivent réellement de la marque : la représentation mentale qu’ils s’en font.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-087",
+    "chapter": "5 · L’image de marque",
+    "question": "Qu’est-ce que la réputation d’une marque ?",
+    "answer": "C’est l’image qui se construit dans la durée, façonnée par les expériences, le bouche-à-oreille et les médias.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-088",
+    "chapter": "5 · L’image de marque",
+    "question": "Quelle différence y a-t-il entre l’identité voulue et l’image perçue ?",
+    "answer": "L’identité correspond à ce que la marque veut exprimer. L’image correspond à ce que les consommateurs en retiennent réellement. Les deux peuvent être différentes.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-089",
+    "chapter": "5 · L’image de marque",
+    "question": "Quelle différence y a-t-il entre image et réputation de marque ?",
+    "answer": "L’image est la représentation mentale perçue par les consommateurs. La réputation insiste sur sa construction dans la durée à travers l’expérience, les médias et le bouche-à-oreille.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-090",
+    "chapter": "5 · L’image de marque",
+    "question": "Quels facteurs façonnent la réputation d’une marque dans la durée ?",
+    "answer": "Les expériences avec la marque, le bouche-à-oreille et les médias.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-091",
+    "chapter": "5 · L’image de marque",
+    "question": "Pourquoi une marque ne peut-elle pas changer son image uniquement par la communication ?",
+    "answer": "Sa communication doit être cohérente avec les actions et l’expérience proposées. Le cours souligne qu’il faut aussi agir sur les 4P, faute de quoi l’image perçue peut rester éloignée de l’identité voulue.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 15
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-092",
+    "chapter": "5 · L’image de marque",
+    "question": "Quels éléments définissent l’identité d’une marque ?",
+    "answer": "Son ADN, sa mission et ses valeurs : ce qu’elle veut être et dire d’elle-même.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-093",
+    "chapter": "5 · L’image de marque",
+    "question": "Quelles sont les grandes composantes de l’image de marque présentées dans le cours ?",
+    "answer": "Les valeurs et l’univers symbolique, la personnalité de marque, les signes visuels et identitaires, et le storytelling.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-094",
+    "chapter": "2 · La stratégie",
+    "question": "Que faut-il faire avant de construire une stratégie de communication ?",
+    "answer": "Faire de la veille, dresser un constat et observer la cible pour comprendre sa situation. La stratégie vient ensuite, à partir de ce diagnostic.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-095",
+    "chapter": "2 · La stratégie",
+    "question": "Quelle question de départ aide à comprendre les obstacles à l’achat ?",
+    "answer": "« Pourquoi le consommateur n’achète-t-il pas mon produit ? » Elle guide l’observation des motivations, des freins, des besoins et des attentes avant de construire la stratégie.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-096",
+    "chapter": "2 · La stratégie",
+    "question": "Quels sont les deux sens du mot insight indiqués dans le cours ?",
+    "answer": "Une motivation ou un besoin sous-jacent, et un signe avant-coureur. La définition à retenir relie l’insight à un problème ou un dilemme irrésolu perçu dans une catégorie de produits.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-097",
+    "chapter": "2 · La stratégie",
+    "question": "Comment analyser un insight en quatre temps ?",
+    "answer": "Observation, motivation, frein, puis réponse de la marque : partir du constat, comprendre ce qui attire et ce qui bloque, puis proposer une réponse adaptée.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-098",
+    "chapter": "2 · La stratégie",
+    "question": "Quelle différence y a-t-il entre une motivation et un frein à l’achat ?",
+    "answer": "La motivation pousse le consommateur à agir ou à acheter. Le frein fait obstacle à cette action. Il faut étudier les deux pour comprendre la cible.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-099",
+    "chapter": "2 · La stratégie",
+    "question": "Qu’est-ce qu’une motivation hédoniste ?",
+    "answer": "La recherche du plaisir pour soi : se faire plaisir grâce à l’achat ou à l’utilisation du produit.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-100",
+    "chapter": "2 · La stratégie",
+    "question": "Qu’est-ce qu’une motivation oblative ?",
+    "answer": "La volonté de faire plaisir à une autre personne, plutôt que de rechercher uniquement son propre plaisir.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-101",
+    "chapter": "2 · La stratégie",
+    "question": "Qu’est-ce qu’une motivation d’auto-expression ?",
+    "answer": "La volonté d’exprimer sa personnalité, ses valeurs ou l’image que l’on veut donner de soi à travers sa consommation.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-102",
+    "chapter": "2 · La stratégie",
+    "question": "Quels éléments faut-il étudier en plus des motivations et des freins ?",
+    "answer": "Les besoins, les attentes et la perception de la cible. Ils complètent la compréhension de son comportement.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-103",
+    "chapter": "2 · La stratégie",
+    "question": "Pourquoi observer la cible avant de choisir le message ?",
+    "answer": "Pour partir de ses problèmes, motivations et obstacles réels, puis construire une stratégie et un message adaptés à ce qu’elle vit.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-104",
+    "chapter": "2 · La stratégie",
+    "question": "Quelles données de profil faut-il recueillir sur le client idéal ?",
+    "answer": "Son âge, son sexe, sa profession et son salaire.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-105",
+    "chapter": "2 · La stratégie",
+    "question": "Quelles informations faut-il recueillir sur les centres d’intérêt du client idéal ?",
+    "answer": "Ses intérêts, ses passions et ce qu’il fait de son temps libre.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-106",
+    "chapter": "2 · La stratégie",
+    "question": "Quelles difficultés faut-il identifier chez le client idéal ?",
+    "answer": "Ses problèmes, ses obstacles et ses frustrations.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-107",
+    "chapter": "2 · La stratégie",
+    "question": "Quelle situation future faut-il décrire pour comprendre le client idéal ?",
+    "answer": "À quoi ressemblera sa vie une fois son problème résolu : le changement et les bénéfices qu’il recherche.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-108",
+    "chapter": "2 · La stratégie",
+    "question": "Quelles informations émotionnelles faut-il recueillir sur le client idéal ?",
+    "answer": "Ses motivations profondes et les émotions qu’il traverse.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-109",
+    "chapter": "2 · La stratégie",
+    "question": "Quels éléments de langage faut-il relever chez le client idéal ?",
+    "answer": "Son vocabulaire et ses expressions, pour comprendre sa manière de parler de ses besoins et de ses problèmes.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-110",
+    "chapter": "2 · La stratégie",
+    "question": "Quelles sources permettent de mieux connaître le client idéal ?",
+    "answer": "Les études marketing existantes, les discussions et retours des clients, les outils publicitaires, les forums, les commentaires et les avis.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-111",
+    "chapter": "2 · La stratégie",
+    "question": "Quels rôles faut-il distinguer dans le processus de décision d’achat ?",
+    "answer": "Le consommateur, l’acheteur et les prescripteurs. Ces rôles peuvent être tenus par des personnes différentes et influencent la hiérarchisation des cibles.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-112",
+    "chapter": "2 · La stratégie",
+    "question": "Quels critères permettent de décrire concrètement une cible principale ?",
+    "answer": "L’âge, le sexe, le lieu géographique, les centres d’intérêt et la catégorie socioprofessionnelle.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-113",
+    "chapter": "2 · La stratégie",
+    "question": "Pourquoi la cible de communication peut-elle dépasser les personnes qui achètent ?",
+    "answer": "L’entreprise peut aussi s’adresser à des personnes qui recommandent, relaient ou influencent l’achat, comme les prescripteurs et les distributeurs.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-114",
+    "chapter": "2 · La stratégie",
+    "question": "À quelles cinq questions une stratégie de communication doit-elle répondre ?",
+    "answer": "Quoi dire, comment le dire, à qui, quand et pourquoi. Il faut adresser le bon message à la bonne cible par le bon canal.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-115",
+    "chapter": "2 · La stratégie",
+    "question": "Que doit contenir le diagnostic avant de fixer la stratégie de communication ?",
+    "answer": "Une analyse interne, une analyse externe et une analyse concurrentielle : forces, faiblesses, opportunités, menaces, comportements des consommateurs et communication des concurrents.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-116",
+    "chapter": "2 · La stratégie",
+    "question": "Comment formuler une problématique de communication selon le cours ?",
+    "answer": "Sous la forme « Comment… alors que… ? », en reliant l’objectif recherché à la difficulté mise en évidence par le diagnostic.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-117",
+    "chapter": "2 · La stratégie",
+    "question": "Quel lien unit le positionnement et le message publicitaire ?",
+    "answer": "Le marketing définit le positionnement. La communication en déduit le message à transmettre, en tenant compte de l’objectif et de la cible.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-118",
+    "chapter": "2 · La stratégie",
+    "question": "Quelles qualités doit avoir la promesse d’une copy stratégie ?",
+    "answer": "Elle doit être unique, simple et suffisamment abstraite pour laisser de la liberté à la création.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-119",
+    "chapter": "2 · La stratégie",
+    "question": "Quelle différence y a-t-il entre une promesse publicitaire et une preuve ?",
+    "answer": "La promesse annonce ce que la marque apporte au consommateur. La preuve fournit les éléments concrets qui justifient cette promesse.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-120",
+    "chapter": "2 · La stratégie",
+    "question": "Sur quel bénéfice la création doit-elle reposer dans une copy stratégie ?",
+    "answer": "Un bénéfice tangible, simple, clair et cohérent. La copy stratégie fixe le cadre dans lequel la création se développe.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-121",
+    "chapter": "3 · Les théories",
+    "question": "Qu’est-ce que le signifiant ?",
+    "answer": "La forme perceptible du signe : ce que l’on voit ou entend, avant d’interpréter le sens associé.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-122",
+    "chapter": "3 · Les théories",
+    "question": "Qu’est-ce que le signifié ?",
+    "answer": "Le sens, le concept ou le symbole associé au signifiant.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-123",
+    "chapter": "3 · Les théories",
+    "question": "Comment analyser un message à l’aide de la sémiologie ?",
+    "answer": "Repérer les signes et leurs signifiants, identifier les sens associés, distinguer dénotation et connotation, puis examiner les interprétations possibles selon la cible.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-124",
+    "chapter": "3 · Les théories",
+    "question": "Pourquoi un même signe peut-il être compris différemment selon les publics ?",
+    "answer": "Son interprétation peut être subjective et dépendre de la culture. Un signe polysémique peut recevoir plusieurs sens, d’où un risque de décalage entre le sens voulu et le sens perçu.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-125",
+    "chapter": "3 · Les théories",
+    "question": "À quoi sert le modèle de Lasswell pour analyser une communication ?",
+    "answer": "À identifier l’émetteur, le message, la cible, le canal et l’effet recherché, grâce aux questions « Qui dit quoi, à qui, par quel canal, avec quel effet ? ».",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-126",
+    "chapter": "3 · Les théories",
+    "question": "Quel rôle la rétroaction joue-t-elle dans la communication ?",
+    "answer": "Elle apporte des informations en retour sur les effets et l’état du système. Elle permet de mesurer, d’ajuster et de réguler la communication.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-127",
+    "chapter": "3 · Les théories",
+    "question": "Quelle différence y a-t-il entre le contenu et la relation dans un message ?",
+    "answer": "Le contenu est ce qui est dit. La relation correspond à la manière dont c’est dit et à la relation qui se construit entre les interlocuteurs.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-128",
+    "chapter": "3 · Les théories",
+    "question": "Quels éléments non verbaux transmettent aussi un sens selon Palo Alto ?",
+    "answer": "Les gestes, les images, les couleurs, mais aussi le silence et la posture. La communication dépasse les seuls mots.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-129",
+    "chapter": "3 · Les théories",
+    "question": "Quelles notions faut-il mobiliser dans l’étude de cas annoncée au partiel ?",
+    "answer": "Les théories de la communication, la sémiologie, les stratégies de communication et la copy stratégie, en reliant chaque notion aux éléments du cas.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 15
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-130",
+    "chapter": "1 · Les fondamentaux",
+    "question": "Quelle différence y a-t-il entre communication d’entreprise et communication commerciale ?",
+    "answer": "La communication d’entreprise comprend tous les messages, informations et signaux émis, volontairement ou non, vers ses publics. La communication commerciale regroupe les actions visant à influencer positivement leurs attitudes et comportements dans un objectif de performance économique.",
+    "priority": true,
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 1
       }
     ]
   }

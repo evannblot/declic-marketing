@@ -11,8 +11,8 @@ function validateCards(data){
   let id=typeof row.id==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(row.id)?row.id:'q'+(i+1);
   if(!(typeof row.id==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(row.id))){let suffix=1;while(ids.has(id)||reserved.has(id))id='generated-'+(i+1)+'-'+suffix++;}
   if(ids.has(id))throw new Error('Chaque question doit avoir un identifiant différent.');ids.add(id);
-  const sources=Array.isArray(row.sources)?row.sources.filter(s=>s&&typeof s.documentId==='string'&&/^[a-z0-9-]{1,60}$/.test(s.documentId)&&Number.isInteger(s.page)&&s.page>0&&s.page<=500&&typeof s.excerpt==='string').slice(0,5).map(s=>({documentId:s.documentId,page:s.page,excerpt:s.excerpt.slice(0,5000),highlight:typeof s.highlight==='string'?s.highlight.slice(0,300):''})):[];
-  return {id,chapter:typeof row.chapter==='string'&&row.chapter.trim()?row.chapter.trim().slice(0,150):'Général',question:question.trim(),answer:answer.trim(),...(sources.length?{sources}:{})};
+  const sources=Array.isArray(row.sources)?row.sources.filter(s=>s&&typeof s.documentId==='string'&&/^[a-z0-9-]{1,60}$/.test(s.documentId)&&Number.isInteger(s.page)&&s.page>0&&s.page<=500).slice(0,5).map(s=>({documentId:s.documentId,page:s.page,...(typeof s.excerpt==='string'?{excerpt:s.excerpt.slice(0,5000)}:{}),...(typeof s.highlight==='string'?{highlight:s.highlight.slice(0,300)}:{})})):[];
+  return {id,chapter:typeof row.chapter==='string'&&row.chapter.trim()?row.chapter.trim().slice(0,150):'Général',question:question.trim(),answer:answer.trim(),...(row.priority===true?{priority:true}:{}),...(sources.length?{sources}:{})};
  });
 }
 function normalizeQuiz(data,fallbackTitle='Mon quiz'){
@@ -21,12 +21,14 @@ function normalizeQuiz(data,fallbackTitle='Mon quiz'){
  if(typeof title!=='string'||!title.trim()||title.length>100)throw new Error('Indique un nom de matière (100 caractères maximum).');
  return {title:title.trim(),description:typeof data?.description==='string'?data.description.slice(0,300):'Un quiz personnel pour progresser à ton rythme.',cards};
 }
-function restore(saved,cards){
+function restore(saved,cards,legacyCardIds=[]){
  if(!saved||saved.version!==1||!Array.isArray(saved.queue)||!Array.isArray(saved.mastered))return null;
  const set=new Set(cards.map(c=>c.id)),all=[...saved.queue,...saved.mastered];
- if(all.length!==set.size||new Set(all).size!==set.size||!all.every(x=>set.has(x)))return null;
+ if(new Set(all).size!==all.length||!all.every(x=>set.has(x)))return null;
+ if(all.length!==set.size){const previous=new Set(legacyCardIds);if(!legacyCardIds.length||previous.size!==legacyCardIds.length||previous.size!==all.length||!all.every(x=>previous.has(x))||!legacyCardIds.every(x=>set.has(x)))return null;}
  if(!Array.isArray(saved.history)||!saved.history.every(x=>x&&set.has(x.id)&&typeof x.good==='boolean'))return null;
- return {...saved,attempts:saved.history.length,wrong:saved.history.filter(x=>!x.good).length,draft:typeof saved.draft==='string'?saved.draft:'',revealed:saved.queue.length>0&&saved.revealed===true,filter:typeof saved.filter==='string'?saved.filter:'all'};
+ const known=new Set(all),added=cards.filter(c=>!known.has(c.id)).map(c=>c.id);
+ return {...saved,queue:[...saved.queue,...added],attempts:saved.history.length,wrong:saved.history.filter(x=>!x.good).length,draft:typeof saved.draft==='string'?saved.draft:'',revealed:saved.queue.length>0&&saved.revealed===true,filter:typeof saved.filter==='string'?saved.filter:'all'};
 }
 root.QuizCatalog={validateCards,normalizeQuiz,restore};
 })(typeof module!=='undefined'?module.exports:globalThis);
