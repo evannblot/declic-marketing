@@ -2,16 +2,18 @@
 
 L’accueil affiche les matières. Chaque matière ouvre sa liste de quiz, puis la session de révision. On répond dans sa tête, on affiche la correction et on choisit « Bon » ou « Mauvais ».
 
-## Les quatre quiz intégrés
+## Les cinq quiz intégrés
 
-| Matière | Tout le cours | L’essentiel |
-| --- | --- | --- |
-| Marketing | 164 questions | 41 questions |
-| Communication commerciale | 130 questions | 55 questions |
+| Matière | Tout le cours | L’essentiel | Études de cas |
+| --- | --- | --- | --- |
+| Marketing | 164 questions | 41 questions | — |
+| Communication commerciale | 133 questions | 73 questions | 12 situations |
 
-Les quiz essentiels reprennent des questions du cours complet dans une sélection plus courte. Les questions sur les exemples et cas de marques restent exclues.
+Les quiz essentiels reprennent des questions du cours complet dans une sélection plus courte. Les quiz de notions excluent les questions de restitution des exemples de marques vus en cours. Le quiz de cas utilise des situations fictives inédites pour appliquer les notions.
 
-En communication, la sélection suit les indications du PDF pour le partiel : définitions, hiérarchie des effets, identité/image/réputation et risques d’image, cibles, insight, motivations et freins, client idéal, théories, sémiologie, stratégie et copy stratégie. Les références utiles sont aux pages 1, 12 à 16 et 19, ainsi qu’aux pages des notions correspondantes.
+En communication, la sélection suit les indications du PDF pour le partiel : définitions, hiérarchie des effets, identité/image/réputation et risques d’image, cibles, insight, motivations et freins, client idéal, théories, sémiologie, stratégie et copy stratégie. À la demande de l’utilisateur, elle comprend aussi Aaker, Keller et la réglementation, avec des corrections développées : dimensions et traits, niveaux et actions, organismes et règles publicitaires.
+
+Les 12 études de cas couvrent les objectifs de communication, la marque, les cibles et l’insight, la copy stratégie, la sémiologie, les modèles et la réglementation. La situation est séparée de la question. Le corrigé explique le raisonnement et fournit des critères d’auto-évaluation ; des solutions différentes sont acceptables si elles sont justifiées. Les liens PDF renvoient aux notions utilisées, puisque les situations fictives ne figurent pas dans le document du cours.
 
 La fiche marketing n’énumère pas une liste spécifique de thèmes du partiel. La sélection s’appuie sur ses définitions, mémos et repères centraux : démarche, mesures du marché, diagnostic et SWOT, mix, segmentation, ciblage et positionnement. Les six conditions de segmentation de la fiche sont incluses.
 
@@ -19,7 +21,7 @@ La fiche marketing n’énumère pas une liste spécifique de thèmes du partiel
 
 Chaque quiz a sa propre sauvegarde et son propre filtre de chapitre. « Bon » retire la question de la session ; « Mauvais » la replace après trois autres questions si possible. La remise à zéro d’un quiz ne touche pas les autres.
 
-Les quiz complets conservent leurs identifiants et clés de sauvegarde, ainsi que les résultats et historiques déjà enregistrés. Les banques originales de 104 et 70 questions peuvent toujours être étendues aux banques complètes actuelles. L’ancien filtre des essentiels est remplacé par deux quiz distincts ; une correction affichée dans cet ancien filtre est masquée lors de la transition pour éviter de l’associer à une autre question.
+Les quiz conservent leurs identifiants et clés de sauvegarde, ainsi que les résultats et historiques déjà enregistrés. Les banques originales de 104 et 70 questions, la précédente banque complète de communication de 130 questions et la sélection essentielle de 55 questions peuvent être étendues sans perte. Seuls ces ensembles antérieurs précis sont admis pour une migration : une sauvegarde partielle inconnue reste rejetée. L’ancien filtre des essentiels est remplacé par deux quiz distincts ; une correction affichée dans cet ancien filtre est masquée lors de la transition pour éviter de l’associer à une autre question.
 
 Le bouton de retour mène de la révision à la liste des quiz de la matière, puis à la liste des matières. Les cours consultés depuis une matière reviennent à cette matière ; ceux ouverts depuis une correction reviennent à la question.
 
@@ -38,6 +40,8 @@ Le format accepte un nom de quiz, un nom de matière facultatif et les questions
 ```json
 {"title":"Formules","subjectTitle":"Marketing","cards":[{"question":"Question ?","answer":"Correction","chapter":"Chapitre"}]}
 ```
+
+Un champ `scenario` facultatif (8 000 caractères maximum) ajoute une situation à analyser. L’export, l’import et son formulaire de vérification conservent ce champ et les références PDF. Il ne crée pas de zone de saisie pendant la révision.
 
 ## Développement et publication
 

@@ -1,0 +1,101 @@
+{
+  "passed": 23,
+  "failed": 0,
+  "engineTransitions": 20000,
+  "questions": 297,
+  "subjects": 2,
+  "results": [
+    {
+      "name": "Données des 297 questions et 14 chapitres",
+      "status": "pass"
+    },
+    {
+      "name": "20 000 transitions de répétition sans perte ni doublon",
+      "status": "pass"
+    },
+    {
+      "name": "Parcours intégral des deux matières avec erreurs et fin",
+      "status": "pass"
+    },
+    {
+      "name": "Progression et correction conservées si stockage bloqué",
+      "status": "pass"
+    },
+    {
+      "name": "Progression conservée si lecture du stockage interdite",
+      "status": "pass"
+    },
+    {
+      "name": "Copie des sauvegardes de progression endommagées",
+      "status": "pass"
+    },
+    {
+      "name": "Récupération partielle de bibliothèque et copie sans perte",
+      "status": "pass"
+    },
+    {
+      "name": "JSON de bibliothèque illisible conservé avant ajout",
+      "status": "pass"
+    },
+    {
+      "name": "Ajouts dans deux onglets préservés",
+      "status": "pass"
+    },
+    {
+      "name": "Suppression dans un onglet conserve les ajouts concurrents",
+      "status": "pass"
+    },
+    {
+      "name": "Synchronisation des résultats entre onglets",
+      "status": "pass"
+    },
+    {
+      "name": "Une action obsolète ne remplace pas les résultats d’un autre onglet",
+      "status": "pass"
+    },
+    {
+      "name": "Chapitres portant un nom réservé correctement sélectionnés",
+      "status": "pass"
+    },
+    {
+      "name": "Ancien filtre de chapitre repris après migration",
+      "status": "pass"
+    },
+    {
+      "name": "Correction sans saisie et évaluation après affichage uniquement",
+      "status": "pass"
+    },
+    {
+      "name": "Aller-retour export/import sans perte de contenu",
+      "status": "pass"
+    },
+    {
+      "name": "Imports invalides ne modifient pas la bibliothèque",
+      "status": "pass"
+    },
+    {
+      "name": "Limites de fichier, questions et quiz personnels",
+      "status": "pass"
+    },
+    {
+      "name": "Quota plein : ajout refusé sans suppression de données",
+      "status": "pass"
+    },
+    {
+      "name": "Identifiants importés partiels et collisions détectées",
+      "status": "pass"
+    },
+    {
+      "name": "Recherche sans accents et aucune injection HTML",
+      "status": "pass"
+    },
+    {
+      "name": "Suppression de la dernière ligne et annulation du formulaire",
+      "status": "pass"
+    },
+    {
+      "name": "Tous les contrôles et champs ont un nom accessible",
+      "status": "pass"
+    }
+  ]
+}

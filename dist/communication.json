@@ -615,7 +615,7 @@
     "id": "communication-concept-052",
     "chapter": "4 · Éthique et réglementation",
     "question": "Quel est le rôle de l’ARPP ?",
-    "answer": "L’Autorité de régulation professionnelle de la publicité participe à l’autorégulation de la publicité et formule des recommandations.",
+    "answer": "L’ARPP est l’Autorité de régulation professionnelle de la publicité. Elle organise l’autorégulation du secteur : les professionnels définissent et appliquent des recommandations pour une publicité loyale, véridique et responsable.\n\nElle intervient notamment par des conseils et des avis avant diffusion, ainsi que par le suivi du respect des règles déontologiques. Son rôle porte sur la responsabilité des messages et le respect des publics.\n\nÀ retenir : ARPP = recommandations professionnelles et déontologie publicitaire. Il faut distinguer cette autorégulation du contrôle exercé par les autorités publiques.",
     "sources": [
       {
         "documentId": "com",
@@ -627,7 +627,7 @@
     "id": "communication-concept-053",
     "chapter": "4 · Éthique et réglementation",
     "question": "Quel est le rôle de l’ARCOM ?",
-    "answer": "Elle régule les médias audiovisuels.",
+    "answer": "L’ARCOM est l’Autorité de régulation de la communication audiovisuelle et numérique. Dans le cours, son rôle à retenir est la régulation des médias audiovisuels.\n\nElle intervient dans le cadre applicable à ces médias et à leurs communications, notamment publicitaires. Elle ne remplace pas les autres organismes : la CNIL se concentre sur les données personnelles et la DGCCRF sur la protection économique des consommateurs.\n\nRepère : ARCOM = médias audiovisuels ; ARPP = autorégulation des messages publicitaires.",
     "sources": [
       {
         "documentId": "com",
@@ -639,7 +639,7 @@
     "id": "communication-concept-054",
     "chapter": "4 · Éthique et réglementation",
     "question": "Quel est le rôle de la CNIL ?",
-    "answer": "Elle veille à la protection des données personnelles et encadre leur collecte et leur utilisation.",
+    "answer": "La CNIL est la Commission nationale de l’informatique et des libertés. Elle veille à la protection des données personnelles et au respect des règles encadrant leur collecte et leur utilisation.\n\nEn communication commerciale, le sujet apparaît lorsqu’on utilise des fichiers clients, des données de navigation ou des traceurs pour cibler un public. Le responsable doit informer les personnes et respecter les règles applicables, notamment le consentement lorsqu’il est requis.\n\nÀ retenir : CNIL = données personnelles et droits des personnes. Un objectif publicitaire ne permet pas de collecter ou d’utiliser librement toutes les informations disponibles.",
     "sources": [
       {
         "documentId": "com",
@@ -651,7 +651,7 @@
     "id": "communication-concept-055",
     "chapter": "4 · Éthique et réglementation",
     "question": "Quel est le rôle de la DGCCRF ?",
-    "answer": "Elle lutte notamment contre les pratiques commerciales trompeuses.",
+    "answer": "La DGCCRF est la Direction générale de la concurrence, de la consommation et de la répression des fraudes. Elle protège les consommateurs et veille notamment à la loyauté des pratiques commerciales.\n\nDans le cours, elle est à associer à la lutte contre les pratiques commerciales trompeuses : fausses promesses, présentation mensongère d’un prix ou de caractéristiques d’un produit, informations susceptibles d’induire en erreur.\n\nÀ retenir : DGCCRF = protection des consommateurs et contrôle des pratiques commerciales. Pour analyser une publicité, on se demande si la promesse et les informations présentées correspondent à la réalité.",
     "sources": [
       {
         "documentId": "com",
@@ -663,7 +663,7 @@
     "id": "communication-concept-056",
     "chapter": "4 · Éthique et réglementation",
     "question": "Qu’est-ce qu’une publicité trompeuse ?",
-    "answer": "C’est une publicité qui induit le consommateur en erreur, notamment sur le prix, la qualité ou les caractéristiques de l’offre.",
+    "answer": "Une publicité trompeuse induit ou peut induire le consommateur en erreur sur l’offre : prix, qualité, caractéristiques, performances ou conditions de vente. Une information fausse peut tromper ; une présentation ambiguë ou l’omission d’une information importante peut aussi créer une impression erronée.\n\nElle est interdite. Une promesse doit pouvoir être justifiée et les conditions importantes doivent être compréhensibles.\n\nPour une étude de cas : relève précisément l’affirmation problématique, explique l’écart avec les faits et propose une formulation fidèle à l’offre réelle. Une formule séduisante ne suffit pas à rendre une promesse acceptable.",
     "sources": [
       {
         "documentId": "com",
@@ -675,7 +675,7 @@
     "id": "communication-concept-057",
     "chapter": "4 · Éthique et réglementation",
     "question": "Qu’est-ce qu’une publicité comparative ?",
-    "answer": "C’est une publicité qui identifie explicitement ou implicitement un concurrent ou les biens et services qu’il propose.",
+    "answer": "Une publicité comparative identifie, explicitement ou implicitement, un concurrent ou les biens et services qu’il propose.\n\nElle peut être autorisée si la comparaison respecte les règles : elle doit être loyale, véridique, objective et vérifiable. Elle doit porter sur des offres répondant aux mêmes besoins et sur des caractéristiques pertinentes et comparables. Le prix peut être comparé, à condition de présenter clairement les éléments de comparaison.\n\nPour une étude de cas : vérifie ce qui est comparé, sur quels critères, avec quelles preuves et dans quelles conditions. Une comparaison biaisée ou dénigrante ne devient pas valable simplement parce qu’un concurrent est nommé.",
     "sources": [
       {
         "documentId": "com",
@@ -687,7 +687,7 @@
     "id": "communication-concept-058",
     "chapter": "4 · Éthique et réglementation",
     "question": "Que signifie RGPD ?",
-    "answer": "Règlement général sur la protection des données. Il encadre la protection des données personnelles.",
+    "answer": "RGPD signifie Règlement général sur la protection des données. Il encadre le traitement des données personnelles et protège les droits des personnes.\n\nPour la communication commerciale, il concerne notamment les fichiers clients, la segmentation à partir d’informations personnelles et le ciblage publicitaire. Il faut définir l’usage des données, informer les personnes, disposer d’une base légale et respecter leurs droits.\n\nAttention : le consentement est nécessaire dans certaines situations, mais ce n’est pas l’unique base légale de tout traitement. Les traceurs publicitaires relèvent aussi de règles spécifiques. Repère de cours : le numérique et la publicité ciblée sont encadrés ; les données ne sont pas librement exploitables.",
     "sources": [
       {
         "documentId": "com",
@@ -699,7 +699,7 @@
     "id": "communication-concept-059",
     "chapter": "4 · Éthique et réglementation",
     "question": "Qu’est-ce que la communication éthique ?",
-    "answer": "C’est une communication responsable qui tient compte de ses effets et respecte les publics auxquels elle s’adresse.",
+    "answer": "La communication éthique tient compte de ses effets sur les personnes et la société. Elle cherche à être honnête, respectueuse des publics et cohérente avec les actes de l’organisation.\n\nLe cours souligne trois enjeux : éviter les stéréotypes et représentations discriminatoires ; ne pas afficher des engagements écologiques ou sociaux sans actions réelles ; éviter de manipuler les publics ou de pousser à une consommation sans limites.\n\nÀ retenir : la réglementation fixe des obligations ; l’éthique invite aussi à examiner la responsabilité du message. En cas pratique, analyse la promesse, ses preuves, les publics concernés et les conséquences possibles sur la confiance.",
     "sources": [
       {
         "documentId": "com",
@@ -723,7 +723,7 @@
     "id": "communication-concept-061",
     "chapter": "5 · L’image de marque",
     "question": "Qu’est-ce que la personnalité de marque ?",
-    "answer": "C’est l’ensemble des caractéristiques humaines associées à une marque.",
+    "answer": "La personnalité de marque est l’ensemble des caractéristiques humaines que les consommateurs associent à une marque. On peut ainsi percevoir une marque comme chaleureuse, audacieuse, experte ou élégante.\n\nCes traits s’expriment à travers le ton des messages, les signes visuels, les valeurs mises en avant et les expériences vécues. Ils rendent l’univers de la marque reconnaissable et peuvent favoriser l’identification.\n\nAaker propose cinq grandes dimensions pour les analyser. Dans une étude de cas, il faut relier les traits identifiés à des indices précis du message ; citer un adjectif sans le justifier ne suffit pas.",
     "sources": [
       {
         "documentId": "com",
@@ -735,7 +735,7 @@
     "id": "communication-concept-062",
     "chapter": "5 · L’image de marque",
     "question": "Quelles sont les cinq dimensions de la personnalité de marque selon Aaker ?",
-    "answer": "Sincérité, excitation, compétence, sophistication et robustesse.",
+    "answer": "Le modèle de personnalité de marque d’Aaker comprend cinq dimensions :\n\n• Sincérité : honnêteté, proximité, chaleur, simplicité et bienveillance. La marque paraît humaine et accessible ; elle inspire une confiance fondée sur l’authenticité.\n• Excitation : énergie, audace, créativité, modernité et jeunesse. La marque stimule et surprend.\n• Compétence : sérieux, fiabilité, efficacité, expertise et professionnalisme. La confiance repose sur la maîtrise et la capacité à bien faire.\n• Sophistication : élégance, luxe, raffinement et prestige. L’univers exprime une esthétique et un statut valorisé.\n• Robustesse : force, endurance, aventure et indépendance. L’univers évoque le courage, l’action et la nature.\n\nPour appliquer le modèle : repère les mots, visuels et valeurs de la communication, puis justifie la ou les dimensions dominantes. Plusieurs dimensions peuvent coexister : l’essentiel est la cohérence de l’analyse.",
     "sources": [
       {
         "documentId": "com",
@@ -747,7 +747,7 @@
     "id": "communication-concept-063",
     "chapter": "5 · L’image de marque",
     "question": "Qu’est-ce que le capital marque selon Keller ?",
-    "answer": "C’est la valeur liée à ce que les consommateurs pensent, ressentent et croient au sujet de la marque, au-delà de la qualité réelle du produit.",
+    "answer": "Le capital marque selon Keller correspond à la valeur créée par ce que les consommateurs savent, pensent, ressentent et croient au sujet de la marque. C’est le modèle CBBE : Customer Based Brand Equity, ou capital marque fondé sur le consommateur.\n\nUne marque forte ne dépend donc pas uniquement de la qualité réelle de ses produits ou de son budget publicitaire. Sa présence dans l’esprit des publics, les associations qu’elle suscite, leurs réactions et la relation construite comptent aussi.\n\nL’intérêt du modèle est de diagnostiquer les forces et les faiblesses de cette relation, puis de choisir des actions adaptées. Une forte notoriété, seule, ne garantit pas une relation fidèle et engagée.",
     "sources": [
       {
         "documentId": "com",
@@ -759,7 +759,7 @@
     "id": "communication-concept-064",
     "chapter": "5 · L’image de marque",
     "question": "Quels sont les quatre niveaux de la pyramide de Keller ?",
-    "answer": "Notoriété, associations, réponse et résonance.",
+    "answer": "La pyramide de Keller comprend quatre niveaux qui permettent d’analyser la construction d’une marque forte :\n\n1. Notoriété : la marque est connue et reconnue. La reconnaissance consiste à l’identifier lorsqu’on la voit ; le rappel spontané consiste à la citer sans aide.\n2. Associations : ce que la marque évoque. Elles peuvent être fonctionnelles, liées à la performance, ou symboliques, liées aux valeurs, au style de vie et à la personnalité.\n3. Réponse : les réactions des consommateurs. Les jugements évaluent la qualité ou la crédibilité ; les sentiments correspondent aux émotions suscitées.\n4. Résonance : une relation forte et durable, avec achats répétés, attachement, appartenance et engagement actif.\n\nApplication : campagne de notoriété au premier niveau, publicité d’image au deuxième, avis ou témoignages au troisième, fidélisation et communauté au quatrième. Il faut choisir l’action selon le niveau à renforcer, plutôt que chercher seulement à rendre la marque plus visible.",
     "sources": [
       {
         "documentId": "com",
@@ -771,7 +771,7 @@
     "id": "communication-concept-065",
     "chapter": "5 · L’image de marque",
     "question": "Quelles sont les deux grandes catégories d’associations à la marque ?",
-    "answer": "Les associations de performance, liées aux qualités fonctionnelles, et les associations symboliques, liées aux valeurs, au style de vie et à la personnalité.",
+    "answer": "Dans le modèle de Keller, les associations à la marque sont les idées et représentations qu’elle évoque dans l’esprit du consommateur.\n\n• Les associations de performance concernent le fonctionnement de l’offre : qualité, fiabilité, innovation, design ou service. Elles répondent à la question « Que fait cette marque pour moi ? ».\n• Les associations symboliques ou imaginaires concernent les valeurs, le style de vie et la personnalité : ce que la marque représente et ce qu’elle permet d’exprimer.\n\nCes deux catégories peuvent se compléter. Pour analyser un message, distingue les indices qui prouvent une performance de ceux qui construisent un univers ou une signification sociale.",
     "sources": [
       {
         "documentId": "com",
@@ -783,7 +783,7 @@
     "id": "communication-concept-066",
     "chapter": "5 · L’image de marque",
     "question": "Quelle différence y a-t-il entre jugements et sentiments envers une marque ?",
-    "answer": "Les jugements sont des évaluations rationnelles, notamment de qualité et de crédibilité. Les sentiments sont les réactions affectives suscitées par la marque.",
+    "answer": "Les jugements et les sentiments composent le niveau « réponse » du modèle de Keller.\n\nLes jugements sont des évaluations rationnelles : le consommateur estime la qualité, la crédibilité, l’intérêt de considérer la marque et sa supériorité éventuelle par rapport aux alternatives.\n\nLes sentiments sont les réactions affectives suscitées : sécurité, plaisir, fierté, excitation ou nostalgie.\n\nUne communication peut donc donner des raisons de faire confiance et susciter une émotion. En cas pratique, justifie les deux séparément : une preuve de fiabilité nourrit un jugement ; une émotion éprouvée face au message relève du sentiment.",
     "sources": [
       {
         "documentId": "com",
@@ -795,7 +795,7 @@
     "id": "communication-concept-067",
     "chapter": "5 · L’image de marque",
     "question": "Qu’est-ce que la résonance de marque ?",
-    "answer": "C’est une relation forte et durable avec la marque, qui combine fidélité comportementale, attachement affectif, appartenance et engagement actif.",
+    "answer": "La résonance est le sommet de la pyramide de Keller : la relation avec la marque devient forte, durable et affective.\n\nElle comporte quatre aspects : fidélité comportementale (achats répétés), attachement affectif (la marque compte personnellement), sentiment d’appartenance (se reconnaître dans une communauté) et engagement actif (participer, recommander, devenir ambassadeur).\n\nUne marque très connue n’atteint pas automatiquement ce niveau. Pour renforcer la résonance, le cours évoque la fidélisation et les communautés. En étude de cas, recherche des indices de relation durable : la simple exposition à une campagne ou un achat ponctuel ne suffisent pas.",
     "sources": [
       {
         "documentId": "com",
@@ -1556,6 +1556,42 @@
       {
         "documentId": "com",
         "page": 1
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-131",
+    "chapter": "4 · Éthique et réglementation",
+    "question": "Quelles règles du cours concernent la publicité des produits sensibles ?",
+    "answer": "Le cours distingue plusieurs produits dont la publicité est interdite ou particulièrement encadrée :\n\n• Tabac : principe d’interdiction de la publicité directe ou indirecte.\n• Alcool : restrictions prévues par la loi Evin, notamment sur les supports, le contenu et les publics visés. La publicité n’est pas libre sur tous les médias.\n• Jeux d’argent : encadrement et messages de prévention concernant les risques d’addiction.\n\nÀ retenir pour le partiel : avant de choisir un message et un canal, il faut identifier la catégorie du produit et les contraintes associées. Une campagne créative doit intégrer ces contraintes dès sa conception.",
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-132",
+    "chapter": "4 · Éthique et réglementation",
+    "question": "Pourquoi la communication commerciale doit-elle protéger particulièrement les mineurs ?",
+    "answer": "Les mineurs constituent un public particulièrement vulnérable. La communication doit tenir compte de leur âge et ne pas exploiter leur manque d’expérience.\n\nLe cours cite des restrictions concernant certains produits, notamment l’alcool et les jeux d’argent. Il insiste aussi sur les représentations à éviter : stéréotypes néfastes, sexisme et hypersexualisation.\n\nEn étude de cas, identifie le public réellement exposé, le produit promu, les codes utilisés et les effets possibles. La protection du public fait partie des contraintes de la stratégie et de la copy stratégie ; elle ne s’ajoute pas seulement au moment de diffuser.",
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "communication-concept-133",
+    "chapter": "4 · Éthique et réglementation",
+    "question": "Quel lien existe entre publicité ciblée, données personnelles et consentement ?",
+    "answer": "La publicité ciblée utilise des informations sur les personnes ou leurs comportements pour adapter les messages. Le cours souligne l’encadrement des données, du suivi publicitaire et du consentement.\n\nPour les traceurs publicitaires soumis à consentement, le choix doit intervenir avant leur utilisation, être libre et éclairé, et permettre un refus aussi simple que l’acceptation. Le retrait du consentement doit être possible. Certains traceurs strictement nécessaires sont exemptés : il faut distinguer leurs finalités.\n\nPour la prospection par email, les règles dépendent aussi du destinataire et du contexte. À retenir ici : informer, respecter le choix et les droits des personnes, et ne pas considérer le ciblage comme une autorisation de suivre tout le monde.",
+    "sources": [
+      {
+        "documentId": "com",
+        "page": 12
       }
     ]
   }
