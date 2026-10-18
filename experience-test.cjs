@@ -1,0 +1,32 @@
+const assert=require('node:assert/strict'),{boot}=require('./qa-harness.cjs'),{QuizEngine:E}=require('./dist/engine.js');
+const plain=x=>JSON.parse(JSON.stringify(x));
+(async()=>{
+ const a=await boot(),{$,w,click}=a;
+ w.DeclicLibrary.openQuiz('communication-essentiel');const quiz=w.DeclicLibrary.all().find(q=>q.id==='communication-essentiel'),initial=JSON.parse(w.localStorage.getItem(quiz.storageKey));
+ assert(!$('review-bar').classList.contains('hidden'));assert(!$('reveal-actions').classList.contains('hidden'));assert($('grade-actions').classList.contains('hidden'));
+ click('reveal');assert($('reveal-actions').classList.contains('hidden'));assert(!$('grade-actions').classList.contains('hidden'));assert.equal(w.document.activeElement,$('correction-title'));
+ const question=$('question').textContent,answer=$('correction').textContent,source=$('answer-sources').querySelector('button');source.focus();
+ let scroll=null;w.scrollTo=options=>{scroll=options;};Object.defineProperty(w,'scrollY',{configurable:true,value:674});source.click();
+ assert($('course-dialog').open);assert(w.document.body.classList.contains('reader-open'));assert(!$('quiz-screen').classList.contains('hidden'));assert.equal($('course-question').textContent,question);assert($('course-back-label').textContent.includes('correction'));assert.equal(w.document.activeElement,$('course-back'));
+ const origin=Number($('course-page-select').value);click('course-next');assert.equal(Number($('course-page-select').value),Math.min(19,origin+1));if(origin<19)assert(!$('course-origin').classList.contains('hidden'));click('course-origin');assert.equal(Number($('course-page-select').value),origin);
+ $('course-page-select').value='1';$('course-page-select').dispatchEvent(new w.Event('change'));assert($('course-prev').disabled);$('course-page-select').value='19';$('course-page-select').dispatchEvent(new w.Event('change'));assert($('course-next').disabled);
+ $('course-dialog').dispatchEvent(new w.Event('cancel',{cancelable:true}));assert(!$('course-dialog').open);assert(!w.document.body.classList.contains('reader-open'));assert.equal($('question').textContent,question);assert.equal($('correction').textContent,answer);assert.equal(w.document.activeElement,source);assert.equal(scroll.top,674);
+ const afterRead=JSON.parse(w.localStorage.getItem(quiz.storageKey));assert.deepEqual(afterRead.history,initial.history);assert.deepEqual(afterRead.queue,initial.queue);
+ // Undo restores the whole state, rather than trying to reconstruct a queue from counts.
+ const beforeGrade=JSON.parse(w.localStorage.getItem(quiz.storageKey));click('bad');assert(!$('undo-grade').classList.contains('hidden'));assert.equal($('wrong').textContent,'1');click('undo-grade');const restored=JSON.parse(w.localStorage.getItem(quiz.storageKey));for(const key of ['queue','mastered','history','wrong','attempts','revealed'])assert.deepEqual(restored[key],beforeGrade[key]);assert.equal($('correction').textContent,answer);assert($('undo-grade').classList.contains('hidden'));
+ click('good');assert.equal($('mastered').textContent,'1');click('undo-grade');assert.equal($('mastered').textContent,'0');assert.equal($('question').textContent,question);assert.equal($('correction').textContent,answer);
+ // Shortcuts work from the returned source button but leave forms and native button activation alone.
+ function key(target,key,code,extra={}){target.dispatchEvent(new w.KeyboardEvent('keydown',{key,code,bubbles:true,cancelable:true,...extra}));}
+ const returnedSource=$('answer-sources').querySelector('button');returnedSource.focus();key(returnedSource,'2','Digit2');assert.equal($('mastered').textContent,'1');key($('question'),' ','Space');assert(!$('correction-zone').classList.contains('hidden'));key($('question'),'1','Digit1',{repeat:true});assert.equal($('wrong').textContent,'0');
+ click('quick-course');const saved=w.localStorage.getItem(quiz.storageKey);key($('course-back'),'2','Digit2');assert.equal(w.localStorage.getItem(quiz.storageKey),saved);click('course-back');
+ $('chapter').focus();key($('chapter'),'2','Digit2');assert.equal(w.localStorage.getItem(quiz.storageKey),saved);
+ click('reset');key($('confirm-reset'),'2','Digit2');assert.equal(w.localStorage.getItem(quiz.storageKey),saved);click('cancel-reset');
+ // A newer save from another tab must never be replaced by an old undo snapshot.
+ $('question').focus();click('good');const external=JSON.parse(w.localStorage.getItem(quiz.storageKey));external.revealed=true;const newer=E.grade(external,true);w.localStorage.setItem(quiz.storageKey,JSON.stringify(newer));click('undo-grade');assert.equal(JSON.parse(w.localStorage.getItem(quiz.storageKey)).mastered.length,newer.mastered.length);assert($('undo-grade').classList.contains('hidden'));
+ // A reader is dismissed on navigation and cannot leave the application locked.
+ click('quick-course');assert($('course-dialog').open);w.DeclicLibrary.showLibrary();assert(!$('course-dialog').open);assert(!w.document.body.classList.contains('reader-open'));assert(!$('library-screen').classList.contains('hidden'));
+ w.DeclicLibrary.showSubject('marketing');click('subject-course');assert($('course-question-context').classList.contains('hidden'));assert($('course-back-label').textContent.includes('quiz'));click('course-back');assert(!$('subject-screen').classList.contains('hidden'));await a.close();
+ // The final successful answer can also be undone, including after a chapter-only session.
+ const b=await boot();b.submit('Unique',[{question:'Question unique',answer:'Correction',chapter:'Chapitre'}]);const personal=b.w.DeclicLibrary.all().find(q=>q.custom);b.w.DeclicLibrary.openQuiz(personal.id);b.click('reveal');b.click('good');assert(!b.$('finished').classList.contains('hidden'));assert(!b.$('review-bar').classList.contains('hidden'));assert(b.$('review-row').classList.contains('hidden'));b.click('undo-grade');assert(b.$('finished').classList.contains('hidden'));assert.equal(b.$('remaining').textContent,'1');assert.equal(b.$('correction').textContent,'Correction');assert.equal(JSON.parse(b.w.localStorage.getItem(personal.storageKey)).attempts,0);await b.close();
+ console.log('PASS confort : réponse accessible, lecteur modal, place et focus retrouvés, pages et passage lié, raccourcis sûrs, annulation exacte y compris à la fin et protection des changements concurrents.');
+})().catch(error=>{console.error(error);process.exitCode=1});

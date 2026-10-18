@@ -1,0 +1,154 @@
+/* The question stays in place; reading and reviewing have their own stable controls. */
+:root { --shadow-soft: 0 12px 40px #173b3010; }
+html { scroll-padding-bottom: 180px; }
+body { background: #f5f6f1; }
+button, a, select { -webkit-tap-highlight-color: transparent; }
+button { touch-action: manipulation; }
+button:focus-visible, a:focus-visible { outline-offset: 3px; }
+button:disabled:hover { transform: none; }
+.btn { min-height: 44px; }
+.text-btn { min-height: 40px; }
+.subject-card { box-shadow: 0 4px 20px #19382704; transition: border-color .18s, box-shadow .18s; }
+.subject-card:has(.choose-subject):hover { border-color: #a7bba0; box-shadow: var(--shadow-soft); }
+.quiz-card h2 { min-height: 0; margin: 14px 0 16px; }
+.quiz-card .subject-kind { align-self: start; border-radius: 6px; padding: 6px 8px; background: #edf2e9; color: #53664c; font-weight: 650; }
+.variant-essential .subject-kind { background: #e3efd7; color: #36572d; }
+.variant-cases .subject-kind { background: #e7edf8; color: #4a6282; }
+#quiz-screen { padding-bottom: 180px; }
+#quiz-screen .top { align-items: center; margin-bottom: 28px; }
+#quiz-screen h1 { font-size: 32px; letter-spacing: -1px; }
+#quiz-description { max-width: 650px; font-size: 13px; }
+#quiz-screen aside { position: sticky; top: 24px; }
+#question, #case-context, #correction-title, #finished { scroll-margin-top: 24px; scroll-margin-bottom: 180px; }
+#question { line-height: 1.5; margin-bottom: 18px; }
+#correction-title { outline: none; }
+.mental-instruction { margin-bottom: 0; }
+.correction { margin-top: 28px; background: #f5f9f0; }
+.correction p { font-size: 15px; line-height: 1.85; }
+.source-reference { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 10px 0; }
+.source-reference + .source-reference { border-top: 1px solid #e7ece2; }
+.source-reference .source-location { margin: 0; }
+.source-reference .btn { flex-shrink: 0; }
+.review-bar { position: fixed; z-index: 20; bottom: 18px; left: 50%; transform: translateX(-50%); width: min(840px,calc(100% - 40px)); border: 1px solid #d5dfd0; background: #fffffff7; border-radius: 20px; padding: 14px 18px; box-shadow: 0 10px 50px #19382720; backdrop-filter: blur(16px); }
+.review-caption { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 2px 10px; font-size: 12px; color: var(--muted); }
+.review-step { color: var(--ink); font-weight: 650; }
+.review-row { display: flex; align-items: stretch; gap: 12px; }
+.review-row .actions, .review-row .self { margin: 0; flex: 1; }
+.review-row .actions { display: flex; }
+.review-row .actions > button { width: 100%; }
+.review-row .grade-buttons { height: 100%; }
+.review-row .btn { min-height: 55px; }
+.review-row .good, .review-row .bad { display: flex; gap: 14px; justify-content: center; align-items: center; }
+.grade-copy { text-align: left; }
+.grade-copy strong { display: block; font-size: 14px; }
+.grade-copy small { display: block; font-size: 11px; margin-top: 3px; font-weight: 400; }
+.quick-course { display: flex; align-items: center; justify-content: center; gap: 9px; color: var(--green); background: #f4f7ef; border-color: #e3e9db; }
+.quick-course svg { width: 20px; height: 20px; flex-shrink: 0; }
+kbd { font: inherit; font-size: 10px; padding: 3px 6px; border-radius: 5px; border: 1px solid #c4d1be; background: #ffffff45; }
+#reveal kbd { margin-left: 16px; color: #f6ffef; border-color: #ffffff45; }
+.review-feedback { display: flex; align-items: center; gap: 12px; justify-content: space-between; }
+.review-feedback .toast { margin: 0; min-height: 0; font-size: 12px; line-height: 1.5; }
+.review-feedback:has(.toast:empty) { display: none; }
+.review-feedback:not(:has(.toast:empty)) { border-top: 1px solid #e8ede2; padding-top: 9px; margin-top: 10px; }
+.review-bar:has(.review-row.hidden) .review-feedback { border: 0; margin: 0; padding: 0; }
+#undo-grade { color: var(--green); white-space: nowrap; min-height: 32px; font-weight: 650; }
+.review-shortcut { font-size: 11px; color: #7d8978; }
+.reader-open { overflow: hidden; }
+#course-dialog { width: min(1180px,calc(100vw - 48px)); height: calc(100dvh - 48px); max-width: none; max-height: none; padding: 0; border: 1px solid #dce4d4; border-radius: 22px; overflow: hidden; background: #f7f8f3; box-shadow: 0 28px 120px #102c2950; }
+#course-dialog::backdrop { background: #142d2a80; backdrop-filter: blur(4px); }
+#course-screen { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+.reader-header { padding: 16px 22px; border-bottom: 1px solid #dce4d4; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex: 0 0 auto; background: white; }
+.reader-heading { min-width: 0; }
+.reader-heading .eyebrow { font-size: 9px; }
+#course-subject { font-size: 17px; letter-spacing: -.35px; margin: 5px 0 0; line-height: 1.3; }
+#course-back { display: flex; align-items: center; gap: 12px; white-space: nowrap; }
+.reader-question { font-size: 12px; line-height: 1.5; padding: 10px 22px; color: #61715e; margin: 0; border-bottom: 1px solid #e3e9dc; background: #edf3e7; flex: 0 0 auto; }
+.reader-question strong { color: #334b30; margin-right: 5px; }
+#course-question { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.reader-toolbar { padding: 12px 22px; display: flex; gap: 20px; justify-content: space-between; align-items: end; flex: 0 0 auto; border-bottom: 1px solid #e1e6db; background: white; }
+.reader-toolbar .course-controls { margin: 0; gap: 14px; align-items: end; }
+.reader-toolbar label { font-size: 10px; margin-bottom: 5px; }
+.reader-toolbar select { min-height: 40px; padding: 8px; }
+.reader-toolbar .course-page-control { width: auto; }
+.reader-pagination { display: flex; gap: 7px; align-items: center; }
+#course-page-select { min-width: 68px; width: auto; text-align: center; }
+.page-arrow { padding: 8px 12px; min-height: 40px; min-width: 40px; font-size: 17px; background: #f5f7f0; }
+.reader-toolbar .course-tools { margin: 0; gap: 15px; align-items: center; }
+.reader-toolbar .course-tools a { font-size: 11px; }
+#course-pdf-link { min-height: 40px; padding: 10px 12px; }
+.reader-location { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 22px; min-height: 39px; flex: 0 0 auto; }
+#course-location { margin: 0; font-size: 11px; }
+#course-origin { min-height: 30px; font-size: 11px; padding: 5px 0; color: var(--green); }
+#course-pdf { display: block; width: 100%; flex: 1 1 0; min-height: 0; height: auto; border: 0; border-radius: 0; background: #e8ece4; }
+@media (max-width:900px) {
+ #quiz-screen .layout { grid-template-columns: 205px minmax(0,1fr); }
+ #quiz-screen h1 { font-size: 28px; }
+ .review-bar { width: min(760px,calc(100% - 32px)); }
+}
+@media (max-width:650px) {
+ html { scroll-padding-bottom: 180px; }
+ #quiz-screen { padding-bottom: 190px; }
+ #quiz-screen .top { flex-direction: row; gap: 12px; align-items: start; margin-bottom: 20px; }
+ #quiz-screen h1 { font-size: 25px; margin: 7px 0; }
+ #quiz-description { font-size: 12px; line-height: 1.6; }
+ #quiz-screen .quiz-top-actions { display: none; }
+ #quiz-screen .layout { display: flex; gap: 16px; }
+ #quiz-screen aside { position: static; grid-template-columns: minmax(0,1fr) minmax(0,1.05fr); align-items: stretch; }
+ .progress-card { padding: 14px; }
+ .progress-top span { font-size: 9px; }
+ .progress-card .percent { font-size: 19px; }
+ .progress-card .bar { margin: 9px 0; }
+ .progress-card .stats { display: none; }
+ .progress-card p { font-size: 10px; line-height: 1.5; }
+ .panel { padding: 14px; }
+ .panel label { font-size: 11px; margin-bottom: 8px; }
+ .panel p { font-size: 10px; margin-top: 7px; line-height: 1.5; }
+ #question { font-size: 21px; }
+ .card-body { padding: 22px 20px; }
+ .card-head { padding: 14px 18px; }
+ .card-head .pill { max-width: 74%; }
+ .card-head .count { font-size: 10px; white-space: nowrap; }
+ .correction p { font-size: 14px; line-height: 1.8; }
+ .source-reference { align-items: start; flex-direction: column; gap: 9px; }
+ .source-reference .btn { width: auto; font-size: 11px; }
+ .review-bar { width: calc(100% - 20px); bottom: max(10px,env(safe-area-inset-bottom)); border-radius: 17px; padding: 12px; }
+ .review-caption { margin-bottom: 9px; font-size: 11px; }
+ .review-shortcut, kbd { display: none; }
+ .review-row { gap: 9px; }
+ .review-row .btn { min-height: 54px; }
+ .quick-course { padding: 12px; }
+ .quick-course .quick-label { display: none; }
+ .quick-course svg { width: 22px; height: 22px; }
+ .review-row .grade-buttons { gap: 8px; }
+ .review-row .good, .review-row .bad { gap: 7px; padding: 10px 12px; }
+ .grade-copy strong { font-size: 13px; }
+ .grade-copy small { font-size: 10px; }
+ .review-feedback .toast { font-size: 11px; }
+ #course-dialog { width: 100vw; height: 100dvh; max-height: 100dvh; margin: 0; border: 0; border-radius: 0; }
+ .reader-header { padding: max(12px,env(safe-area-inset-top)) 14px 12px; gap: 8px; }
+ .reader-heading { flex: 1 1 0; }
+ .reader-header .eyebrow { letter-spacing: .1em; }
+ #course-subject { font-size: 14px; }
+ #course-back { padding: 11px 13px; font-size: 12px; min-height: 44px; flex-shrink: 0; }
+ .reader-question { padding: 9px 14px; font-size: 11px; }
+ .reader-toolbar { padding: 10px 14px; gap: 8px; flex-wrap: wrap; align-items: center; }
+ .reader-toolbar .course-controls { gap: 10px; }
+ .reader-toolbar .course-tools { gap: 8px; }
+ #course-download { display: none; }
+ #course-pdf-link { padding: 8px; font-size: 10px; max-width: 140px; }
+ .reader-location { padding: 5px 14px; min-height: 36px; }
+ #course-location { font-size: 10px; }
+ #course-origin { font-size: 10px; }
+}
+@media (max-width:360px) {
+ .reader-heading .eyebrow { display: none; }
+ #course-subject { font-size: 12px; }
+ .reader-toolbar { padding-left: 10px; padding-right: 10px; gap: 6px; }
+ .reader-pagination { gap: 4px; }
+ .page-arrow { min-width: 34px; padding: 7px; }
+ #course-pdf-link { max-width: 125px; }
+ .grade-copy small { font-size: 9px; }
+}
+@media (prefers-reduced-motion:reduce) {
+ *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}
