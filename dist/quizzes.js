@@ -6774,5 +6774,454 @@ globalThis.DEClic_BUILTINS = [
         "communication-cas-012"
       ]
     ]
+  },
+  {
+    "id": "communication-resume",
+    "subjectId": "communication",
+    "subjectTitle": "Communication commerciale",
+    "symbol": "C",
+    "title": "Communication commerciale · Révision express",
+    "quizTitle": "Révision express",
+    "variant": "summary",
+    "description": "36 questions sur tout ton document « résumé partiel com » : théories, définitions, stratégie, marque, AIDA, hiérarchie des effets, copy stratégie, insight et tons.",
+    "storageKey": "declic-communication-resume-v1",
+    "documents": [
+      "com-partiel",
+      "com"
+    ],
+    "cards": [
+      {
+        "id": "communication-resume-001",
+        "chapter": "Théories de la communication",
+        "question": "Quelles sont les cinq questions du modèle de Lasswell ?",
+        "answer": "Qui ? → l’émetteur.\nDit quoi ? → le message.\nÀ qui ? → la cible.\nPar quel canal ? → le canal utilisé.\nAvec quel effet ? → le résultat recherché : changement d’attitude, achat ou fidélisation.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-002",
+        "chapter": "Théories de la communication",
+        "question": "Comment fonctionne le modèle de Shannon et Weaver présenté dans ton résumé ?",
+        "answer": "C’est un modèle télégraphique et linéaire : un message est transmis d’un émetteur à un récepteur. Dans cette présentation, il n’y a pas de rétroaction : le retour du récepteur n’est pas intégré au schéma.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-003",
+        "chapter": "Théories de la communication",
+        "question": "Que met en avant Wiener avec la cybernétique ?",
+        "answer": "La rétroaction, ou feedback : la réaction du récepteur revient vers l’émetteur et permet d’adapter la communication.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-004",
+        "chapter": "Théories de la communication",
+        "question": "Quelle différence faut-il retenir entre Shannon et Weaver et Wiener ?",
+        "answer": "Shannon et Weaver : transmission linéaire, sans rétroaction dans le modèle présenté.\nWiener : prise en compte d’un retour, qui permet d’ajuster la communication.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-005",
+        "chapter": "Théories de la communication",
+        "question": "Quelle est l’idée essentielle de l’école de Palo Alto ?",
+        "answer": "« On ne peut pas ne pas communiquer. » Même le silence, une attitude ou un comportement peuvent transmettre quelque chose aux autres.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-006",
+        "chapter": "Théories de la communication",
+        "question": "Comment le modèle behavioriste explique-t-il les comportements ?",
+        "answer": "Les comportements sont des réponses à des stimuli extérieurs. L’idée à retenir est le lien stimulus → réponse.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-007",
+        "chapter": "Jakobson · Les fonctions du langage",
+        "question": "Quelles sont les six fonctions du langage de Jakobson ?",
+        "answer": "Phatique, poétique, conative, référentielle, expressive et métalinguistique.\nMémo de ton résumé : 2PCREM = deux P, puis C, R, E et M.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 8
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-008",
+        "chapter": "Jakobson · Les fonctions du langage",
+        "question": "À quoi sert la fonction phatique ?",
+        "answer": "À créer, maintenir ou vérifier le contact avec l’interlocuteur. Le point central est le contact.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 8
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-009",
+        "chapter": "Jakobson · Les fonctions du langage",
+        "question": "À quoi sert la fonction poétique ?",
+        "answer": "À jouer sur la forme du message : la façon de dire compte, avec les mots, les sonorités ou le style.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 8
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-010",
+        "chapter": "Jakobson · Les fonctions du langage",
+        "question": "À quoi sert la fonction conative ?",
+        "answer": "À influencer le destinataire, pour l’amener à réagir ou à agir.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 8
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-011",
+        "chapter": "Jakobson · Les fonctions du langage",
+        "question": "À quoi sert la fonction référentielle ?",
+        "answer": "À informer : le message transmet des informations sur une situation ou un sujet.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 8
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-012",
+        "chapter": "Jakobson · Les fonctions du langage",
+        "question": "À quoi sert la fonction expressive ?",
+        "answer": "À exprimer les émotions, les sentiments ou l’attitude de celui qui parle.\nLe mot « émouvoir » de ton résumé sert de repère ; plus précisément, cette fonction porte sur l’expression de l’émetteur.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 8
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-013",
+        "chapter": "Jakobson · Les fonctions du langage",
+        "question": "À quoi sert la fonction métalinguistique ?",
+        "answer": "À expliquer le code ou le langage utilisé, pour que le message soit compris. Elle clarifie notamment le sens d’un mot.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 8
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-014",
+        "chapter": "Communication et stratégie",
+        "question": "Qu’est-ce qu’une stratégie de communication ?",
+        "answer": "C’est l’ensemble des choix et des orientations qui guident les actions de communication vers un objectif précis, auprès d’une cible définie.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 2
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-015",
+        "chapter": "Communication et stratégie",
+        "question": "Quelles sont les quatre étapes de la stratégie de communication dans ton résumé ?",
+        "answer": "1. Le diagnostic.\n2. Les objectifs de communication.\n3. Les cibles.\n4. Le positionnement et le message.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 2
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-016",
+        "chapter": "Communication et stratégie",
+        "question": "Quelle est la définition de la communication d’une entreprise ?",
+        "answer": "L’ensemble des informations, des messages et des signaux émis par une entreprise, volontairement ou non, vers tous ses publics.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-017",
+        "chapter": "Communication et stratégie",
+        "question": "Qu’est-ce que la communication commerciale ?",
+        "answer": "L’ensemble des actions mises en œuvre par une entreprise pour influencer positivement les attitudes ou les comportements des consommateurs, dans un objectif de performance économique.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-018",
+        "chapter": "Communication et stratégie",
+        "question": "Quelles sont les quatre fonctions de la communication commerciale ?",
+        "answer": "Informer, séduire, convaincre et fidéliser.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-019",
+        "chapter": "Marque · Aaker et Keller",
+        "question": "Quelles sont les cinq dimensions de la personnalité de la marque chez Aaker ?",
+        "answer": "La sophistication, la sincérité, la compétence, l’excitation et la robustesse.\nCes cinq dimensions concernent la personnalité de la marque ; la pyramide de Keller comporte, elle, quatre niveaux dans ton résumé.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 10
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-020",
+        "chapter": "Marque · Aaker et Keller",
+        "question": "Quels sont les quatre niveaux de la pyramide de Keller, dans l’ordre ?",
+        "answer": "Notoriété → associations → réponse → résonance.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 11
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-021",
+        "chapter": "Marque · Aaker et Keller",
+        "question": "Quelle action est associée à la notoriété dans la pyramide de Keller ?",
+        "answer": "Une campagne de notoriété, pour faire connaître la marque.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 11
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-022",
+        "chapter": "Marque · Aaker et Keller",
+        "question": "Quelle action est associée aux associations de marque dans la pyramide de Keller ?",
+        "answer": "Une publicité d’image, pour construire les associations et les représentations liées à la marque.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 11
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-023",
+        "chapter": "Marque · Aaker et Keller",
+        "question": "Quelles actions sont associées au niveau « réponse » de Keller ?",
+        "answer": "Les témoignages et les avis clients, qui participent aux jugements et aux réactions envers la marque.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 11
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-024",
+        "chapter": "Marque · Aaker et Keller",
+        "question": "Quelle action est associée à la résonance dans la pyramide de Keller ?",
+        "answer": "Un programme de fidélité, pour renforcer la relation entre le client et la marque.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 11
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-025",
+        "chapter": "Marque · Aaker et Keller",
+        "question": "À quoi sert la pyramide de Keller ?",
+        "answer": "À diagnostiquer la marque, puis à planifier des actions adaptées à chaque niveau : notoriété, associations, réponse et résonance.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 11
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-026",
+        "chapter": "AIDA et hiérarchie des effets",
+        "question": "Que signifie AIDA, dans l’ordre ?",
+        "answer": "Attention → intérêt → désir → achat.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 7
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-027",
+        "chapter": "AIDA et hiérarchie des effets",
+        "question": "Quelles sont les six étapes de la hiérarchie des effets, dans l’ordre ?",
+        "answer": "Prise de conscience → connaissance → appréciation → préférence → conviction → achat.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 9
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-028",
+        "chapter": "AIDA et hiérarchie des effets",
+        "question": "Quels sont les trois stades de la hiérarchie des effets ?",
+        "answer": "Le cognitif, puis l’affectif, puis le conatif.\nCognitif : connaître. Affectif : apprécier. Conatif : se diriger vers l’action.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 7
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-029",
+        "chapter": "AIDA et hiérarchie des effets",
+        "question": "Quelles étapes de la hiérarchie des effets appartiennent au stade cognitif ?",
+        "answer": "La prise de conscience et la connaissance. La personne découvre l’existence du produit ou de la marque, puis apprend à le connaître.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 9
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-030",
+        "chapter": "AIDA et hiérarchie des effets",
+        "question": "Quelles étapes de la hiérarchie des effets appartiennent au stade affectif ?",
+        "answer": "L’appréciation et la préférence. La personne développe une appréciation, puis une préférence.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 9
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-031",
+        "chapter": "AIDA et hiérarchie des effets",
+        "question": "Quelles étapes de la hiérarchie des effets appartiennent au stade conatif ?",
+        "answer": "La conviction et l’achat. La personne est convaincue, puis passe à l’action.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 9
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-032",
+        "chapter": "Copy stratégie et tons",
+        "question": "Quels sont les six éléments de la copy stratégie cités dans ton résumé ?",
+        "answer": "La promesse, les avantages du produit, les bénéfices clients, le ton, les preuves et les contraintes.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-033",
+        "chapter": "Copy stratégie et tons",
+        "question": "Quels sont les six tons de communication cités dans ton résumé ?",
+        "answer": "Informatif, explicatif, démonstratif, humoristique, imaginaire et symbolique.",
+        "sources": [
+          {
+            "documentId": "com-partiel",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-034",
+        "chapter": "Insight et motivations",
+        "question": "Quelle est la définition de l’insight à retenir dans ton résumé ?",
+        "answer": "La perception, par le consommateur, d’un problème ou d’un dilemme irrésolu dans la catégorie de produits où la marque opère.\nIl faut comprendre ce qui se joue pour le consommateur derrière ce problème.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 16
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-035",
+        "chapter": "Insight et motivations",
+        "question": "À quoi renvoie l’insight quand on parle des motivations du consommateur ?",
+        "answer": "À une motivation ou à un besoin sous-jacent : ce qui explique en profondeur ce que le consommateur recherche.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 16
+          }
+        ]
+      },
+      {
+        "id": "communication-resume-036",
+        "chapter": "Insight et motivations",
+        "question": "Quelles sont les trois catégories de motivations profondes citées dans ton résumé ?",
+        "answer": "Les motivations hédonistes, oblatives et d’auto-expression.\nHédonistes : se faire plaisir. Oblatives : faire plaisir aux autres. Auto-expression : exprimer qui l’on est.",
+        "sources": [
+          {
+            "documentId": "com",
+            "page": 16
+          }
+        ]
+      }
+    ]
   }
 ];

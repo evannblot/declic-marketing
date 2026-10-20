@@ -2,8 +2,8 @@ const assert=require('node:assert/strict'),{boot}=require('./qa-harness.cjs'),{Q
 const plain=x=>JSON.parse(JSON.stringify(x));
 (async()=>{
  const a=await boot(),{$,w,click}=a,all=w.DeclicLibrary.all(),cases=all.find(q=>q.id==='communication-cas'),full=all.find(q=>q.id==='communication'),essential=all.find(q=>q.id==='communication-essentiel');
- assert.equal(all.length,5);assert.equal(new Set(all.map(q=>q.storageKey)).size,5);assert.equal(cases.cards.length,14);assert.equal(C.validateCards(plain(cases.cards)).length,14);
- w.DeclicLibrary.showSubject('communication');assert.deepEqual(Array.from($('subject-quiz-list').querySelectorAll('h2')).map(x=>x.textContent),['Tout le cours','L’essentiel','Études de cas']);assert($('subject-quiz-list').querySelector('[data-quiz-id="communication-cas"] .subject-kind').textContent.includes('MISE EN PRATIQUE'));
+ assert.equal(all.length,6);assert.equal(new Set(all.map(q=>q.storageKey)).size,6);assert.equal(cases.cards.length,14);assert.equal(C.validateCards(plain(cases.cards)).length,14);
+ w.DeclicLibrary.showSubject('communication');assert.deepEqual(Array.from($('subject-quiz-list').querySelectorAll('h2')).map(x=>x.textContent),['Révision express','Tout le cours','L’essentiel','Études de cas']);assert($('subject-quiz-list').querySelector('[data-quiz-id="communication-cas"] .subject-kind').textContent.includes('MISE EN PRATIQUE'));
  for(const card of cases.cards){assert(card.scenario.length>100);assert(card.answer.includes('Pour te mettre « Bon »'));assert(card.sources.every(s=>['com','com-partiel'].includes(s.documentId)&&s.page>=1&&s.page<=(s.documentId==='com'?19:11)));}
  for(const n of [52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,131,132,133]){const c=essential.cards.find(c=>c.id==='communication-concept-'+String(n).padStart(3,'0'));assert(c);assert(c.answer.length>350);assert.equal(c.answer,full.cards.find(x=>x.id===c.id).answer);}
  // No answer field or model answer before reveal. PDF navigation retains the whole case.

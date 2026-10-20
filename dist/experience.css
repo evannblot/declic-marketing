@@ -14,6 +14,8 @@ button:disabled:hover { transform: none; }
 .quiz-card .subject-kind { align-self: start; border-radius: 6px; padding: 6px 8px; background: #edf2e9; color: #53664c; font-weight: 650; }
 .variant-essential .subject-kind { background: #e3efd7; color: #36572d; }
 .variant-cases .subject-kind { background: #e7edf8; color: #4a6282; }
+.variant-summary .subject-kind { background: #f7ebd1; color: #775b24; }
+@media (min-width:1000px) { .quiz-grid:has(.variant-summary) { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 #quiz-screen { padding-bottom: 180px; }
 #quiz-screen .top { align-items: center; margin-bottom: 28px; }
 #quiz-screen h1 { font-size: 32px; letter-spacing: -1px; }
