@@ -1,0 +1,34 @@
+const assert=require('node:assert/strict'),{boot}=require('./qa-harness.cjs'),{QuizEngine:E}=require('./dist/engine.js');
+const previousNumbers=[1,48,49,50,51,52,53,54,56,59,60,61,63,64,65,66,67,70,81,82,86,87,88,89,90,91,92,93,94,95,96,97,99,100,102,103,104,105,106,109,131];
+const previousIds=previousNumbers.map(n=>'marketing-concept-'+String(n).padStart(3,'0'));
+(async()=>{
+ let old=E.initial(previousIds);old.revealed=true;old=E.grade(old,true);old.revealed=true;old=E.grade(old,false);old.revealed=true;
+ const a=await boot({'declic-marketing-essentiel-v1':JSON.stringify(old)}),{$,w,click}=a;
+ const quiz=w.DeclicLibrary.all().find(q=>q.id==='marketing-essentiel');
+ assert.equal(quiz.cards.length,75);assert.deepEqual(Array.from(quiz.legacyCardIds),previousIds);
+ w.DeclicLibrary.openQuiz(quiz.id);const migrated=JSON.parse(w.localStorage.getItem(quiz.storageKey));
+ assert.deepEqual(migrated.mastered,old.mastered);assert.deepEqual(migrated.history,old.history);
+ assert.deepEqual(migrated.queue.slice(0,old.queue.length),old.queue);assert.equal(migrated.queue.length,74);
+ assert.equal(migrated.wrong,1);assert.equal(migrated.attempts,2);assert.equal(w.localStorage.getItem(quiz.storageKey+'-recovery'),null);
+ assert.equal(new Set([...migrated.queue,...migrated.mastered]).size,75);await a.close();
+ // A user who finished the old quiz sees only the 34 newly added questions.
+ const b=await boot({[quiz.storageKey]:JSON.stringify({...E.initial([]),mastered:previousIds})});
+ b.w.DeclicLibrary.openQuiz(quiz.id);assert.equal(b.$('mastered').textContent,'41');assert.equal(b.$('remaining').textContent,'34');
+ const full=b.w.DeclicLibrary.all().find(q=>q.id==='marketing');b.w.DeclicLibrary.openQuiz(full.id);b.click('reveal');b.click('good');
+ const preserved=b.w.localStorage.getItem(full.storageKey);
+ const pestel='marketing-concept-028',ids=Array.from(quiz.cards,c=>c.id);
+ b.w.localStorage.setItem(quiz.storageKey,JSON.stringify(E.initial([pestel,...ids.filter(id=>id!==pestel)])));
+ b.w.DeclicLibrary.openQuiz(quiz.id);assert.equal(b.$('answer'),null);b.click('reveal');
+ const question=b.$('question').textContent,correction=b.$('correction').textContent;
+ assert(correction.includes('politique')||correction.includes('Politique'));
+ b.$('answer-sources').querySelector('button').click();assert.equal(b.$('course-document').options.length,5);
+ assert.equal(b.$('course-document').value,'m2');assert.equal(b.$('course-page-select').value,'5');
+ assert(b.$('course-pdf').src.endsWith('courses/m2.pdf#page=5'));b.click('course-back');
+ assert.equal(b.$('question').textContent,question);assert.equal(b.$('correction').textContent,correction);
+ b.click('bad');for(let i=0;i<3;i++){b.click('reveal');b.click('good');}assert.equal(b.$('question').textContent,question);
+ const reload=await boot(b.snapshot());reload.w.DeclicLibrary.openQuiz(quiz.id);assert.equal(reload.$('mastered').textContent,'3');
+ reload.click('reset');reload.click('confirm-reset');assert.equal(reload.$('remaining').textContent,'75');
+ assert.equal(reload.w.localStorage.getItem(full.storageKey),preserved);
+ await reload.close();await b.close();
+ console.log('PASS essentiel marketing : 41 résultats conservés, 34 ajouts, PDF source à la bonne page, réponse mentale, répétition, sauvegarde et remise à zéro indépendante.');
+})().catch(error=>{console.error(error);process.exitCode=1});

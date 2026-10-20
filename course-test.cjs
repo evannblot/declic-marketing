@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict'),{boot}=require('./qa-harness.cjs'),fs=require('node:fs'),path=require('node:path');
 (async()=>{
  const a=await boot(),docs=Array.from(a.w.DECLIC_COURSES),quizzes=a.w.DeclicLibrary.all();let references=0;
- assert.deepEqual(docs.map(d=>d.id),['mf','com-partiel','com']);assert.equal(docs.reduce((n,d)=>n+d.pageCount,0),40);
+ assert.deepEqual(docs.map(d=>d.id),['mf','com-partiel','com','m1','m2','m3','m4']);assert.equal(docs.reduce((n,d)=>n+d.pageCount,0),182);
  for(const d of docs){assert(d.url.endsWith('.pdf'));assert(!d.downloadOriginal);assert(!('pages' in d));assert(!('text' in d));assert(fs.statSync(path.join(__dirname,'dist',d.url)).size>1000);}
  assert.equal(a.w.document.querySelector('#course-text-mode,#course-search,#course-pages'),null);
  for(const quiz of quizzes){assert.equal(new Set(quiz.cards.map(c=>c.question)).size,quiz.cards.length);for(const card of quiz.cards){
@@ -18,5 +18,5 @@ const assert=require('node:assert/strict'),{boot}=require('./qa-harness.cjs'),fs
  const marketing=quizzes.find(q=>q.id==='marketing'),marketingTarget=marketing.cards.find(c=>c.id==='marketing-concept-147'),marketingState=a.w.QuizEngine.initial([marketingTarget.id,...marketing.cards.filter(c=>c.id!==marketingTarget.id).map(c=>c.id)]);marketingState.examOnly=true;a.w.localStorage.setItem(marketing.storageKey,JSON.stringify(marketingState));
  a.w.DeclicLibrary.openQuiz('marketing');const marketingQuestion=a.$('question').textContent;let scrolls=0;a.$('course-location').scrollIntoView=()=>scrolls++;a.click('read-course');assert(a.$('course-pdf').src.endsWith('courses/mf.pdf#page=8'));assert(a.$('course-pdf-link').href.endsWith('#page=8'));assert(a.$('course-pdf-link').textContent.includes('page 8'));assert(a.$('course-location').textContent.includes('Passage lié à ta question'));assert.equal(scrolls,0);a.click('course-back');assert.equal(a.$('question').textContent,marketingQuestion);assert.equal(a.$('correction').textContent,'');
  a.click('reveal');a.$('answer-sources').querySelector('button').click();assert(a.$('course-pdf').src.endsWith('courses/mf.pdf#page=8'));assert.equal(a.$('course-page-select').value,'8');assert.equal(scrolls,0);a.click('course-back');a.click('good');assert.equal(a.$('mastered').textContent,'1');
- await a.close();console.log('PASS documents : copies PDF uniquement, aucune retranscription, 40 pages, '+references+' renvois, bonne page depuis les deux boutons en marketing et communication, lecteur sans déplacement de la question et progression conservée.');
+ await a.close();console.log('PASS documents : copies PDF uniquement, aucune retranscription, 182 pages, '+references+' renvois, bonne page depuis les deux boutons en marketing et communication, lecteur sans déplacement de la question et progression conservée.');
 })().catch(e=>{console.error(e);process.exitCode=1});

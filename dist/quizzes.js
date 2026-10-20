@@ -1764,20 +1764,24 @@ globalThis.DEClic_BUILTINS = [
     "subjectTitle": "Marketing",
     "symbol": "M",
     "documents": [
-      "mf"
+      "mf",
+      "m1",
+      "m2",
+      "m3",
+      "m4"
     ],
     "id": "marketing-essentiel",
     "title": "Marketing · L’essentiel",
     "quizTitle": "L’essentiel",
     "variant": "essential",
-    "description": "Définitions, mémos et repères clés de ta fiche : marché, SWOT, mix, segmentation, ciblage et positionnement.",
+    "description": "75 questions sur les bases et méthodes clés des quatre séquences : besoins, marché et calculs, environnement, SWOT, stratégie, mix et démarche SCP. Corrections expliquées et passages reliés aux PDF.",
     "storageKey": "declic-marketing-essentiel-v1",
     "cards": [
       {
         "id": "marketing-concept-001",
         "chapter": "Bases du marketing",
         "question": "Quelle est la définition du marketing ?",
-        "answer": "Le marketing regroupe les activités qui permettent de comprendre les besoins et désirs, de concevoir une offre adaptée et de créer, communiquer et délivrer de la valeur. Il vise des relations durables avec les clients.",
+        "answer": "Le marketing consiste à comprendre ou anticiper les besoins et les désirs, puis à concevoir une offre adaptée en matière de produit, de prix, de distribution et de communication. Il crée de la valeur pour les clients et construit avec eux des relations durables et rentables, afin que l’organisation reçoive aussi de la valeur en retour.",
         "sources": [
           {
             "documentId": "mf",
@@ -1786,10 +1790,342 @@ globalThis.DEClic_BUILTINS = [
         ]
       },
       {
+        "id": "marketing-concept-005",
+        "chapter": "Bases du marketing",
+        "question": "Quelle différence y a-t-il entre besoin, désir et demande ?",
+        "answer": "Besoin : un état de manque lié à la nature humaine.\nDésir : la forme précise prise par ce besoin sous l’effet de la culture et de la personnalité.\nDemande : une volonté d’achat accompagnée d’un pouvoir d’achat suffisant, pour un prix et une période donnés.\nLe cours précise que le marketing influence les désirs ; il ne crée pas les besoins.",
+        "sources": [
+          {
+            "documentId": "m1",
+            "page": 17
+          },
+          {
+            "documentId": "m1",
+            "page": 19
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-006",
+        "chapter": "Bases du marketing",
+        "question": "Quels sont les cinq niveaux de besoins de Maslow ?",
+        "answer": "De la base au sommet : besoins physiologiques → sécurité → appartenance → estime → accomplissement de soi.\nLa pyramide présentée dans le cours explique qu’en général, la satisfaction des besoins inférieurs précède celle des besoins supérieurs.",
+        "sources": [
+          {
+            "documentId": "m1",
+            "page": 18
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-007",
+        "chapter": "Bases du marketing",
+        "question": "Quels sont les cinq types de besoins distingués par Kotler ?",
+        "answer": "Besoins exprimés : ce que dit le client.\nRéels : ce qu’il veut dire.\nLatents : ce à quoi il ne pense pas.\nRêvés : ce dont il rêverait.\nProfonds : ce qui le motive secrètement.",
+        "sources": [
+          {
+            "documentId": "m1",
+            "page": 18
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-010",
+        "chapter": "Bases du marketing",
+        "question": "Qu’est-ce que la myopie marketing ?",
+        "answer": "La myopie marketing consiste à se concentrer sur le produit ou le service lui-même, au lieu de comprendre les besoins, les bénéfices ou les expériences recherchés par le client. L’entreprise doit définir sa vocation par les besoins à satisfaire.",
+        "sources": [
+          {
+            "documentId": "m1",
+            "page": 20
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-011",
+        "chapter": "Bases du marketing",
+        "question": "Qu’est-ce que la valeur perçue ?",
+        "answer": "La valeur perçue correspond à la différence entre les bénéfices attendus et les coûts perçus par le client, tangibles ou intangibles. Elle est subjective : les clients n’accordent pas tous la même valeur à une offre.",
+        "sources": [
+          {
+            "documentId": "m1",
+            "page": 11
+          },
+          {
+            "documentId": "m1",
+            "page": 22
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-012",
+        "chapter": "Bases du marketing",
+        "question": "Qu’est-ce que la satisfaction du client ?",
+        "answer": "La satisfaction résulte de la comparaison entre les attentes du client et l’expérience réellement vécue. Une promesse trop forte risque de décevoir ; une promesse trop faible peut ne pas attirer. La satisfaction favorise le réachat et la recommandation.",
+        "sources": [
+          {
+            "documentId": "m1",
+            "page": 22
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-014",
+        "chapter": "Bases du marketing",
+        "question": "Que signifient B2C, B2B et C2C ?",
+        "answer": "B2C : entreprise vers consommateur. B2B : entreprise vers entreprise. C2C : échanges entre consommateurs.",
+        "sources": [
+          {
+            "documentId": "m1",
+            "page": 14
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-105",
+        "chapter": "Bases du marketing",
+        "question": "Quels sont les principaux objectifs du marketing ?",
+        "answer": "Attirer de nouveaux clients, conserver les clients existants, satisfaire leurs besoins et créer de la valeur pour construire des relations durables et rentables.",
+        "sources": [
+          {
+            "documentId": "mf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-109",
+        "chapter": "Bases du marketing",
+        "question": "Comment le marketing crée-t-il de la valeur pour les clients et pour l’organisation ?",
+        "answer": "L’organisation conçoit une offre adaptée aux besoins des clients et construit avec eux des relations rentables. Les clients obtiennent de la valeur, et l’organisation en reçoit en retour.",
+        "sources": [
+          {
+            "documentId": "mf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-015",
+        "chapter": "Démarche et orientations",
+        "question": "Quelles sont les trois phases de la démarche marketing ?",
+        "answer": "1. Marketing d’études : comprendre le marché, l’entreprise et son environnement.\n2. Marketing stratégique : choisir les segments, les cibles et le positionnement.\n3. Marketing opérationnel : mettre en œuvre les actions autour des 4P.\nLe contrôle mesure les résultats et permet de corriger les actions : la démarche est itérative.",
+        "sources": [
+          {
+            "documentId": "m1",
+            "page": 25
+          },
+          {
+            "documentId": "m1",
+            "page": 26
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-025",
+        "chapter": "Démarche et orientations",
+        "question": "Qu’est-ce que le marketing sociétal ?",
+        "answer": "Le marketing sociétal recherche un équilibre entre trois préoccupations : les désirs immédiats des consommateurs, les profits de l’entreprise et le bien-être collectif à long terme. Il prend en compte les effets de l’activité sur la société.",
+        "sources": [
+          {
+            "documentId": "m1",
+            "page": 33
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-106",
+        "chapter": "Démarche et orientations",
+        "question": "Quelles sont les quatre actions de la démarche marketing présentées dans la fiche ?",
+        "answer": "Étudier le marché et les besoins, repérer la concurrence, définir les objectifs, puis déterminer les moyens d’action pour les atteindre.",
+        "sources": [
+          {
+            "documentId": "mf",
+            "page": 1
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-026",
+        "chapter": "Environnement",
+        "question": "Qu’est-ce que le macro-environnement ?",
+        "answer": "Le macro-environnement rassemble les grandes forces externes que l’organisation ne contrôle pas directement, mais qu’elle doit comprendre pour s’adapter. L’outil PESTEL aide à les analyser.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-027",
+        "chapter": "Environnement",
+        "question": "Qu’est-ce que le micro-environnement ?",
+        "answer": "Le micro-environnement est composé des acteurs proches avec lesquels l’organisation interagit pour mener sa stratégie marketing. Ils peuvent influencer positivement ou négativement son activité : acheteurs, fournisseurs, concurrents, prescripteurs, intermédiaires et groupes d’influence.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 11
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-028",
+        "chapter": "Environnement",
+        "question": "Que signifie PESTEL ?",
+        "answer": "Politique, économique, socioculturel, technologique, écologique et légal.\nPESTEL classe les facteurs du macro-environnement. Il faut ensuite interpréter leurs conséquences pour l’organisation afin de dégager des opportunités et des menaces.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-029",
+        "chapter": "Environnement",
+        "question": "Quels sont les principaux acteurs du micro-environnement ?",
+        "answer": "Les acheteurs et consommateurs, les fournisseurs, les concurrents, les prescripteurs, les intermédiaires et les groupes d’influence.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 11
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-030",
+        "chapter": "Environnement",
+        "question": "Quelle différence y a-t-il entre un acheteur et un consommateur ?",
+        "answer": "L’acheteur réalise l’achat ; le consommateur utilise le produit ou le service. Il peut s’agir de deux personnes différentes. Le prescripteur influence le choix par ses conseils ou recommandations, sans nécessairement acheter ni utiliser le produit.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 11
+          },
+          {
+            "documentId": "mf",
+            "page": 7
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-032",
+        "chapter": "Environnement",
+        "question": "Quelle différence y a-t-il entre concurrence directe et indirecte ?",
+        "answer": "Concurrence directe : des offres identiques ou très proches visent le même marché ou les mêmes clients.\nConcurrence indirecte : des solutions différentes répondent au même besoin.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 15
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-035",
+        "chapter": "Environnement",
+        "question": "Quelles sont les cinq forces de Porter ?",
+        "answer": "1. La rivalité entre les concurrents du secteur.\n2. La menace de nouveaux entrants.\n3. La menace des produits ou services de substitution.\n4. Le pouvoir de négociation des fournisseurs.\n5. Le pouvoir de négociation des clients.\nLe modèle sert à analyser les pressions concurrentielles.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 17
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-036",
+        "chapter": "Environnement",
+        "question": "Qu’est-ce qu’une tendance de marché ?",
+        "answer": "Une tendance de marché est une évolution durable des comportements, des attentes ou des technologies qui influence l’offre et la demande. L’analyser permet d’anticiper les besoins, de repérer des opportunités et des menaces, puis d’adapter le marketing mix.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 23
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-037",
+        "chapter": "Marché",
+        "question": "Quelle est la définition d’un marché ?",
+        "answer": "Un marché est le lieu de rencontre, physique ou virtuel, entre l’offre et la demande dans le but de réaliser des transactions. Pour le décrire, on précise notamment le produit ou le besoin concerné, les acheteurs et la zone géographique.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 27
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-043",
+        "chapter": "Marché",
+        "question": "Qu’est-ce que le marché réel ?",
+        "answer": "Le marché réel, ou actuel, correspond aux consommateurs ayant effectivement acheté le produit considéré pendant une période donnée. Le marché réel d’une entreprise concerne ses propres clients ; celui du marché comprend aussi les clients des concurrents.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 29
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-044",
+        "chapter": "Marché",
+        "question": "Qu’est-ce que le marché potentiel ?",
+        "answer": "Du point de vue de la demande, le marché potentiel comprend les consommateurs actuels et les non-consommateurs relatifs qui pourraient acheter. Il exclut les non-consommateurs absolus. Il exprime donc un potentiel, tandis que le marché réel repose sur les achats déjà réalisés.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 29
+          },
+          {
+            "documentId": "m2",
+            "page": 30
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-045",
+        "chapter": "Marché",
+        "question": "Quelle différence y a-t-il entre un non-consommateur relatif et un non-consommateur absolu ?",
+        "answer": "Non-consommateur relatif : il ne consomme pas actuellement le produit, mais pourrait le faire.\nNon-consommateur absolu : il ne le consomme pas et n’est pas considéré comme susceptible de le consommer.\nLes non-consommateurs relatifs entrent dans le marché potentiel.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 30
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-046",
+        "chapter": "Marché",
+        "question": "Quelle différence y a-t-il entre un marché en volume et un marché en valeur ?",
+        "answer": "En volume : le nombre d’unités physiques vendues ou achetées.\nEn valeur : le montant monétaire des ventes ou des dépenses.\nLes deux mesures sont complémentaires et doivent être distinguées dans les calculs.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 33
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-047",
+        "chapter": "Marché",
+        "question": "Comment calcule-t-on le taux de croissance d’un marché ?",
+        "answer": "Taux de croissance (%) = (taille du marché à l’arrivée − taille du marché au départ) ÷ taille du marché au départ × 100.\nIl se calcule en volume ou en valeur, en conservant la même mesure sur les deux périodes.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 33
+          }
+        ]
+      },
+      {
         "id": "marketing-concept-048",
         "chapter": "Marché",
         "question": "Comment calcule-t-on une part de marché absolue ?",
-        "answer": "Part de marché (%) = ventes de l’entreprise / ventes totales du marché × 100. Le calcul peut se faire en volume ou en valeur.",
+        "answer": "Part de marché absolue (%) = ventes de l’entreprise ÷ ventes totales du marché × 100.\nEn volume, on utilise des quantités ; en valeur, des chiffres d’affaires. Le numérateur et le dénominateur doivent concerner le même marché et la même période.",
         "sources": [
           {
             "documentId": "mf",
@@ -1801,7 +2137,7 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-049",
         "chapter": "Marché",
         "question": "Comment calcule-t-on une part de marché relative ?",
-        "answer": "Part de marché relative = part de marché de l’entreprise / part de marché de son principal concurrent. C’est un ratio.",
+        "answer": "Part de marché relative = part de marché de l’entreprise ÷ part de marché de son principal concurrent.\nOn peut aussi diviser leurs ventes lorsque le périmètre est identique. Le résultat est un ratio : on ne le multiplie pas par 100.",
         "sources": [
           {
             "documentId": "mf",
@@ -1825,7 +2161,7 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-051",
         "chapter": "Marché",
         "question": "Comment calcule-t-on le taux de pénétration ?",
-        "answer": "Taux de pénétration (%) = marché réel / marché potentiel × 100.",
+        "answer": "Taux de pénétration (%) = marché réel ÷ marché potentiel × 100.\nIl mesure la part du potentiel déjà réalisée. Un taux bas indique un potentiel de croissance encore important, selon le périmètre retenu.",
         "sources": [
           {
             "documentId": "mf",
@@ -1837,7 +2173,7 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-052",
         "chapter": "Marché",
         "question": "Quelles sont les quatre phases du cycle de vie d’un marché ?",
-        "answer": "Naissance, croissance, maturité et déclin.",
+        "answer": "Naissance → croissance → maturité → déclin.\nIl faut distinguer le cycle de vie d’un marché et celui d’un produit : ils ne sont pas nécessairement au même stade.",
         "sources": [
           {
             "documentId": "mf",
@@ -1849,7 +2185,7 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-053",
         "chapter": "Diagnostic et stratégie",
         "question": "Qu’est-ce qu’une analyse interne ?",
-        "answer": "C’est l’analyse des ressources, compétences, fonctionnement et politique marketing de l’organisation pour identifier ses forces et ses faiblesses.",
+        "answer": "L’analyse interne étudie les ressources, les compétences, le fonctionnement et la politique marketing de l’organisation afin d’identifier ses forces et ses faiblesses.\nElle porte notamment sur les moyens matériels et financiers, les ressources immatérielles, l’organisation et les ressources humaines.",
         "sources": [
           {
             "documentId": "mf",
@@ -1882,6 +2218,18 @@ globalThis.DEClic_BUILTINS = [
         ]
       },
       {
+        "id": "marketing-concept-058",
+        "chapter": "Diagnostic et stratégie",
+        "question": "Quelles sont les stratégies génériques de Porter ?",
+        "answer": "La domination par les coûts : obtenir des coûts faibles.\nLa différenciation : proposer une offre perçue comme unique.\nLa concentration, ou focalisation : viser un segment restreint.\nLe tableau du cours croise la source de l’avantage concurrentiel avec l’étendue de la cible.",
+        "sources": [
+          {
+            "documentId": "m2",
+            "page": 42
+          }
+        ]
+      },
+      {
         "id": "marketing-concept-059",
         "chapter": "Diagnostic et stratégie",
         "question": "Que signifie SWOT ?",
@@ -1897,7 +2245,7 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-060",
         "chapter": "Diagnostic et stratégie",
         "question": "Quelle différence y a-t-il entre les éléments internes et externes du SWOT ?",
-        "answer": "Les forces et faiblesses sont internes à l’organisation. Les opportunités et menaces viennent de l’environnement externe.",
+        "answer": "Forces et faiblesses : facteurs internes à l’organisation.\nOpportunités et menaces : facteurs externes issus de son environnement.\nUne opportunité est une évolution favorable que l’organisation peut exploiter ; une menace peut nuire à sa performance. Il faut apprécier leurs effets pour l’organisation étudiée.",
         "sources": [
           {
             "documentId": "mf",
@@ -1909,7 +2257,7 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-061",
         "chapter": "Diagnostic et stratégie",
         "question": "Quelles sont les quatre fonctions du pilotage marketing ?",
-        "answer": "Analyse, planification, implémentation et contrôle. La démarche est itérative.",
+        "answer": "Analyse → planification → implémentation → contrôle.\nAnalyser la situation ; fixer les objectifs et la stratégie ; mettre les actions en œuvre ; mesurer les résultats et corriger les écarts. Le contrôle relance l’analyse : la démarche est itérative.",
         "sources": [
           {
             "documentId": "mf",
@@ -1933,7 +2281,39 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-064",
         "chapter": "Diagnostic et stratégie",
         "question": "Quelles sont les quatre stratégies de croissance d’Ansoff ?",
-        "answer": "Pénétration de marché : produits et marchés existants. Développement de marché : produits existants et nouveaux marchés. Développement de produits : nouveaux produits et marchés existants. Diversification : nouveaux produits et nouveaux marchés.",
+        "answer": "Pénétration de marché : produits existants sur marchés existants.\nDéveloppement de marché : produits existants sur nouveaux marchés.\nDéveloppement de produits : nouveaux produits sur marchés existants.\nDiversification : nouveaux produits sur nouveaux marchés.",
+        "sources": [
+          {
+            "documentId": "mf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-124",
+        "chapter": "Diagnostic et stratégie",
+        "question": "Quelles questions poser pour interpréter les résultats d’un SWOT ?",
+        "answer": "Mettre en relation les facteurs : les forces compensent-elles les faiblesses ? Permettent-elles de profiter des opportunités et de faire face aux menaces ? Les faiblesses exposent-elles davantage l’organisation aux menaces ?\nIl faut dégager des enseignements pour guider les décisions, au-delà d’une simple liste.",
+        "sources": [
+          {
+            "documentId": "mf",
+            "page": 3
+          },
+          {
+            "documentId": "m3",
+            "page": 6
+          },
+          {
+            "documentId": "m3",
+            "page": 7
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-125",
+        "chapter": "Diagnostic et stratégie",
+        "question": "Que définit un plan marketing pour un produit ou une marque ?",
+        "answer": "Le plan marketing fixe les objectifs d’un produit ou d’une marque et décrit la stratégie et les actions pour les atteindre. Il précise notamment les segments et les cibles visés, le positionnement et les dimensions du marketing mix.",
         "sources": [
           {
             "documentId": "mf",
@@ -1969,11 +2349,27 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-067",
         "chapter": "Marketing mix",
         "question": "Quelles sont les trois dimensions du produit ?",
-        "answer": "Les caractéristiques techniques, commerciales et psychologiques.",
+        "answer": "Techniques : ce qu’est le produit, ses caractéristiques et ses performances.\nCommerciales : ce qui permet de le vendre, comme la marque, le nom ou le packaging.\nPsychologiques : l’image et la signification globale perçues par le consommateur.",
         "sources": [
           {
             "documentId": "mf",
             "page": 4
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-068",
+        "chapter": "Marketing mix",
+        "question": "Quelle différence y a-t-il entre produit intrinsèque, standard et global ?",
+        "answer": "Produit intrinsèque : les caractéristiques fondamentales, physiques ou techniques.\nProduit standard : le produit tel qu’il est proposé sur le marché, avec sa marque, son packaging, sa fonction et son design.\nProduit global : le produit standard auquel s’ajoutent les services associés, comme la garantie, le crédit et le SAV.",
+        "sources": [
+          {
+            "documentId": "m3",
+            "page": 12
+          },
+          {
+            "documentId": "m3",
+            "page": 13
           }
         ]
       },
@@ -1986,6 +2382,82 @@ globalThis.DEClic_BUILTINS = [
           {
             "documentId": "mf",
             "page": 4
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-072",
+        "chapter": "Marketing mix",
+        "question": "Qu’est-ce qu’une politique d’écrémage ?",
+        "answer": "La politique d’écrémage fixe un prix initial élevé. Elle vise d’abord les clients les plus intéressés et capables de payer. Le positionnement doit justifier ce prix et les concurrents ne doivent pas pouvoir entrer facilement avec des prix beaucoup plus bas.",
+        "sources": [
+          {
+            "documentId": "m3",
+            "page": 20
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-073",
+        "chapter": "Marketing mix",
+        "question": "Qu’est-ce qu’une politique de pénétration tarifaire ?",
+        "answer": "La politique de pénétration fixe un prix initial bas pour attirer rapidement de nombreux consommateurs et gagner des parts de marché. Elle suppose notamment une forte sensibilité au prix et des coûts qui diminuent quand les ventes augmentent.",
+        "sources": [
+          {
+            "documentId": "m3",
+            "page": 20
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-074",
+        "chapter": "Marketing mix",
+        "question": "Qu’est-ce que la distribution ?",
+        "answer": "La distribution regroupe les choix et les actions qui rendent un produit ou un service accessible aux consommateurs finaux, notamment par le choix des canaux de vente. Elle livre la valeur au client et peut passer par des intermédiaires.",
+        "sources": [
+          {
+            "documentId": "m3",
+            "page": 21
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-078",
+        "chapter": "Marketing mix",
+        "question": "Quels sont les trois objectifs de communication ?",
+        "answer": "Cognitif : faire connaître la marque, le produit et ses caractéristiques.\nAffectif : faire aimer, améliorer l’image.\nConatif : faire agir, notamment acheter, utiliser ou recommander.",
+        "sources": [
+          {
+            "documentId": "m3",
+            "page": 28
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-131",
+        "chapter": "Marketing mix",
+        "question": "Entre quelles deux limites se situe le prix selon la fiche ?",
+        "answer": "Entre le coût de production et la valeur que le client attribue au produit.",
+        "sources": [
+          {
+            "documentId": "mf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "id": "marketing-concept-132",
+        "chapter": "Marketing mix",
+        "question": "Pourquoi le positionnement doit-il guider le marketing mix ?",
+        "answer": "Le positionnement est la clé de voûte du marketing mix : produit, prix, distribution et communication doivent tous exprimer la même proposition de valeur. Leur cohérence aide les clients à percevoir l’offre comme l’entreprise le souhaite.",
+        "sources": [
+          {
+            "documentId": "m4",
+            "page": 32
+          },
+          {
+            "documentId": "mf",
+            "page": 9
           }
         ]
       },
@@ -2005,7 +2477,7 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-082",
         "chapter": "Segmentation",
         "question": "Quels sont les principaux critères de segmentation ?",
-        "answer": "Critères géographiques, sociodémographiques, psychographiques, avantages recherchés, comportements et caractéristiques physiques.",
+        "answer": "Géographiques : où vit ou achète la personne.\nSociodémographiques : âge, revenu, foyer, profession, etc.\nPsychographiques : personnalité, valeurs, style de vie, motivations.\nAvantages recherchés : les bénéfices attendus du produit.\nComportementaux : les actes observables, les usages et la fréquence d’achat.\nPhysiques : les caractéristiques corporelles pertinentes pour l’offre.",
         "sources": [
           {
             "documentId": "mf",
@@ -2029,11 +2501,15 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-087",
         "chapter": "Segmentation",
         "question": "Quelles sont les qualités d’un segment utile ?",
-        "answer": "Un segment doit être différenciable, mesurable, accessible, substantiel, pertinent et actualisable. Il réunit des consommateurs aux caractéristiques homogènes.",
+        "answer": "Homogène : les consommateurs d’un segment partagent des attentes ou comportements proches.\nDifférenciable : le segment se distingue des autres.\nMesurable : on peut le quantifier et le décrire.\nAccessible : on peut le toucher par des moyens adaptés.\nSubstantiel : sa taille permet une action rentable.\nPertinent : une stratégie adaptée peut être élaborée.\nActualisable : les données peuvent être mises à jour.",
         "sources": [
           {
             "documentId": "mf",
             "page": 7
+          },
+          {
+            "documentId": "m4",
+            "page": 33
           }
         ]
       },
@@ -2101,7 +2577,7 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-093",
         "chapter": "Ciblage",
         "question": "Sur quels critères choisit-on une cible ?",
-        "answer": "On évalue l’attractivité du segment et sa compatibilité avec les objectifs, ressources et compétences de l’entreprise.",
+        "answer": "Évaluer l’attractivité : taille en volume et en valeur, croissance, intensité concurrentielle, accessibilité, rentabilité et perspectives.\nVérifier l’adéquation : objectifs, stratégie, budget, savoir-faire, moyens humains et organisationnels, informations disponibles.\nLe choix dépend aussi de la maturité du marché et des stratégies concurrentes. Un grand segment n’est pas automatiquement le plus intéressant.",
         "sources": [
           {
             "documentId": "mf",
@@ -2158,6 +2634,22 @@ globalThis.DEClic_BUILTINS = [
         ]
       },
       {
+        "id": "marketing-concept-098",
+        "chapter": "Ciblage",
+        "question": "Qu’est-ce qu’un persona ?",
+        "answer": "Un persona est un personnage fictif représentant un groupe de clients cibles, construit à partir de données réelles : profil, comportements, motivations et objectifs. Il synthétise les observations et aide les équipes à partager une compréhension commune de la cible.",
+        "sources": [
+          {
+            "documentId": "m4",
+            "page": 21
+          },
+          {
+            "documentId": "m4",
+            "page": 22
+          }
+        ]
+      },
+      {
         "id": "marketing-concept-099",
         "chapter": "Positionnement",
         "question": "Quelle est la définition du positionnement ?",
@@ -2173,7 +2665,7 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-100",
         "chapter": "Positionnement",
         "question": "Quelles sont les deux composantes du positionnement ?",
-        "answer": "L’identification, qui rattache l’offre à une catégorie, et la différenciation, qui la distingue des offres concurrentes.",
+        "answer": "Identification : rattacher l’offre à une catégorie ou à un univers de consommation clair.\nDifférenciation : montrer ce qui la distingue des offres concurrentes de cette catégorie.",
         "sources": [
           {
             "documentId": "mf",
@@ -2197,7 +2689,7 @@ globalThis.DEClic_BUILTINS = [
         "id": "marketing-concept-103",
         "chapter": "Positionnement",
         "question": "Quels sont les critères d’un bon positionnement ?",
-        "answer": "Il doit être attractif, différenciant, crédible, simple, profitable et pérenne.",
+        "answer": "Attractif : il correspond aux attentes de la cible.\nDifférenciant : il se distingue de la concurrence.\nCrédible : la promesse paraît réalisable.\nSimple : il repose sur peu de traits et peut tenir en une phrase.\nProfitable : la cible offre un potentiel économique suffisant.\nPérenne : il peut être maintenu dans le temps tout en restant pertinent.",
         "sources": [
           {
             "documentId": "mf",
@@ -2218,53 +2710,64 @@ globalThis.DEClic_BUILTINS = [
         ]
       },
       {
-        "id": "marketing-concept-105",
-        "chapter": "Bases du marketing",
-        "question": "Quels sont les principaux objectifs du marketing ?",
-        "answer": "Attirer de nouveaux clients, conserver les clients existants, satisfaire leurs besoins et créer de la valeur pour construire des relations durables et rentables.",
+        "id": "marketing-concept-162",
+        "chapter": "Positionnement",
+        "question": "Comment repérer un écart entre positionnement souhaité et positionnement perçu ?",
+        "answer": "Comparer le positionnement voulu par l’entreprise à la perception réelle des consommateurs, mesurée régulièrement. Si les traits attribués à l’offre ne correspondent pas à ceux recherchés, il existe un écart qui peut révéler un manque de cohérence ou de compréhension.",
         "sources": [
           {
             "documentId": "mf",
-            "page": 1
-          }
-        ]
-      },
-      {
-        "id": "marketing-concept-106",
-        "chapter": "Démarche et orientations",
-        "question": "Quelles sont les quatre actions de la démarche marketing présentées dans la fiche ?",
-        "answer": "Étudier le marché et les besoins, repérer la concurrence, définir les objectifs, puis déterminer les moyens d’action pour les atteindre.",
-        "sources": [
+            "page": 9
+          },
           {
             "documentId": "mf",
-            "page": 1
-          }
-        ]
-      },
-      {
-        "id": "marketing-concept-109",
-        "chapter": "Bases du marketing",
-        "question": "Comment le marketing crée-t-il de la valeur pour les clients et pour l’organisation ?",
-        "answer": "L’organisation conçoit une offre adaptée aux besoins des clients et construit avec eux des relations rentables. Les clients obtiennent de la valeur, et l’organisation en reçoit en retour.",
-        "sources": [
-          {
-            "documentId": "mf",
-            "page": 1
-          }
-        ]
-      },
-      {
-        "id": "marketing-concept-131",
-        "chapter": "Marketing mix",
-        "question": "Entre quelles deux limites se situe le prix selon la fiche ?",
-        "answer": "Entre le coût de production et la valeur que le client attribue au produit.",
-        "sources": [
-          {
-            "documentId": "mf",
-            "page": 4
+            "page": 10
           }
         ]
       }
+    ],
+    "legacyCardIds": [
+      "marketing-concept-001",
+      "marketing-concept-048",
+      "marketing-concept-049",
+      "marketing-concept-050",
+      "marketing-concept-051",
+      "marketing-concept-052",
+      "marketing-concept-053",
+      "marketing-concept-054",
+      "marketing-concept-056",
+      "marketing-concept-059",
+      "marketing-concept-060",
+      "marketing-concept-061",
+      "marketing-concept-063",
+      "marketing-concept-064",
+      "marketing-concept-065",
+      "marketing-concept-066",
+      "marketing-concept-067",
+      "marketing-concept-070",
+      "marketing-concept-081",
+      "marketing-concept-082",
+      "marketing-concept-086",
+      "marketing-concept-087",
+      "marketing-concept-088",
+      "marketing-concept-089",
+      "marketing-concept-090",
+      "marketing-concept-091",
+      "marketing-concept-092",
+      "marketing-concept-093",
+      "marketing-concept-094",
+      "marketing-concept-095",
+      "marketing-concept-096",
+      "marketing-concept-097",
+      "marketing-concept-099",
+      "marketing-concept-100",
+      "marketing-concept-102",
+      "marketing-concept-103",
+      "marketing-concept-104",
+      "marketing-concept-105",
+      "marketing-concept-106",
+      "marketing-concept-109",
+      "marketing-concept-131"
     ]
   },
   {
